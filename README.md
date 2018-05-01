@@ -1,3 +1,5 @@
+# An Increasingly Less-Brief Guide to [Mastodon](https://joinmastodon.org)
+
 ## Table of Contents
 
 * [What is Mastodon?](#what-is-mastodon)
