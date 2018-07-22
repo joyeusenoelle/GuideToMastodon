@@ -1,5 +1,7 @@
 # An Increasingly Less-Brief Guide to [Mastodon](https://joinmastodon.org)
 
+I've done my best to make this understandable, but you're welcome to suggest changes! If you have a Github account, you can submit change requests directly; otherwise, feel free to contact me [on Mastodon](https://elekk.xyz/@noelle) or by email at `noelle.d.anthony AT gmail`. 
+
 ## Table of Contents
 
 * [What is Mastodon?](#what-is-mastodon)
