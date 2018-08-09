@@ -224,7 +224,7 @@ You might get some mileage out of [Pinafore](https://pinafore.social/), a new in
 
 Mastodon has a responsive design, so you can use it in your phone's browser. Alternately, there are many apps available for Mastodon. The most widely-used on iOS is Amaroq. On Android, try Tusky, Subway Tooter, or Mastalab.
 
-*(NB: As ["...Tootdon silently forwards copies of posts you interact as well as the auth token to your account to its to own servers"](https://monsterpit.net/@daggertooth/99758674665873612), I can't in good faith recommend it any longer. Consider an alternative.)*
+*(NB: I've been told that "Tootdon silently forwards copies of posts you interact as well as the auth token to your account to its to own servers." I don't know if that still holds. As always, be cautious when giving apps your information.)*
 
 ## I have other questions.
 
