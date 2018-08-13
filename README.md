@@ -218,7 +218,9 @@ There are no hard-and-fast rules for everybody, and (as noted above) different i
 
 You might get some mileage out of [Pinafore](https://pinafore.social/), a new interface for Mastodon by [Nolan Lawson](https://toot.cafe/@nolan).
 
-*I used to recommend https://halcyon.social here, since it was actually a Twitter-like interface for Mastodon, but the site seems to be down at the moment. Go ahead and try it, but several of us can't get the site to load at all.*
+[Halcyon](https://notabug.org/halcyon-suite/halcyon) is a web client for Mastodon that replicates the Twitter interface. Since Halcyon is itself open-source software, there are [multiple servers running it](https://notabug.org/halcyon-suite/halcyon#instances); you can choose the one you like. Use your existing Mastodon login when you use Halcyon; for example, if you have an account on elekk.xyz, you would use "<account>@elekk.xyz" and your Elekk password to log in.
+
+Remember that Pinafore and Halcyon are third-party clients, and make sure you trust them before you give them your login information!
 
 ## I like Mastodon but I want to use it on my phone.
 
