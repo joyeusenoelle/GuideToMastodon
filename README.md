@@ -26,6 +26,7 @@ I've done my best to make this understandable, but you're welcome to suggest cha
 * [What's the generally-accepted Mastodon etiquette?](#whats-the-generally-accepted-mastodon-etiquette)
 * [I like mastodon but I prefer the way twitter looks.](#i-like-mastodon-but-i-prefer-the-way-twitter-looks)
 * [I like mastodon but I want to use it on my phone.](#i-like-mastodon-but-i-want-to-use-it-on-my-phone)
+* [How can I back up my Mastodon account?](#how-can-i-back-up-my-mastodon-account)
 * [I have other questions.](#i-have-other-questions)
 
 ## What is Mastodon?
@@ -227,6 +228,10 @@ Remember that Pinafore and Halcyon are third-party clients, and make sure you tr
 Mastodon has a responsive design, so you can use it in your phone's browser. Alternately, there are many apps available for Mastodon. The most widely-used on iOS is Amaroq. On Android, try Tusky, Subway Tooter, or Mastalab.
 
 *(NB: I've been told that "Tootdon silently forwards copies of posts you interact as well as the auth token to your account to its to own servers." I don't know if that still holds. As always, be cautious when giving apps your information.)*
+
+## How can I back up my Mastodon account?
+
+[Alex Schroeder](https://octodon.social/@kensanata) has an excellent [Mastodon Archiver](https://github.com/kensanata/mastodon-backup/) that will help you back up your account and much more.
 
 ## I have other questions.
 
