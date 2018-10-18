@@ -10,6 +10,7 @@ I've done my best to make this understandable, but you're welcome to suggest cha
 * [How is it not like either of those?](#how-is-it-not-like-either-of-those)
 * [How do I establish my brand's presence on Mastodon?](#how-do-i-establish-my-brands-presence-on-mastodon)
 * [How do I get verified on Mastodon?](#how-do-i-get-verified-on-mastodon)
+* [Okay, how do I let people know that I am who I say I am?](#okay-how-do-i-let-people-know-that-i-am-who-i-say-i-am)
 * [HOW DO I PICK AN INSTANCE?](#how-do-i-pick-an-instance)
 * [How do I mention someone who's not on my instance?](#how-do-i-mention-someone-whos-not-on-my-instance)
 * [What are the rules?](#what-are-the-rules)
@@ -82,6 +83,14 @@ If you represent a company and your boss has told you that your company needs a 
 There's no such thing as a verified account on Mastodon. We assume you are who you say you are. If you see someone with a check-mark by their name (like ✅), they've just typed that emoji into their display name. 
 
 If someone's impersonating you, contact the admin of the instance they're on to get it sorted out.
+
+## Okay, how do I let people know that I am who I say I am?
+
+Many Mastodon instances will allow you to add metadata to your profile - up to four items displayed in a table on your profile page that don't count against the length of your profile text. If you use these fields to link to your other websites, some instances will allow you to verify that you *own* those websites by providing a link on those websites back to your Mastodon account. For instance, if you have a personal website, you can include the link to your website in your Mastodon metadata, and then include a link to your Mastodon account in the header of your website, and Mastodon will verify that you're the person who owns your website.
+
+A Mastodon instance that allows this will have instructions on your **Edit Profile** page telling you how to add the verification link.
+
+*Note that at the time of this writing, this is a **very** new feature, and most Mastodon instances don't allow you to verify your links yet.*
 
 # HOW DO I PICK AN INSTANCE?
 
