@@ -175,6 +175,8 @@ You might use CWs for:
 
 In general, just use your best judgment; think "is there a reason someone might not want to see this?".
 
+**An important note:** Mastodon *does not* track hashtags that are in the text of a CW. Mastodon *does* track hashtags that are *under* a CW. Always put your hashtags in the body of your toot, never in the content warning.
+
 ## I just attached a picture to my toot. What's with the new 'eye' icon?
 
 Clicking that will hide your image behind a "Sensitive content" overlay. This is good for nudity, gore and violence, political topics, etc.
