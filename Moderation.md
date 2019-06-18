@@ -4,7 +4,7 @@ This is a quick guide to the tools currently available to Mastodon moderators. I
 
 ## Your Tools
 
-In your moderator account's Preferences page, you'll have a section called Moderation that gives you access to the moderator tools. Primary among these are the **Mod Audit**, **Reports**, and **Accounts**.
+In your moderator account's Preferences page, you'll have a section called Moderation that gives you access to the moderator tools. Primary among these are the **[Mod Audit](#mod-audit)**, **[Reports](#reports)**, and **[Accounts](#accounts)**.
 
 ## Audit Log
 
