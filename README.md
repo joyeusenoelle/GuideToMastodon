@@ -23,7 +23,7 @@ I've done my best to make this understandable, but you're welcome to suggest cha
 * [I just attached a picture to my toot. How can I make sure it's accessible?](#i-just-attached-a-picture-to-my-toot-how-can-i-make-sure-its-accessible)
 * [How come my friend on another instance can use this emoji, but I can't?](#how-come-my-friend-on-another-instance-can-use-this-emoji-but-i-cant)
 * [The Mastodon culture seems pretty weird?](#the-mastodon-culture-seems-pretty-weird)
-* [What does :red_candle: mean?](#what-does--mean)
+* [What does ![:red_candle:](red_candle_sm.png) mean?](#what-does--mean)
 * [What's the generally-accepted Mastodon etiquette?](#whats-the-generally-accepted-mastodon-etiquette)
 * [I like mastodon but I prefer the way twitter looks.](#i-like-mastodon-but-i-prefer-the-way-twitter-looks)
 * [I like mastodon but I want to use it on my phone.](#i-like-mastodon-but-i-want-to-use-it-on-my-phone)
@@ -206,9 +206,9 @@ Here are some common weirdnesses:
 
 You'll get used to it.
 
-## What does ![red candle](https://noelle.codes/red_candle.png) mean?
+## What does ![:red_candle:](red_candle.png) mean?
 
-In early November 2017 we lost a popular Mastodonian to suicide. ![red_candle](https://noelle.codes/red_candle-sm.png) and ![lattentacle](https://noelle.codes/lattentacle-sm.png) commemorate our friend Natalie Nguyen.
+In early November 2017 we lost a popular Mastodonian to suicide. ![:red_candle:](red_candle-sm.png) and ![lattentacle](lattentacle-sm.png) commemorate our friend Natalie Nguyen.
 
 ## What's the generally-accepted Mastodon etiquette? 
 
