@@ -206,9 +206,9 @@ Here are some common weirdnesses:
 
 You'll get used to it.
 
-## What does <img src="https://elekk.xyz/system/custom_emojis/images/000/001/406/static/da499872116014b0.png" height=20 width=20 alt="red_candle"> mean?
+## What does <img src="https://noelle.codes/red_candle.png" height=20 width=20 alt="red_candle"> mean?
 
-In early November 2017 we lost a popular Mastodonian to suicide. <img src="https://elekk.xyz/system/custom_emojis/images/000/001/406/static/da499872116014b0.png" height=20 width=20 alt="red_candle"> and <img src="https://elekk.xyz/system/custom_emojis/images/000/001/410/static/75280a0778888bbe.png" height=20 width=20 alt="lattentacle"> commemorate our friend Natalie Nguyen.
+In early November 2017 we lost a popular Mastodonian to suicide. <img src="https://noelle.codes/red_candle.png" height=20 width=20 alt="red_candle"> and <img src="https://noelle.codes/lattentacle.png" height=20 width=20 alt="lattentacle"> commemorate our friend Natalie Nguyen.
 
 ## What's the generally-accepted Mastodon etiquette? 
 
