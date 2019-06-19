@@ -199,7 +199,7 @@ It can be! But it gets to be a comfortable weirdness.
 
 Here are some common weirdnesses:
 
-* :pineapple:: nobody really knows. Someone posted it, someone else picked it up, and it's been going ever since. It's just silliness. When in doubt, just post a :pineapple:.
+* :pineapple:: nobody really knows. [acw](https://cybre.space/@acw) posted it, someone else picked it up, and it's been going ever since. It's just silliness. When in doubt, just post a :pineapple:.
 * AWOO: [Awoo.Space](https://awoo.space) was one of the earlier Mastodon instances. "Awoo" is the sound of a wolf howling. It's fun to say. Awoo! (Pawoo.net has nothing to do with this; in Japanese, "pawoo" is the sound of an elephant trumpeting.) Someone got irritated at the awoos and instituted a $350 fine for awooing. Nobody's ever actually paid it, don't worry.
 * #gameing: There was (and still is) a perception that #gaming is "hardcore" and elitist, and there were (and are) worries about certain breeds of gamer overrunning the #gaming hashtag. #gameing was a pre-emptive strike; it's about a fun, lighthearted, and accessible approach to games, video and otherwise.
 * IT'S BEEN/SOME as CWs: a reference to the Barenaked Ladies song [*One Week*](https://www.youtube.com/watch?v=fC_q9KPczAg) and the Smash Mouth song [*All Star*](https://www.youtube.com/watch?v=L_jWHffIx5E) respectively. A common meme on Mastodon is to put the first word or two of the song into the CW and then subvert expectations by posting something else under the cut.
