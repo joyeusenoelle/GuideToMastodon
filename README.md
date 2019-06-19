@@ -208,7 +208,7 @@ You'll get used to it.
 
 ## What does ![:red_candle:](red_candle.png) mean?
 
-In early November 2017 we lost a popular Mastodonian to suicide. ![:red_candle:](red_candle-sm.png) and ![lattentacle](lattentacle-sm.png) commemorate our friend Natalie Nguyen.
+In early November 2017 we lost a popular Mastodonian to suicide. ![:red_candle:](red_candle_sm.png) and ![lattentacle](lattentacle_sm.png) commemorate our friend Natalie Nguyen.
 
 ## What's the generally-accepted Mastodon etiquette? 
 
