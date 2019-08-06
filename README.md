@@ -174,7 +174,7 @@ You might use CWs for:
 * Punchlines to jokes
 * Long posts that might otherwise fill up people's timelines
 
-In general, just use your best judgment; think "is there a reason someone might not want to see this?".
+In general, just use your best judgment; think "is there a reason someone might not want to see this?". You have the opportunity to take an extra moment and make the fediverse a nicer place for people to be. Why wouldn't you take that opportunity?
 
 **An important note:** Mastodon *does not* track hashtags that are in the text of a CW. Mastodon *does* track hashtags that are *under* a CW. Always put your hashtags in the body of your toot, never in the content warning.
 
