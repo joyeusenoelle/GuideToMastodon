@@ -20,7 +20,8 @@ I've done my best to make this understandable, but you're welcome to suggest cha
 * [What are hashtags?](#what-are-hashtags)
 * [What does "CW" mean?](#what-does-cw-mean)
 * [I just attached a picture to my toot. What's with the new 'eye' icon?](#i-just-attached-a-picture-to-my-toot-whats-with-the-new-eye-icon)
-* [I just attached a picture to my toot. How can I make sure it's accessible?](#i-just-attached-a-picture-to-my-toot-how-can-i-make-sure-its-accessible)
+* [I just attached a picture to my toot. How can I add a caption to it?](#i-just-attached-a-picture-to-my-toot-how-can-i-add-a-caption-to-it)
+* [Why should I add a caption to my picture?](#why-should-i-add-a-caption-to-my-picture)
 * [How come my friend on another instance can use this emoji, but I can't?](#how-come-my-friend-on-another-instance-can-use-this-emoji-but-i-cant)
 * [The Mastodon culture seems pretty weird?](#the-mastodon-culture-seems-pretty-weird)
 * [What does ![:red_candle:](red_candle_sm.png) mean?](#what-does--mean)
@@ -183,11 +184,17 @@ Clicking that will hide your image behind a "Sensitive content" overlay. This is
 
 You'll notice that if you have both an image and a CW on a toot, the "Sensitive content" overlay is turned on automatically and can't be turned off. That's on purpose.
 
-## I just attached a picture to my toot. How can I make sure it's accessible?
+## I just attached a picture to my toot. How can I add a caption to it?
 
 If you mouse over an image attached to your toot, you'll see a box appear at the bottom that says "Describe for the visually impaired". This allows you to set alt-text for the image, which people can read if they mouse over the text, and which screen-readers (such as for the visually-impaired) can read instead of just saying "embedded image".
 
 Text in the description box **does not** count against the character limit for your toot!
+
+## Why should I add a caption to my picture?
+
+In a word: Accessibility. 
+
+Some people who use Mastodon are visually impaired and use screen readers. Some people who use Mastodon have images turned off to conserve their data usage. Sometimes disk errors or server errors happen, or your admin decides to prune old files, and your image just doesn't load anymore. Captioning an image allows people in these conditions to participate in your toots with full context.
 
 ## How come my friend on another instance can use this emoji, but I can't?
 
