@@ -29,6 +29,7 @@ I've done my best to make this understandable, but you're welcome to suggest cha
 * [I like mastodon but I prefer the way twitter looks.](#i-like-mastodon-but-i-prefer-the-way-twitter-looks)
 * [I like mastodon but I want to use it on my phone.](#i-like-mastodon-but-i-want-to-use-it-on-my-phone)
 * [How can I back up my Mastodon account?](#how-can-i-back-up-my-mastodon-account)
+* [Weird, my server doesn't have a bunch of these features.](#weird-my-server-doesnt-have-a-bunch-of-these-features)
 * [I have other questions.](#i-have-other-questions)
 
 ## What is Mastodon?
@@ -250,6 +251,10 @@ Mastodon has a responsive design, so you can use it in your phone's browser. Alt
 ## How can I back up my Mastodon account?
 
 [Alex Schroeder](https://octodon.social/@kensanata) has an excellent [Mastodon Archiver](https://github.com/kensanata/mastodon-backup/) that will help you back up your account and much more.
+
+## Weird, my server doesn't have a bunch of these features.
+
+You might not be on Mastodon! The Fediverse - the vast collection of servers connected by the ActivityPub/OStatus protocol - has a lot of different kinds of servers on it. Your server might be running Pleroma, Misskey, GNU Social, or something else! Unfortunately, I don't know much about them, so you'll have to ask their users for a getting-started guide like this one.
 
 ## I have other questions.
 
