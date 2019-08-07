@@ -23,6 +23,8 @@ I've done my best to make this understandable, but you're welcome to suggest cha
 * [I just attached a picture to my toot. How can I add a caption to it?](#i-just-attached-a-picture-to-my-toot-how-can-i-add-a-caption-to-it)
 * [Why should I add a caption to my picture?](#why-should-i-add-a-caption-to-my-picture)
 * [How come my friend on another instance can use this emoji, but I can't?](#how-come-my-friend-on-another-instance-can-use-this-emoji-but-i-cant)
+* [Why can't I search for a specific word or phrase?](#why-cant-i-search-for-a-specific-word-or-phrase)
+* [Why can't I quote someone's toot, like a quote-tweet?](#why-cant-i-quote-someones-toot-like-a-quote-tweet)
 * [The Mastodon culture seems pretty weird?](#the-mastodon-culture-seems-pretty-weird)
 * [What does ![:red_candle:](red_candle_sm.png) mean?](#what-does--mean)
 * [What's the generally-accepted Mastodon etiquette?](#whats-the-generally-accepted-mastodon-etiquette)
@@ -200,6 +202,16 @@ Some people who use Mastodon are visually impaired and use screen readers. Some 
 ## How come my friend on another instance can use this emoji, but I can't?
 
 Each instance can define custom emoji for their users to use, and many have taken advantage of this. Your instance admin can copy emoji that they like from other instances. If you see an emoji that you like and it's not available on your instance, ask your admin to copy it over.
+
+## Why can't I search for a specific word or phrase?
+
+It's an anti-harassment feature. Harassers often search for particular words or phrases (like "TERF" or "homophobic" or "white supremacy") in order to attack and dogpile people they disagree with. By limiting search to usernames and hashtags, Mastodon allows users to decide how they want their toots to show up in others' searches.
+
+## Why can't I quote someone's toot, like a quote-tweet?
+
+Like search, it's an anti-harassment feature. If you want to reply to someone's toot, you have to actually reply to it; you can't just broadcast it to your followers with a snarky comment.
+
+*(Don't try to get around this by screencapping toots and attaching them as images. You **can** do it, but the Mastodon community tends to frown on it and you'll get a bad reputation pretty quickly if you keep it up.)*
 
 ## The Mastodon culture seems pretty weird?
 
