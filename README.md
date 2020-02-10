@@ -122,14 +122,24 @@ The rules depend on which instance you're on. Each instance has a page at https:
 
 Keep in mind that these are usually guidelines and not hard-and-fast rules. Since each instance is run by a separate team of moderators - often just one person! - they have final say over what's allowed and not allowed on their instance. Your instance admins might even go so far as to block an entire other instance if their users turn out to be incompatible with your instance's values and the other instance's moderators won't help.
 
+## What are the different kinds of posts?
+
+Mastodon (and other fediverse) posts can be chained together in different ways. I use three terms to refer to different kinds of posts. These might not be the terms other people use.
+
+* **Stand-alone posts** are posts that are not replies to any other post. (That is, you did not click on the Reply button to start the post.) They are at the head of a chain. You can include people's usernames in stand-alone posts to tag them; doing that does not make the post a reply. **For example:** You use the standard compose box ("What's on your mind?" in the default Mastodon settings) to create a new post.
+* **Self-replies** are posts that are a direct reply to *one of your own* stand-alone posts or another self-reply. Again, they can include references to another person. You can continue to reply to your own posts as long as you like, and *as long as someone else's post isn't above what you're currently writing in the chain*, they'll continue being self-replies. **For example:** You click on the reply button on one of your own stand-alone posts to reply to yourself, then click on the reply button on *that* post to reply to yourself again.
+* **Replies** are posts that are replies to someone else *or replies to a reply to someone else*. **For example:** You cliek on the reply button on someone else's post to reply to them, **or** you click on the reply button on one of your own posts that's a reply to someone else's post.
+
+I've included a diagram [here](replies.png) (it's a link because it's big). Notice how as soon as someone else's post enters the chain, your replies stop being self-replies. This is important, because self-replies and replies work differently in your followers' timelines.
+
 ## How do privacy settings work?
 
 Under each post you'll see three icons: a camera, a globe or a padlock, and the letters "CW". Click on the globe or padlock to choose the privacy settings for your post.
 
-* **Public** means that everyone can see your post.
-* **Unlisted** means that everyone can see your post, but it won't appear on the public timelines - either Local or Federated. Anyone who follows you or views your profile can see the toot, though.
-* **Followers-Only** means that only people who follow you and people mentioned in the post can see your post in their timelines or on your profile page. If someone who doesn't follow you views your profile, they won't see this post.
-* **Private** means that only people who are mentioned in your post can see it in their timelines or on your profile page.
+* **Public** means that everyone can see your post. It will appear on your list of posts and in your followers' Home timelines. Your *stand-alone posts* that are public will appear in your list of toots, in your followers' Home timelines, in the public local and federated timelines, and in the Mentions of anyone you mention by username. Your *self-replies* that are public will appear in your list of toots, in your followers' Home timelines, and in the Mentions of anyone you mention by username. Your *replies* that are public will appear in your list of *toots and replies* (*not* the primary list of toots; it's a separate list!), in the Home timelines of any of your followers who *also* follow the person you're replying to, and in the Mentions of anyone you mention by username.
+* **Unlisted** means that everyone can see your post, but it won't appear on the public timelines - either Local or Federated. Other than that, Unlisted posts behave exactly like Public posts.
+* **Followers-Only** means that only people who follow you and people mentioned in the post can see your post in their timelines or on your profile page. If someone who doesn't follow you views your profile, they won't see your followers-only posts. *For your followers*, followers-only posts behave exactly like Unlisted posts. **Your followers-only posts that mention another user will also appear in that user's mentions, even if they don't follow you!**
+* **Private** means that only people who are mentioned in your post can see it. It will appear in their mentions and, on Mastodon servers above version 3.0, will appear in their Direct Messages column.
 
 Keep in mind that some servers, which run software that's compatible with but not the same as Mastodon, will ignore these privacy settings if you send a message to their users, so be careful!
 
