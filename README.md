@@ -276,7 +276,7 @@ Mastodon has a responsive design, so you can use it in your phone's browser. Alt
 
 ## Can I use the keyboard to navigate Mastodon?
 
-In the web interface, yes. The Mastodon web hotkeys are documented at `https://\<your-server\>/web/keyboard-shortcuts` , which you can access when you're logged into the web interface. (You can find the link at the bottom of the **Getting Started** column, labeled "Hotkeys".)
+In the web interface, yes. The Mastodon web hotkeys are documented at `https://<your-server>/web/keyboard-shortcuts` , which you can access when you're logged into the web interface. (You can find the link at the bottom of the **Getting Started** column, labeled "Hotkeys".)
 
 ## Weird, my server doesn't have a bunch of these features.
 
