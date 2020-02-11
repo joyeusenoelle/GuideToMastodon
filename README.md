@@ -32,6 +32,7 @@ I've done my best to make this understandable, but you're welcome to suggest cha
 * [I like mastodon but I prefer the way twitter looks.](#i-like-mastodon-but-i-prefer-the-way-twitter-looks)
 * [I like mastodon but I want to use it on my phone.](#i-like-mastodon-but-i-want-to-use-it-on-my-phone)
 * [How can I back up my Mastodon account?](#how-can-i-back-up-my-mastodon-account)
+* [Can I use the keyboard to navigate Mastodon?](#can-i-use-the-keyboard-to-navigate-mastodon)
 * [Weird, my server doesn't have a bunch of these features.](#weird-my-server-doesnt-have-a-bunch-of-these-features)
 * [I have other questions.](#i-have-other-questions)
 
@@ -94,8 +95,6 @@ If someone's impersonating you, contact the admin of the instance they're on to 
 Many Mastodon instances will allow you to add metadata to your profile - up to four items displayed in a table on your profile page that don't count against the length of your profile text. If you use these fields to link to your other websites, some instances will allow you to verify that you *own* those websites by providing a link on those websites back to your Mastodon account. For instance, if you have a personal website, you can include the link to your website in your Mastodon metadata, and then include a link to your Mastodon account in the header of your website, and Mastodon will verify that you're the person who owns your website.
 
 A Mastodon instance that allows this will have instructions on your **Edit Profile** page telling you how to add the verification link.
-
-*Note that at the time of this writing, this is a **very** new feature, and most Mastodon instances don't allow you to verify your links yet.*
 
 # HOW DO I PICK AN INSTANCE?
 
@@ -274,6 +273,10 @@ Mastodon has a responsive design, so you can use it in your phone's browser. Alt
 ## How can I back up my Mastodon account?
 
 [Alex Schroeder](https://octodon.social/@kensanata) has an excellent [Mastodon Archiver](https://github.com/kensanata/mastodon-backup/) that will help you back up your account and much more.
+
+## Can I use the keyboard to navigate Mastodon?
+
+In the web interface, yes. The Mastodon web hotkeys are documented at https://<your-server>/web/keyboard-shortcuts , which you can access when you're logged into the web interface. (You can find the link at the bottom of the **Getting Started** column, labeled "Hotkeys".)
 
 ## Weird, my server doesn't have a bunch of these features.
 
