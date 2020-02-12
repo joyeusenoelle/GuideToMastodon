@@ -17,6 +17,7 @@ I've done my best to make this understandable, but you're welcome to suggest cha
 * [What are the different kinds of posts?](#what-are-the-different-kinds-of-posts)
 * [How do privacy settings work?](#how-do-privacy-settings-work)
 * [How private is "Private"?](#how-private-is-private)
+* [What happens when someone follows me?](#what-happens-when-someone-follows-me)
 * [What if I go over the character limit?](#what-if-i-go-over-the-character-limit)
 * [What are hashtags?](#what-are-hashtags)
 * [What does "CW" mean?](#what-does-cw-mean)
@@ -134,7 +135,7 @@ I've included a diagram [here](replies.png) (it's a link because it's big). Noti
 
 ## How do privacy settings work?
 
-Under each post you'll see three icons: a camera, a globe or a padlock, and the letters "CW". Click on the globe or padlock to choose the privacy settings for your post.
+Under each post you'll see three icons: a camera, a globe or a padlock, and the letters "CW". Click on the globe or padlock to choose the privacy settings for your post. *You can set the default privacy level for your posts under **Preferences > Other > Posting Privacy**.*
 
 * **Public** means that everyone can see your post. It will appear on your list of posts and in your followers' Home timelines. Your *stand-alone posts* and *self-replies* that are public will appear in your list of toots, in your followers' Home timelines, in the public local and federated timelines, and in the Mentions of anyone you mention by username. Your *replies* that are public will appear in your list of *toots and replies* (*not* the primary list of toots; it's a separate list!), in the Home timelines of any of your followers who *also* follow the person you're replying to, and in the Mentions of anyone you mention by username.
 * **Unlisted** means that everyone can see your post, but it won't appear on the public timelines - either Local or Federated. Other than that, Unlisted posts behave exactly like Public posts.
@@ -152,6 +153,10 @@ The admin of your server can read *any* toot posted on their server, as well as 
 That said, in general, your admin will only look over the toots you've marked Private if they have reason to believe harassment or illicit dealings are going on. Make sure you trust your admin to act like this, and if you don't, it might be time to look for another instance.
 
 **As a general rule, if an application you're using isn't [peer-to-peer](https://en.wikipedia.org/wiki/Peer-to-peer) and relies on an intermediary like a server, the information you're sending isn't secure unless you take extra steps outside the application to secure it.**
+
+## What happens when someone follows me?
+
+If someone follows you, you incur a life debt to that person. You will be required to lay down your life for that person when they need it. Once you've done so, they will unfollow you and, if you survived, you are free to go about your life normally.
 
 ## What if I go over the character limit?
 
