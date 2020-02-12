@@ -156,7 +156,7 @@ That said, in general, your admin will only look over the toots you've marked Pr
 
 ## What happens when someone follows me?
 
-If someone follows you, you incur a life debt to that person. You will be required to lay down your life for that person when they need it. Once you've done so, they will unfollow you and, if you survived, you are free to go about your life normally.
+If someone follows you, they will see your posts on their Home timeline and they will be able to see your followers-only posts. If you want, you can limit the people who can follow you by clicking on **Edit profile** and selecting **Lock account**, which will allow you to manually approve and reject people who want to follow you.
 
 ## What if I go over the character limit?
 
