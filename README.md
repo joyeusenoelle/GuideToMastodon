@@ -173,7 +173,9 @@ With a locked account, you get to approve who can follow you *through the Mastod
 
 **However.**
 
-Every Mastodon account (on an unmodified server) also creates an RSS feed of their public and unlisted posts - i.e. the posts that appear on the account's profile. Your RSS feed appears at `https://<your-server>/users/<your-username>.rss` ; for example, since I'm `https://elekk.xyz/@noelle`, my RSS feed is `https://elekk.xyz/users/noelle.rss` . (Remember to remove the `@`!)
+Every Mastodon account (on an unmodified server) also creates an RSS feed of their public and unlisted posts - i.e. the posts that appear on the account's profile. It does not include followers-only toots or direct messages, and if you've [put a CW on a toot](#what-does-cw-mean), only the CW appears in the RSS feed, not what's underneath it. 
+
+Your RSS feed appears at `https://<your-server>/users/<your-username>.rss` ; for example, since I'm `https://elekk.xyz/@noelle`, my RSS feed is `https://elekk.xyz/users/noelle.rss` . (Remember to remove the `@`!)
 
 **Anyone can subscribe to these feeds using an RSS reader to see your public and unlisted posts when you post them.** You can't control who can see these feeds, but they do not (and, by design, cannot) contain your followers-only or private toots. *If you only post followers-only toots, your RSS feed will be empty.*
 
