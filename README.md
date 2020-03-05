@@ -20,6 +20,7 @@ I've done my best to make this understandable, but you're welcome to suggest cha
 * [How do privacy settings work?](#how-do-privacy-settings-work)
 * [How private is "Private"?](#how-private-is-private)
 * [What happens when someone follows me?](#what-happens-when-someone-follows-me)
+* [So if I lock my account, only approved people can see my posts?](#so-if-i-lock-my-account-only-approved-people-can-see-my-posts)
 * [What if I go over the character limit?](#what-if-i-go-over-the-character-limit)
 * [What are hashtags?](#what-are-hashtags)
 * [What does "CW" mean?](#what-does-cw-mean)
@@ -163,6 +164,18 @@ That said, in general, your admin will only look over the toots you've marked Pr
 Just kidding.
 
 If someone follows you, they will see your posts on their Home timeline and they will be able to see your followers-only posts. If you want, you can limit the people who can follow you by clicking on **Edit profile** and selecting **Lock account**, which will allow you to manually approve and reject people who want to follow you.
+
+## So if I lock my account, only approved people can see my posts?
+
+Yes and no.
+
+With a locked account, you get to approve who can follow you *through the Mastodon interface*. This means that only the people you approve will be able to see your **followers-only** posts. Your **unlisted** posts will still show up on your profile, and your **public** posts will still show up on your profile and on the local and federated timelines.
+
+**However.**
+
+Every Mastodon account (on an unmodified server) also creates RSS and Atom feeds of their public and unlisted posts - i.e. the posts that appear on the account's profile. Your RSS feed appears at `https://<your-server>/users/<your-username>.rss`, and your Atom feed is at `https://<your-server>/users/<your-username>.atom` . **Anyone can subscribe to these feeds using an RSS reader to see your public and unlisted posts when you post them.** These feeds don't contain your followers-only or private posts, but you don't get to control who can see them.
+
+Remember, you can set the default privacy level for your posts under **Preferences > Other > Posting Privacy**. If you have a locked account, you might prefer to set that default to followers-only so you have to make an active effort to post an unlisted or public toot.
 
 ## What if I go over the character limit?
 
