@@ -227,15 +227,17 @@ You'll notice that if you have both an image and a CW on a toot, the "Sensitive 
 
 ## I just attached a picture to my toot. How can I add a caption to it?
 
-If you mouse over an image attached to your toot, you'll see a box appear at the bottom that says "Describe for the visually impaired". This allows you to set alt-text for the image, which people can read if they mouse over the text, and which screen-readers (such as for the visually-impaired) can read instead of just saying "embedded image".
+When you attach an image, you'll see "Edit" (plus a pencil icon) at the top right of the image. Clicking this will pop up a dialog box that lets you determine what part of the image should show in the preview; it also allows you to set alt-text for the image, which people can read if they mouse over the text, and which screen-readers (such as for the visually-impaired) can read instead of just saying "embedded image".
 
-Text in the description box **does not** count against the character limit for your toot!
+Text in the description box has its own character limit; it **does not** count against the character limit for your toot!
 
 ## Why should I add a caption to my picture?
 
 In a word: Accessibility. 
 
 Some people who use Mastodon are visually impaired and use screen readers. Some people who use Mastodon have images turned off to conserve their data usage. Sometimes disk errors or server errors happen, or your admin decides to prune old files, and your image just doesn't load anymore. Captioning an image allows people in these conditions to participate in your toots with full context.
+
+You can also use image captions to insert additional jokes (like webcomics often do) or additional commentary on the image. Take advantage of the fact that image descriptions have their own separate character limit and put whatever you like in there. The sky's the limit.
 
 ## How come my friend on another instance can use this emoji, but I can't?
 
