@@ -214,6 +214,7 @@ You might use CWs for:
 * Health discussions
 * Punchlines to jokes
 * Long posts that might otherwise fill up people's timelines
+* Commentary on discussions that are going on elsewhere in the fediverse, often with the CW "meta" or "discourse"
 
 Some common abbreviations you'll find in CWs are:
 
