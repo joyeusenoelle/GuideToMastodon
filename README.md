@@ -22,6 +22,7 @@ I've done my best to make this understandable, but you're welcome to suggest cha
 * [How private is "Private"?](#how-private-is-private)
 * [What happens when someone follows me?](#what-happens-when-someone-follows-me)
 * [So if I lock my account, only approved people can see my posts?](#so-if-i-lock-my-account-only-approved-people-can-see-my-posts)
+* [What if someone's following or interacting with me and I don't want them to?](#what-if-someones-following-or-interacting-with-me-and-i-dont-want-them-to)
 * [What if I go over the character limit?](#what-if-i-go-over-the-character-limit)
 * [What are hashtags?](#what-are-hashtags)
 * [What does "CW" mean?](#what-does-cw-mean)
@@ -191,6 +192,20 @@ Your RSS feed appears at `https://<your-server>/users/<your-username>.rss` ; for
 **Anyone can subscribe to these feeds using an RSS reader to see your public and unlisted posts when you post them.** You can't control who can see these feeds, but they do not (and, by design, cannot) contain your followers-only or private toots. *If you only post followers-only toots, your RSS feed will be empty.*
 
 Remember, you can set the default privacy level for your posts under **Preferences > Other > Posting Privacy**. If you have a locked account, you might prefer to set that default to followers-only so you have to make an active effort to post an unlisted or public toot.
+
+## What if someone's following or interacting with me and I don't want them to?
+
+You have a couple options.
+
+* **If you just don't want to see them in your feed anymore**, you can *mute* them. This will prevent their posts from showing up in any of your feeds; you can optionally block notifications (Favorites, Boosts, and Mentions) from them, so that if you don't want to see someone's stand-alone posts but do want to see their attempts to interact with you, you can.
+* **If you don't want to see them and you don't want them to see you**, you can *block* them. This will automatically mute them; if they were following you and/or you were following them, it will sever those as well. They will not be able to follow you or show up in *any* of your feeds unless you unblock them. (But see below.)
+* **If they are harassing you or otherwise breaking the rules**, you can [report them](#what-if-i-see-someone-breaking-the-rules), and hopefully, your moderator will deal with it.
+
+**However.**
+
+Just like with a [locked account](#so-if-i-lock-my-account-only-approved-people-can-see-my-posts), any user — even ones you've blocked or that have been suspended by a moderator — can go to your public page or your RSS feed to view your public and unlisted toots. There is not a good way around this, unfortunately, except to make all of your toots followers-only.
+
+**That said**, let's be honest. If someone's blocked you, they don't want you around. You *can* keep reading their public and unlisted posts, but maybe don't? In a substantial way you're invading their privacy and deliberately crossing a boundary they've set up, and "the software allows me to, so it must be okay" is a pretty flimsy justification. Just leave them alone, please.
 
 ## What if I go over the character limit?
 
