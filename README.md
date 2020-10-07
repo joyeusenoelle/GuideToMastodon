@@ -16,6 +16,7 @@ I've done my best to make this understandable, but you're welcome to suggest cha
 * [HOW DO I PICK AN INSTANCE?](#how-do-i-pick-an-instance)
 * [How do I mention someone who's not on my instance?](#how-do-i-mention-someone-whos-not-on-my-instance)
 * [What are the rules?](#what-are-the-rules)
+* [What if I see someone breaking the rules?](#what-if-i-see-someone-breaking-the-rules)
 * [What are the different kinds of posts?](#what-are-the-different-kinds-of-posts)
 * [How do privacy settings work?](#how-do-privacy-settings-work)
 * [How private is "Private"?](#how-private-is-private)
