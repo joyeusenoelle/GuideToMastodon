@@ -224,6 +224,17 @@ You might use CWs for:
 * Health discussions
 * Punchlines to jokes
 * Long posts that might otherwise fill up people's timelines
+* Commentary on discussions that are going on elsewhere in the fediverse, often with the CW "meta" or "discourse"
+
+Some common abbreviations you'll find in CWs are:
+
+* mh: mental health
+* ph: physical health
+* alc: alcohol
+* pol: politics, sometimes plus locale, like "uspol" means United States politics
+* pda: public display of affection
+* nsfw: not safe for work
+* ec: eye contact, usually used when there's a photograph attached
 
 In general, just use your best judgment; think "is there a reason someone might not want to see this?". You have the opportunity to take an extra moment and make the fediverse a nicer place for people to be. Why wouldn't you take that opportunity?
 
