@@ -201,6 +201,8 @@ You have a couple options.
 * **If you don't want to see them and you don't want them to see you**, you can *block* them. This will automatically mute them; if they were following you and/or you were following them, it will sever those as well. They will not be able to follow you or show up in *any* of your feeds unless you unblock them. (But see below.)
 * **If they are harassing you or otherwise breaking the rules**, you can [report them](#what-if-i-see-someone-breaking-the-rules), and hopefully, your moderator will deal with it.
 
+All three of these options are available by clicking the `...` under one of the user's toots or on their profile inside the Mastodon web interface.
+
 **However.**
 
 Just like with a [locked account](#so-if-i-lock-my-account-only-approved-people-can-see-my-posts), any user — even ones you've blocked or that have been suspended by a moderator — can go to your public page or your RSS feed to view your public and unlisted toots. There is not a good way around this, unfortunately, except to make all of your toots followers-only.
