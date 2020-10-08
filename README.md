@@ -23,6 +23,7 @@ I've done my best to make this understandable, but you're welcome to suggest cha
 * [What happens when someone follows me?](#what-happens-when-someone-follows-me)
 * [So if I lock my account, only approved people can see my posts?](#so-if-i-lock-my-account-only-approved-people-can-see-my-posts)
 * [What if someone's following or interacting with me and I don't want them to?](#what-if-someones-following-or-interacting-with-me-and-i-dont-want-them-to)
+* [How will I know if someone's muted or blocked me?](#how-will-I-know-if-someones-muted-or-blocked-me)
 * [What if I go over the character limit?](#what-if-i-go-over-the-character-limit)
 * [What are hashtags?](#what-are-hashtags)
 * [What does "CW" mean?](#what-does-cw-mean)
@@ -207,7 +208,15 @@ All three of these options are available by clicking the `...` under one of the 
 
 Just like with a [locked account](#so-if-i-lock-my-account-only-approved-people-can-see-my-posts), any user — even ones you've blocked or that have been suspended by a moderator — can go to your public page or your RSS feed to view your public and unlisted toots. There is not a good way around this, unfortunately, except to make all of your toots followers-only.
 
-**That said**, let's be honest. If someone's blocked you, they don't want you around. You *can* keep reading their public and unlisted posts, but maybe don't? In a substantial way you're invading their privacy and deliberately crossing a boundary they've set up, and "the software allows me to, so it must be okay" is a pretty flimsy justification. Just leave them alone, please.
+## How will I know if someone's muted or blocked me?
+
+You will not get a notification if someone mutes or blocks you.
+
+If someone's muted you, there's really no way for you to tell. If they consistently don't reply to you when you mention their username, you might get suspicious, but Mastodon deliberately makes it almost impossible to know if you've been muted. (Among other things, this is a stopgap to try to prevent someone harassing you by creating multiple accounts to get around mutes.)
+
+If someone's blocked you, you will no longer be following them, their posts won't appear in your feed, and when you view their account profile *within Mastodon's web interface*, none of their posts will load. (It is worth noting that if you're looking at the profile of someone you *don't* follow, sometimes their posts won't load and it's just because the server is being slow, not because they've blocked you, so don't be *too* quick to make an assumption.)
+
+If someone has blocked you, you *can* still go to their public page and see their public and unlisted toots; public profiles don't require authentication (i.e. you don't have to be signed into that instance to view them) and so they can't tell who you are or that the user has blocked you. **That said**, let's be honest. If someone's blocked you, they don't want you around. You *can* keep reading their public and unlisted posts, but maybe don't? In a substantial way you're invading their privacy and deliberately crossing a boundary they've set up, and "the software allows me to, so it must be okay" is a pretty flimsy justification. Just leave them alone, please.
 
 ## What if I go over the character limit?
 
