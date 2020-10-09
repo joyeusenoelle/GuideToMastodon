@@ -42,6 +42,7 @@ I've done my best to make this understandable, but you're welcome to suggest cha
 * [Can I use the keyboard to navigate Mastodon?](#can-i-use-the-keyboard-to-navigate-mastodon)
 * [Weird, my server doesn't have a bunch of these features.](#weird-my-server-doesnt-have-a-bunch-of-these-features)
 * [I have other questions.](#i-have-other-questions)
+* [How can I contribute to the Guide?](#how-can-i-contribute-to-the-guide)
 
 ## What is Mastodon?
 
@@ -363,3 +364,7 @@ You might not be on Mastodon! The Fediverse - the vast collection of servers con
 ## I have other questions.
 
 Ask around! People are usually pretty happy to answer questions and help out. If you really get stuck, ask me: https://elekk.xyz/@noelle
+
+## How can I contribute to the Guide?
+
+Please check out [the contributions guide](contributing.md)!
