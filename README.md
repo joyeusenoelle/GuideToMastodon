@@ -40,6 +40,7 @@ I've done my best to make this understandable, but you're welcome to suggest cha
 * [I like mastodon but I want to use it on my phone.](#i-like-mastodon-but-i-want-to-use-it-on-my-phone)
 * [How can I back up my Mastodon account?](#how-can-i-back-up-my-mastodon-account)
 * [Can I use the keyboard to navigate Mastodon?](#can-i-use-the-keyboard-to-navigate-mastodon)
+* [How do favorites work on other server types?](#how-do-favorites-work-on-other-server-types)
 * [Weird, my server doesn't have a bunch of these features.](#weird-my-server-doesnt-have-a-bunch-of-these-features)
 * [I have other questions.](#i-have-other-questions)
 * [How can I contribute to the Guide?](#how-can-i-contribute-to-the-guide)
@@ -356,6 +357,13 @@ Mastodon has a responsive design, so you can use it in your phone's browser. Alt
 ## Can I use the keyboard to navigate Mastodon?
 
 In the web interface, yes. The Mastodon web hotkeys are documented at `https://<your-server>/web/keyboard-shortcuts` , which you can access when you're logged into the web interface. (You can find the link at the bottom of the **Getting Started** column, labeled "Hotkeys".)
+
+## How do favorites work on other server types?
+
+In general:
+
+* If you click 'favorite' on a post from a different server type (Misskey, Pleroma, GNU Social, etc.) it will federate properly. Some of these servers allow multiple response emoji, and each of them selects a generic "favorite" emoji, which will show up on the recipient's post.
+* If someone on a different server type selects an emoji to respond to your post, it will federate to you on Mastodon as a favorite, *no matter what the emoji is*.
 
 ## Weird, my server doesn't have a bunch of these features.
 
