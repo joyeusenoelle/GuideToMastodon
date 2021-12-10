@@ -10,6 +10,7 @@ I've done my best to make this understandable, but you're welcome to suggest cha
 * [How is it like Twitter?](#how-is-it-like-twitter)
 * [How is it like email?](#how-is-it-like-email)
 * [How is it not like either of those?](#how-is-it-not-like-either-of-those)
+* [What is the Fediverse?](#what-is-the-fediverse)
 * [How do I establish my brand's presence on Mastodon?](#how-do-i-establish-my-brands-presence-on-mastodon)
 * [How do I get verified on Mastodon?](#how-do-i-get-verified-on-mastodon)
 * [Okay, how do I let people know that I am who I say I am?](#okay-how-do-i-let-people-know-that-i-am-who-i-say-i-am)
@@ -76,6 +77,12 @@ The Local timeline is every post with a public status posted by users on your in
 The Federated timeline is every post with a public status posted by any user that your instance knows about, even from other instances. Your instance knows about a remote user if at least one user on your instance has EVER followed them.
 
 The Local and Federated timelines can turn into firehoses sometimes. Be careful!
+
+## What is the Fediverse?
+
+~~Unfortunately, no one can be told what the Fediverse is~~
+
+The Fediverse is the vast array of servers that communicate via the ActivityPub or OStatus protocols. (Generally speaking, unless you're making or editing software to interact with the fediverse, you don't need to know what those are.) There are lots of different kinds of server software on the fediverse, like Pixelfed, Pleroma, Misskey, or WriteFreely. Mastodon is one of the most popular of these, and it's what this guide is about. If you're using one of the others, this guide probably won't help you much.
 
 ## How do I establish my brand's presence on Mastodon?
 
