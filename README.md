@@ -353,7 +353,7 @@ Remember that Pinafore and Halcyon are third-party clients, and make sure you tr
 
 ## I like Mastodon but I want to use it on my phone.
 
-Mastodon has a responsive design, so you can use it in your phone's browser. Alternately, there are many apps available for Mastodon. The most widely-used on iOS are Amaroq and Toot!. On Android, try Tusky.
+Mastodon has a responsive design, so you can use it in your phone's browser. Alternately, there are many apps available for Mastodon, including an official "Mastodon for iPhone" app released in August 2021. The most widely-used on iOS are Amaroq and Toot!. On Android, try Tusky.
 
 *(NB: I've been told that "Tootdon silently forwards copies of posts you interact as well as the auth token to your account to its to own servers." I don't know if that still holds. As always, be cautious when giving apps your information.)*
 
