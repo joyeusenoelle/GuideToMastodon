@@ -56,7 +56,7 @@ You post relatively-short status updates, and you can see a streaming list of yo
 
 Mastodon's statuses are called "toots", like Twitter's are called "tweets". A toot can be up to 500 characters long.
 
-Mastodon also supports hashtags, which are words prefixed by #, like "#gameing" or "#pineapple". You can click on a hashtag to search for other posts containing that tag.
+Mastodon also supports hashtags, which are words prefixed by #, like "#gaming" or "#pineapple". You can click on a hashtag to search for other posts containing that tag.
 
 ## How is it like email?
 
@@ -64,7 +64,7 @@ Each Mastodon instance is independent but networked, like email servers. If you 
 
 Likewise, if you sign up for an account on mastodon.social, that doesn't make an account for you on every other instance, but you can talk to users from other instances and they can talk to you. 
 
-You can make accounts on multiple instances if you want to talk about different things separately. You could have an account on https://cybre.space to talk about technology, an account on https://elekk.xyz to talk about gaming, and an account on https://mastodon.social for general chatter. You have to sign into each account separately, and keep each open in a separate browser tab or window.
+You can make accounts on multiple instances if you want to talk about different things separately. You could have an account on https://cybre.space to talk about technology, an account on https://elekk.xyz to talk about gaming, and an account on https://mastodon.social for general chatter. You have to sign into each account separately and keep each open in a separate browser tab or window.
 
 Keep in mind that in general, when talking about Mastodon, "instance" and "server" mean the same thing.
 
@@ -72,7 +72,7 @@ Keep in mind that in general, when talking about Mastodon, "instance" and "serve
 
 Mastodon has two additional timelines that you can view: the Local timeline and the Federated timeline.
 
-The Local timeline is every post with a public status posted by users on your instance, with the exception of replies. (A reply is any toot posted in response to another toot - NOT any toot that simply mentions another user!)
+The Local timeline is every post with a public status posted by users on your instance, except for replies. (A reply is any toot posted in response to another toot - NOT any toot that simply mentions another user!)
 
 The Federated timeline is every post with a public status posted by any user that your instance knows about, even from other instances. Your instance knows about a remote user if at least one user on your instance has EVER followed them.
 
@@ -102,7 +102,7 @@ If you represent a company and your boss has told you that your company needs a 
 
 ## How do I get verified on Mastodon?
 
-There's no such thing as a verified account on Mastodon. We assume you are who you say you are. If you see someone with a check-mark by their name (like ✅), they've just typed that emoji into their display name. 
+There's no such thing as a verified account on Mastodon. We assume you are who you say you are. If you see someone with a checkmark by their name (like ✅), they've just typed that emoji into their display name. 
 
 If someone's impersonating you, contact the admin of the instance they're on to get it sorted out.
 
@@ -134,15 +134,15 @@ If you're mentioning someone on your own instance, you just have to type the fir
 
 ## What are the rules?
 
-The rules depend on which instance you're on. Each instance has a page at https://<span>*instance*</span>/about/more that usually contains more information about the instance and often describes the community guidelines. For example, mastodon.social has its community guidelines posted at https://mastodon.social/about/more .
+The rules depend on which instance you're on. Each instance has a page at https://<span>*instance*</span>/about/more that usually contains more information about the instance and often describes the community guidelines. For example, mastodon.social has its community guidelines posted at https://mastodon.social/about/more.
 
-Keep in mind that these are usually guidelines and not hard-and-fast rules. Since each instance is run by a separate team of moderators - often just one person! - they have final say over what's allowed and not allowed on their instance. Your instance admins might even go so far as to block an entire other instance if their users turn out to be incompatible with your instance's values and the other instance's moderators won't help.
+Keep in mind that these are usually guidelines and not hard-and-fast rules. Since each instance is run by a separate team of moderators - often just one person! - they have the final say over what's allowed and not allowed on their instance. Your instance admins might even go so far as to block an entire other instance if their users turn out to be incompatible with your instance's values and the other instance's moderators won't help.
 
 ## What if I see someone breaking the rules?
 
-If you see someone breaking the rules, you can send a report. Click on the `...` under the offending post, and select `Report @user` (which is usually at the very bottom of that menu). This will bring up a window where you can select additional recent posts from that user, if you need to, and also type out a *reason* for the report, so that the moderator who receives the report will understand why you sent it. 
+If you see someone breaking the rules, you can send a report. Click on the `...` under the offending post, and select `Report @user` (which is usually at the very bottom of that menu). This will bring up a window where you can select additional recent posts from that user if you need to, and also type out a *reason* for the report, so that the moderator who receives the report will understand why you sent it. 
 
-If the user is from a different instance, then underneath the report reason, you will also see a switch next to "Forward to *their instance*". This not only reports the user to the moderators on your instance, it sends the report to the other user's instance as well. Before you do this, **check the rules of the instance they're on**. They may not be breaking their local rules.
+If the user is from a different instance, then underneath the report reason, you will also see a switch next to "Forward to *their instance*". This not only reports the user to the moderators on your instance – it sends the report to the other user's instance as well. Before you do this, **check the rules of the instance they're on**. They may not be breaking their local rules.
 
 **The moderators and administrators of *your* instance will be able to see that it was you who sent the report. If you forward the report to a remote user's instance, the moderators and administrators of that instance *will not* be able to see who sent the report — only that it came from your instance.**
 
@@ -156,11 +156,11 @@ Mastodon (and other fediverse) posts can be chained together in different ways. 
 * **Self-replies** are posts that are a direct reply to *one of your own* stand-alone posts or another self-reply. Again, they can include references to another person. You can continue to reply to your own posts as long as you like, and *as long as someone else's post isn't above what you're currently writing in the chain*, they'll continue being self-replies. **For example:** You click on the reply button on one of your own stand-alone posts to reply to yourself, then click on the reply button on *that* post to reply to yourself again.
 * **Replies** are posts that are replies to someone else *or replies to a reply to someone else*. **For example:** You click on the reply button on someone else's post to reply to them, **or** you click on the reply button on one of your own posts that's a reply to someone else's post.
 
-I've included a diagram [here](replies.png) (it's a link because it's big). Notice how as soon as someone else's post enters the chain, your replies stop being self-replies. This is important, because self-replies and replies work differently in your followers' timelines.
+I've included a diagram [here](replies.png) (it's a link because it's big). Notice how as soon as someone else's post enters the chain, your replies stop being self-replies. This is important because self-replies and replies work differently in your followers' timelines.
 
 ## How do privacy settings work?
 
-Under each post you'll see three icons: a camera, a globe or a padlock, and the letters "CW". Click on the globe or padlock to choose the privacy settings for your post. *You can set the default privacy level for your posts under **Preferences > Other > Posting Privacy**.*
+Under each post, you'll see three icons: a camera, a globe or a padlock, and the letters "CW". Click on the globe or padlock to choose the privacy settings for your post. *You can set the default privacy level for your posts under **Preferences > Other > Posting Privacy**.*
 
 * **Public** means that everyone can see your post. It will appear on your list of posts and in your followers' Home timelines. Your *stand-alone posts* and *self-replies* that are public will appear in your list of toots, in your followers' Home timelines, in the public local and federated timelines, and in the Mentions of anyone you mention by username. Your *replies* that are public will appear in your list of *toots and replies* (*not* the primary list of toots; it's a separate list!), in the Home timelines of any of your followers who *also* follow the person you're replying to, and in the Mentions of anyone you mention by username.
 * **Unlisted** means that everyone can see your post, but it won't appear on the public timelines - either Local or Federated. Other than that, Unlisted posts behave exactly like Public posts.
@@ -173,7 +173,7 @@ Keep in mind that some servers, which run software that's compatible with but no
 
 I cannot stress this enough: **Private toots are not encrypted or secure.**
 
-The admin of your server can read *any* toot posted on their server, as well as *any* toot sent to a user on their server. This is a necessary security precaution. Admins *don't want* to read your private toots, but they have to be *able* to because otherwise private toots allow some users to secretly harass others or to conduct illegal dealings without the admin's knowledge, and under many laws the admin will be responsible for enabling the harassment or illegal behavior *even if they didn't know it was happening*.
+The admin of your server can read *any* toot posted on their server, as well as *any* toot sent to a user on their server. This is a necessary security precaution. Admins *don't want* to read your private toots, but they have to be *able* to because otherwise private toots allow some users to secretly harass others or to conduct illegal dealings without the admin's knowledge, and under many laws, the admin will be responsible for enabling the harassment or illegal behavior *even if they didn't know it was happening*.
 
 That said, in general, your admin will only look over the toots you've marked Private if they have reason to believe harassment or illicit dealings are going on. Make sure you trust your admin to act like this, and if you don't, it might be time to look for another instance.
 
@@ -205,9 +205,9 @@ Remember, you can set the default privacy level for your posts under **Preferenc
 
 ## What if someone's following or interacting with me and I don't want them to?
 
-You have a couple options.
+You have a couple of options.
 
-* **If you just don't want to see them in your feed anymore**, you can *mute* them. This will prevent their posts from showing up in any of your feeds; you can optionally block notifications (Favorites, Boosts, and Mentions) from them, so that if you don't want to see someone's stand-alone posts but do want to see their attempts to interact with you, you can.
+* **If you just don't want to see them in your feed anymore**, you can *mute* them. This will prevent their posts from showing up in any of your feeds; you can optionally block notifications (Favorites, Boosts, and Mentions) from them so that if you don't want to see someone's stand-alone posts but do want to see their attempts to interact with you, you can.
 * **If you don't want to see them and you don't want them to see you**, you can *block* them. This will automatically mute them; if they were following you and/or you were following them, it will sever those as well. They will not be able to follow you or show up in *any* of your feeds unless you unblock them. (But see below.)
 * **If they are harassing you or otherwise breaking the rules**, you can [report them](#what-if-i-see-someone-breaking-the-rules), and hopefully, your moderator will deal with it.
 
@@ -221,7 +221,7 @@ Just like with a [locked account](#so-if-i-lock-my-account-only-approved-people-
 
 You will not get a notification if someone mutes or blocks you.
 
-If someone's muted you, there's really no way for you to tell. If they consistently don't reply to you when you mention their username, you might get suspicious, but Mastodon deliberately makes it almost impossible to know if you've been muted. (Among other things, this is a stopgap to try to prevent someone harassing you by creating multiple accounts to get around mutes.)
+If someone's muted you, there's no way for you to tell. If they consistently don't reply to you when you mention their username, you might get suspicious, but Mastodon deliberately makes it almost impossible to know if you've been muted. (Among other things, this is a stopgap to try to prevent someone harassing you by creating multiple accounts to get around mutes.)
 
 If someone's blocked you, you will no longer be following them, their posts won't appear in your feed, and when you view their account profile *within Mastodon's web interface*, none of their posts will load. (It is worth noting that if you're looking at the profile of someone you *don't* follow, sometimes their posts won't load and it's just because the server is being slow, not because they've blocked you, so don't be *too* quick to make an assumption.)
 
@@ -298,11 +298,11 @@ You can also use image captions to insert additional jokes (like webcomics often
 
 ## How come my friend on another instance can use this emoji, but I can't?
 
-Each instance can define custom emoji for their users to use, and many have taken advantage of this. Your instance admin can copy emoji that they like from other instances. If you see an emoji that you like and it's not available on your instance, ask your admin to copy it over.
+Each instance can define custom emojis for its users to use, and many have taken advantage of this. Your instance admin can copy emoji that they like from other instances. If you see an emoji that you like and it's not available on your instance, ask your admin to copy it over.
 
 ## Why can't I search for a specific word or phrase?
 
-It's an anti-harassment feature. Harassers often search for particular words or phrases (like "TERF" or "homophobic" or "white supremacy") in order to attack and dogpile people they disagree with. By limiting search to usernames and hashtags, Mastodon allows users to decide how they want their toots to show up in others' searches.
+It's an anti-harassment feature. Harassers often search for particular words or phrases (like "TERF" or "homophobic" or "white supremacy") to attack and dogpile people they disagree with. By limiting the search to usernames and hashtags, Mastodon allows users to decide how they want their toots to show up in others' searches.
 
 ## Why can't I quote someone's toot, like a quote-tweet?
 
@@ -363,7 +363,7 @@ Mastodon has a responsive design, so you can use it in your phone's browser. Alt
 
 ## Can I use the keyboard to navigate Mastodon?
 
-In the web interface, yes. The Mastodon web hotkeys are documented at `https://<your-server>/web/keyboard-shortcuts` , which you can access when you're logged into the web interface. (You can find the link at the bottom of the **Getting Started** column, labeled "Hotkeys".)
+In the web interface, yes. The Mastodon web hotkeys are documented at `https://<your-server>/web/keyboard-shortcuts`, which you can access when you're logged into the web interface. (You can find the link at the bottom of the **Getting Started** column, labeled "Hotkeys".)
 
 ## How do favorites work on other server types?
 
