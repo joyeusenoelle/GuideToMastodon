@@ -64,7 +64,7 @@ Each Mastodon instance is independent but networked, like email servers. If you 
 
 Likewise, if you sign up for an account on mastodon.social, that doesn't make an account for you on every other instance, but you can talk to users from other instances and they can talk to you. 
 
-You can make accounts on multiple instances if you want to talk about different things separately. You could have an account on https://cybre.space to talk about technology, an account on https://elekk.xyz to talk about gaming, and an account on https://mastodon.social for general chatter. You have to sign into each account separately, and keep each open in a separate browser tab or window.
+You can make accounts on multiple instances if you want to talk about different things separately. You could have an account on https://cybre.space to talk about technology, an account on https://elekk.xyz to talk about gaming, and an account on https://mastodon.social for general chatter. You have to sign into each account separately and keep each open in a separate browser tab or window.
 
 Keep in mind that in general, when talking about Mastodon, "instance" and "server" mean the same thing.
 
@@ -102,7 +102,7 @@ If you represent a company and your boss has told you that your company needs a 
 
 ## How do I get verified on Mastodon?
 
-There's no such thing as a verified account on Mastodon. We assume you are who you say you are. If you see someone with a check-mark by their name (like ✅), they've just typed that emoji into their display name. 
+There's no such thing as a verified account on Mastodon. We assume you are who you say you are. If you see someone with a checkmark by their name (like ✅), they've just typed that emoji into their display name. 
 
 If someone's impersonating you, contact the admin of the instance they're on to get it sorted out.
 
@@ -116,15 +116,15 @@ A Mastodon instance that allows this will have instructions on your **Edit Profi
 
 This one's big on purpose.
 
-Picking an instance can be hard. Many instances have a specific focus: sleeping.town is a safe space for queer folks, hackers.town is a haven for computer touchers, and botsin.space focuses on the hosting and development of automated bots. On oulipo.social it's illicit to post a toot containing any "e"s. 
+Picking an instance can be hard. Many instances have a specific focus: `mastodon.lol` is a safe space for queer folks, `hackers.town` is a haven for computer touchers, `wandering.shop` is built for fans of science fiction and fantasy, and `botsin.space` focuses on the hosting and development of automated bots. On oulipo.social it's illicit to post a toot containing any "e"s. 
 
-If you haven't created a mastodon account yet, you might find it useful to try one of the larger instances, like [mastodon.social](https://mastodon.social/about/more) - the flagship instance, with over 100,000 users - or [wandering.shop](https://wandering.shop/about/more). These instances have large, usually-friendly populations that will help you find a more niche instance if that's what you're looking for. Be warned, though, that because of their size, the Local timelines on these instances can move *very* quickly.
+If you haven't created a mastodon account yet, you might find it useful to try one of the larger instances, like `mastodon.social` - the flagship instance, with over 100,000 users - or `mas.to` . These instances have large, usually-friendly populations that will help you find a more niche instance if that's what you're looking for. Be warned, though, that because of their size, the Local timelines on these instances can move *very* quickly.
 
 (*A brief note about mastodon.social: it **is** the largest general-purpose instance (the largest overall is a Japanese-language instance). Many people go there and never check out other instances. If you make an account on mastodon.social, consider treating it as a temporary waypoint while you find an instance that better fits your needs and interests. Once you've found one, you can export all the people you're following, muting, and blocking on mastodon.social and import them at your new account, so you don't have to go around and find everybody again.*)
 
 If you've already registered on an instance but you're not sure if it's a good fit for you, try asking around for instances where you might be a better fit. Also, try searching for a #hashtag that interests you; if you see a lot of people on one instance talking about that subject, it might be a good place for you to check out.
 
-You can also try the instance picker on [joinmastodon.org](https://joinmastodon.org/#getting-started) or the wizard at [instances.social](https://instances.social/), although these have *lots* of instances listed and you might be overwhelmed. Take it slow and easy.
+You can also try the instance picker on [joinmastodon.org](https://joinmastodon.org/communities) or the wizard at [instances.social](https://instances.social/), although these have *lots* of instances listed and you might be overwhelmed. Take it slow and easy.
 
 ## How do I mention someone who's not on my instance?
 
@@ -136,7 +136,7 @@ If you're mentioning someone on your own instance, you just have to type the fir
 
 The rules depend on which instance you're on. Each instance has a page at https://<span>*instance*</span>/about/more that usually contains more information about the instance and often describes the community guidelines. For example, mastodon.social has its community guidelines posted at https://mastodon.social/about/more .
 
-Keep in mind that these are usually guidelines and not hard-and-fast rules. Since each instance is run by a separate team of moderators - often just one person! - they have final say over what's allowed and not allowed on their instance. Your instance admins might even go so far as to block an entire other instance if their users turn out to be incompatible with your instance's values and the other instance's moderators won't help.
+Keep in mind that these are usually guidelines and not hard-and-fast rules. Since each instance is run by a separate team of moderators - often just one person! - they have the final say over what's allowed and not allowed on their instance. Your instance admins might even go so far as to block an entire other instance if their users turn out to be incompatible with your instance's values and the other instance's moderators won't help.
 
 ## What if I see someone breaking the rules?
 
@@ -160,7 +160,7 @@ I've included a diagram [here](replies.png) (it's a link because it's big). Noti
 
 ## How do privacy settings work?
 
-Under each post you'll see three icons: a camera, a globe or a padlock, and the letters "CW". Click on the globe or padlock to choose the privacy settings for your post. *You can set the default privacy level for your posts under **Preferences > Other > Posting Privacy**.*
+Under each post, you'll see three icons: a camera, a globe or a padlock, and the letters "CW". Click on the globe or padlock to choose the privacy settings for your post. *You can set the default privacy level for your posts under **Preferences > Other > Posting Privacy**.*
 
 * **Public** means that everyone can see your post. It will appear on your list of posts and in your followers' Home timelines. Your *stand-alone posts* and *self-replies* that are public will appear in your list of toots, in your followers' Home timelines, in the public local and federated timelines, and in the Mentions of anyone you mention by username. Your *replies* that are public will appear in your list of *toots and replies* (*not* the primary list of toots; it's a separate list!), in the Home timelines of any of your followers who *also* follow the person you're replying to, and in the Mentions of anyone you mention by username.
 * **Unlisted** means that everyone can see your post, but it won't appear on the public timelines - either Local or Federated. Other than that, Unlisted posts behave exactly like Public posts.
@@ -302,7 +302,7 @@ Each instance can define custom emoji for their users to use, and many have take
 
 ## Why can't I search for a specific word or phrase?
 
-It's an anti-harassment feature. Harassers often search for particular words or phrases (like "TERF" or "homophobic" or "white supremacy") in order to attack and dogpile people they disagree with. By limiting search to usernames and hashtags, Mastodon allows users to decide how they want their toots to show up in others' searches.
+It's an anti-harassment feature. Harassers often search for particular words or phrases (like "TERF" or "homophobic" or "white supremacy") in order to attack and dogpile people they disagree with. By limiting search to usernames and hashtags, Mastodon allows users to decide how they want their toots to show up in others' searches. (While some Mastodon instances *do* allow full-text search, you can only search your own toots on those instances. This makes it easier to find something that you posted a while ago without exposing you to harassment.)
 
 ## Why can't I quote someone's toot, like a quote-tweet?
 
