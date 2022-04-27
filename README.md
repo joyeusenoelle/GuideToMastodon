@@ -86,7 +86,7 @@ The Fediverse is the vast array of servers that communicate via the ActivityPub 
 
 ## How do I establish my brand's presence on Mastodon?
 
-The short answer: **Please don't.**
+The short answer: **Very carefully.**
 
 We've had a decade of Twitter, Facebook, and heaven knows how many other social media platforms becoming platforms for Search Engine Optimization, Brand Awareness, and Corporate Synergy, and I'll be blunt: we're really, really tired of it.
 
@@ -98,7 +98,7 @@ There's one behavior that companies often engage in that drives people nuts, and
 
 If you represent a company and your boss has told you that your company needs a Mastodon presence, here's what you can tell them (and you can tell them I told you to say it):
 
-> Mastodon doesn't really work like that. If we're going to have a Mastodon presence, it needs to be one person who's free to *be* a person on that account, instead of a corporate mouthpiece. That means the person on the Mastodon account isn't going to get along with everybody and is going to treat other users like they're people instead of marketing targets. If you're okay with that, then I'll get right on it. If not, then you need to do some more research into Mastodon before you establish a presence there.
+> Mastodon doesn't really work like that. If we're going to have a Mastodon presence, it needs to be one person who's free to *be* a person on that account, instead of a corporate mouthpiece. That means the person on the Mastodon account isn't going to get along with everybody (although they should certainly try to) and is going to treat other users like they're people instead of marketing targets. If you're okay with that, then I'll get right on it. If not, then you need to do some more research into Mastodon before you establish a presence there.
 
 ## How do I get verified on Mastodon?
 
@@ -173,9 +173,13 @@ Keep in mind that some servers, which run software that's compatible with but no
 
 I cannot stress this enough: **Private toots are not encrypted or secure.**
 
-The admin of your server can read *any* toot posted on their server, as well as *any* toot sent to a user on their server. This is a necessary security precaution. Admins *don't want* to read your private toots, but they have to be *able* to because otherwise private toots allow some users to secretly harass others or to conduct illegal dealings without the admin's knowledge, and under many laws the admin will be responsible for enabling the harassment or illegal behavior *even if they didn't know it was happening*.
+The admin of your server may be able to read *any* toot posted on their server, as well as *any* toot sent to a user on their server. **However**, it's a pain in the ass to do so. Your private posts will not appear in the admin panel on the website; your admin has to manually, directly access the database -- typically through logging into the server's command line -- in order to access them. This isn't something admins do on a whim; they only do it when they absolutely have to, and this is because:
+
+This is a necessary security precaution. Admins *don't want* to read your private toots, but they have to be *able* to because otherwise private toots allow some users to secretly harass others or to conduct illegal dealings without the admin's knowledge, and under many laws the admin will be responsible for enabling the harassment or illegal behavior *even if they didn't know it was happening*.
 
 That said, in general, your admin will only look over the toots you've marked Private if they have reason to believe harassment or illicit dealings are going on. Make sure you trust your admin to act like this, and if you don't, it might be time to look for another instance.
+
+While we're on the subject, it's worth noting that this is true of nearly any social media software. Twitter admins can read your DMs. Forum admins can read your private messages. This is not a novel or unusual feature of Mastodon; I'm just making sure you know about it.
 
 **As a general rule, if an application you're using isn't [peer-to-peer](https://en.wikipedia.org/wiki/Peer-to-peer) and relies on an intermediary like a server, the information you're sending isn't secure unless you take extra steps outside the application to secure it.**
 
