@@ -116,7 +116,7 @@ A Mastodon instance that allows this will have instructions on your **Edit Profi
 
 This one's big on purpose.
 
-Picking an instance can be hard. Many instances have a specific focus: `mastodon.lol` is a safe space for queer folks, `hackers.town` is a haven for computer touchers, `wandering.shop` is built for fans of science fiction and fantasy, and `botsin.space` focuses on the hosting and development of automated bots. On oulipo.social it's illicit to post a toot containing any "e"s. 
+Picking an instance can be hard. Many instances have a specific focus: `mastodon.lol` is a safe space for queer folks, `hackers.town` is a haven for computer touchers, `wandering.shop` is built for fans of science fiction and fantasy, and `botsin.space` focuses on the hosting and development of automated bots. On `oulipo.social` it's illicit to post a toot containing any "e"s. 
 
 If you haven't created a mastodon account yet, you might find it useful to try one of the larger instances, like `mastodon.social` - the flagship instance, with over 100,000 users - or `mas.to` . These instances have large, usually-friendly populations that will help you find a more niche instance if that's what you're looking for. Be warned, though, that because of their size, the Local timelines on these instances can move *very* quickly.
 
