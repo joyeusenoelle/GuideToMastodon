@@ -9,7 +9,7 @@ I've done my best to make this understandable, but you're welcome to suggest cha
 * [What is Mastodon?](#what-is-mastodon)
 * [How is it like Twitter?](#how-is-it-like-twitter)
 * [How is it like email?](#how-is-it-like-email)
-* [How is it not like either of those; or, What are the Local and Federated Timelines?](#how-is-it-not-like-either-of-those)
+* [How is it not like either of those; or, What are the Local and Federated Timelines?](#how-is-it-not-like-either-of-those-or-what-are-the-local-and-federated-timelines)
 * [What is the Fediverse?](#what-is-the-fediverse)
 * [How do I establish my brand's presence on Mastodon?](#how-do-i-establish-my-brands-presence-on-mastodon)
 * [How do I get verified on Mastodon?](#how-do-i-get-verified-on-mastodon)
