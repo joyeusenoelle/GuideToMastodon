@@ -56,7 +56,7 @@ You post relatively-short status updates, and you can see a streaming list of yo
 
 Mastodon's statuses are called "toots", like Twitter's are called "tweets". A toot can be up to 500 characters long.
 
-Mastodon also supports hashtags, which are words prefixed by #, like "#gameing" or "#pineapple". You can click on a hashtag to search for other posts containing that tag.
+Mastodon also supports hashtags, which are words prefixed by #, like "#gaming" or "#pineapple". You can click on a hashtag to search for other posts containing that tag.
 
 ## How is it like email?
 
@@ -290,7 +290,7 @@ You'll notice that if you have both an image and a CW on a toot, the "Sensitive 
 
 When you attach an image, you'll see "Edit" (plus a pencil icon) at the top right of the image. Clicking this will pop up a dialog box that lets you determine what part of the image should show in the preview; it also allows you to set alt-text for the image, which people can read if they mouse over the text, and which screen-readers (such as for the visually-impaired) can read instead of just saying "embedded image".
 
-Text in the description box has its own character limit; it **does not** count against the character limit for your toot!
+Text in the description box has its own character limit of 1,500 characters; it **does not** count against the character limit for your toot!
 
 ## Why should I add a caption to my picture?
 
@@ -357,7 +357,7 @@ Remember that Pinafore and Halcyon are third-party clients, and make sure you tr
 
 ## I like Mastodon but I want to use it on my phone.
 
-Mastodon has a responsive design, so you can use it in your phone's browser. Alternately, there are many apps available for Mastodon, including an official "Mastodon for iPhone" app released in August 2021. The most widely-used on iOS are Amaroq and Toot!. On Android, try Tusky.
+Mastodon has a responsive design, so you can use it in your phone's browser. Alternately, there are many apps available for Mastodon, including an official "Mastodon for iPhone" app released in August 2021. On iOS, try [Toot!](https://apps.apple.com/app/toot/id1229021451?ls=1). On Android, try [Tusky](https://tusky.app/).
 
 *(NB: I've been told that "Tootdon silently forwards copies of posts you interact as well as the auth token to your account to its to own servers." I don't know if that still holds. As always, be cautious when giving apps your information.)*
 
