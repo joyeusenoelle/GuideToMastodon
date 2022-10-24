@@ -108,7 +108,7 @@ If someone's impersonating you, contact the admin of the instance they're on to 
 
 ## Okay, how do I let people know that I am who I say I am?
 
-Many Mastodon instances will allow you to add metadata to your profile - up to four items displayed in a table on your profile page that don't count against the length of your profile text. If you use these fields to link to your other websites, some instances will allow you to verify that you *own* those websites by providing a link on those websites back to your Mastodon account. For instance, if you have a personal website, you can include the link to your website in your Mastodon metadata, and then include a link to your Mastodon account in the header of your website, and Mastodon will verify that you're the person who owns your website.
+Mastodon instances will allow you to add metadata to your profile - up to four items displayed in a table on your profile page that don't count against the length of your profile text. If you use these fields to link to your other websites, some instances will allow you to verify that you *own* those websites by providing a link on those websites back to your Mastodon account. For instance, if you have a personal website, you can include the link to your website in your Mastodon metadata, and then include a link to your Mastodon account in the header of your website, and Mastodon will verify that you're the person who owns your website.
 
 A Mastodon instance that allows this will have instructions on your **Edit Profile** page telling you how to add the verification link.
 
@@ -349,7 +349,7 @@ There are no hard-and-fast rules for everybody, and (as noted above) different i
 
 ## I like Mastodon but I prefer the way Twitter looks.
 
-You might get some mileage out of [Pinafore](https://pinafore.social/), a new interface for Mastodon by [Nolan Lawson](https://toot.cafe/@nolan).
+You might get some mileage out of [Pinafore](https://pinafore.social/), an interface for Mastodon by [Nolan Lawson](https://toot.cafe/@nolan).
 
 [Halcyon](https://notabug.org/halcyon-suite/halcyon) is a web client for Mastodon that replicates the Twitter interface. Since Halcyon is itself open-source software, there are [multiple servers running it](https://notabug.org/halcyon-suite/halcyon#instances); you can choose the one you like. Use your existing Mastodon login when you use Halcyon; for example, if you have an account on elekk.xyz, you would use `your-account@elekk.xyz` and your Elekk password to log in.
 
@@ -380,9 +380,15 @@ In general:
 
 You might not be on Mastodon! The Fediverse - the vast collection of servers connected by the ActivityPub/OStatus protocol - has a lot of different kinds of servers on it. Your server might be running Pleroma, Misskey, GNU Social, or something else! Unfortunately, I don't know much about them, so you'll have to ask their users for a getting-started guide like this one.
 
+## Weird, my server has a bunch of extra features.
+
+Because [Mastodon is open source](https://github.com/mastodon/mastodon), you can make a copy of it and make any changes you want. Some people have decided to make their changes public; one of the most popular edited versions of Mastodon is [Mastodon Glitch Edition](https://glitch-soc.github.io/docs/), or "glitch-soc". (It's called that, as far as I know, because it originated with the instance [glitch.social](https://glitch.social). Glitch-soc has a bunch of extra features that users often appreciate, like the ability to use Markdown in toots and the option to make a given post only show up on your local instance and not get federated out to other servers.
+
 ## I have other questions.
 
-Ask around! People are usually pretty happy to answer questions and help out. If you really get stuck, ask me: https://elekk.xyz/@noelle
+Ask around! People are usually pretty happy to answer questions and help out. Also, [FediThing](https://tech.lgbt/@FediThing) has [an excellent website](https://fedi.tips/) that covers the Fediverse from a different perspective, and you might find your answer there.
+
+If you really get stuck, ask me: https://chat.noelle.codes/@noelle
 
 ## How can I contribute to the Guide?
 
