@@ -2,7 +2,7 @@
 
 <p style="text-align:center;"><h1>DON'T PANIC.</h1></p>
 
-I've done my best to make this understandable, but you're welcome to suggest changes! If you have a Github account, you can submit change requests directly; otherwise, feel free to contact me [on Mastodon](https://elekk.xyz/@noelle) or by email at `noelle AT noelle.codes`. 
+I've done my best to make this understandable, but you're welcome to suggest changes! If you have a Github account, you can submit change requests directly; otherwise, feel free to contact me [on Mastodon](https://chat.noelle.codes/@noelle) or by email at `noelle AT noelle.codes`. 
 
 ## Table of Contents
 
@@ -43,6 +43,7 @@ I've done my best to make this understandable, but you're welcome to suggest cha
 * [Can I use the keyboard to navigate Mastodon?](#can-i-use-the-keyboard-to-navigate-mastodon)
 * [How do favorites work on other server types?](#how-do-favorites-work-on-other-server-types)
 * [Weird, my server doesn't have a bunch of these features.](#weird-my-server-doesnt-have-a-bunch-of-these-features)
+* [Weird, my server has a bunch of extra features.](#weird-my-server-has-a-bunch-of-extra-features)
 * [I have other questions.](#i-have-other-questions)
 * [How can I contribute to the Guide?](#how-can-i-contribute-to-the-guide)
 
