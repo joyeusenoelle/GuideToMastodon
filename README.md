@@ -2,7 +2,7 @@
 
 <p style="text-align:center;"><h1>DON'T PANIC.</h1></p>
 
-I've done my best to make this understandable, but you're welcome to suggest changes! If you have a Github account, you can submit change requests directly; otherwise, feel free to contact me [on Mastodon](https://chat.noelle.codes/@noelle) or by email at `noelle AT noelle.codes`. 
+I've done my best to make this understandable, but you're welcome to suggest changes! If you have a Github account, you can submit change requests directly; otherwise, feel free to contact me [on Mastodon](https://elekk.xyz/@noelle) or by email at `noelle AT noelle.codes`. 
 
 ## Table of Contents
 
@@ -389,7 +389,7 @@ Because [Mastodon is open source](https://github.com/mastodon/mastodon), you can
 
 Ask around! People are usually pretty happy to answer questions and help out. Also, [FediThing](https://tech.lgbt/@FediThing) has [an excellent website](https://fedi.tips/) that covers the Fediverse from a different perspective, and you might find your answer there.
 
-If you really get stuck, ask me: https://chat.noelle.codes/@noelle
+If you really get stuck, ask me: https://elekk.xyz/@noelle
 
 ## How can I contribute to the Guide?
 
