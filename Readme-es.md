@@ -11,9 +11,9 @@ Si vas a copiar un link de esta página, usá este link http://guidetomastodon.c
 
 ## Tabla de contenidos
 
-* [¿Qué es Mastodon?](#que-es-mastodon)
-* [¿Qué parecido tiene con Twitter?](#que-parecido-tiene-con-twitter)
-* [¿Qué parecido tiene con el email?](#que-parecido-tiene-con-el-email)
+* [¿Qué es Mastodon?](#qué-es-mastodon)
+* [¿Qué parecido tiene con Twitter?](#qué-parecido-tiene-con-twitter)
+* [¿Qué parecido tiene con el email?](#qué-parecido-tiene-con-el-email)
 * [How is it not like either of those; or, What are the Local and Federated Timelines?](#how-is-it-not-like-either-of-those-or-what-are-the-local-and-federated-timelines)
 * [What is the Fediverse?](#what-is-the-fediverse)
 * [How do I establish my brand's presence on Mastodon?](#how-do-i-establish-my-brands-presence-on-mastodon)
