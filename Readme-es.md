@@ -14,7 +14,7 @@ Si vas a copiar un link de esta página, usá este link http://guidetomastodon.c
 * [¿Qué es Mastodon?](#qué-es-mastodon)
 * [¿Qué parecido tiene con Twitter?](#qué-parecido-tiene-con-twitter)
 * [¿Qué parecido tiene con el email?](#qué-parecido-tiene-con-el-email)
-* [How is it not like either of those; or, What are the Local and Federated Timelines?](#how-is-it-not-like-either-of-those-or-what-are-the-local-and-federated-timelines)
+* [¿Y qué tiene de distinto con ambas; o mejor dicho, qué son las Lineas Temporales Locales y Federales?](#y-qué-tiene-de-distinto-con-ambas-o-mejor-dicho-qué-son-las-lineas-temporales-locales-y-federales)
 * [What is the Fediverse?](#what-is-the-fediverse)
 * [How do I establish my brand's presence on Mastodon?](#how-do-i-establish-my-brands-presence-on-mastodon)
 * [How do I get verified on Mastodon?](#how-do-i-get-verified-on-mastodon)
@@ -69,11 +69,11 @@ Cada instancia de Mastodon es independiente pero dentro de una red, como los ser
 
 Aquí pasa lo mismo. Si te hacés una cuenta en mastodon.social, no hace falta que te hagas una cuenta en cualquier otra instancia, pero podés conversar con usuarios de otras instancias y estos pueden conversar contigo. 
 
-You can make accounts on multiple instances if you want to talk about different things separately. You could have an account on https://cybre.space to talk about technology, an account on https://elekk.xyz to talk about gaming, and an account on https://mastodon.social for general chatter. You have to sign into each account separately and keep each open in a separate browser tab or window.
+Podés crearte cuentas en varias instancias si lo que querés es hablar de cosas distintas de forma separada. Por ejemplo una cuenta en https://cybre.space para hablar de tecnología, otra en https://elekk.xyz para hablar de juegos, y otra en https://mastodon.social para charlas en general. Tenés que loguearte en cada cuenta de forma separada y mantenerlas abiertas en ventanas o pestañas separadas.
 
-Keep in mind that in general, when talking about Mastodon, "instance" and "server" mean the same thing.
+Tené en cuenta que en general, al hablar de Mastodon, "instancia" y "servidor" significan lo mismo.
 
-## How is it not like either of those; or, What are the Local and Federated Timelines?
+## ¿Y qué tiene de distinto con ambas; o mejor dicho, qué son las Lineas Temporales Locales y Federales?
 
 Mastodon has two additional timelines that you can view: the Local timeline and the Federated timeline.
 
