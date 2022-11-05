@@ -19,11 +19,11 @@ Si vas a copiar un link de esta página, usá este link http://guidetomastodon.c
 * [¿Cómo establezco la presencia de mi marca en Mastodon?](#cómo-establezco-la-presencia-de-mi-marca-en-mastodon)
 * [¿Cómo puedo estar verificado en Mastodon?](#cómo-puedo-estar-verificado-en-mastodon)
 * [Está bien, ¿Cómo hago para que la gente sepa que yo soy quien dice ser?](#está-bien-cómo-hago-para-que-la-gente-sepa-que-yo-soy-quien-dice-ser)
-* [HOW DO I PICK AN INSTANCE?](#how-do-i-pick-an-instance)
-* [How do I mention someone who's not on my instance?](#how-do-i-mention-someone-whos-not-on-my-instance)
-* [What are the rules?](#what-are-the-rules)
-* [What if I see someone breaking the rules?](#what-if-i-see-someone-breaking-the-rules)
-* [What are the different kinds of posts?](#what-are-the-different-kinds-of-posts)
+* [¿COMO ELIJO UNA INSTANCIA?](#como-elijo-una-instancia)
+* [¿Cómo menciono a alguien que no está en mi instancia?](#cómo-menciono-a-alguien-que-no-está-en-mi-instancia)
+* [¿Cuales son las reglas?](#cuales-son-las-reglas)
+* [¿Qué pasa si veo a alguien rompiendo las reglas?](#qué-pasa-si-veo-a-alguien-rompiendo-las-reglas)
+* [¿Cuales son los diferentes tipos de posts?](#cuales-son-los-diferentes-tipos-de-posts)
 * [How do privacy settings work?](#how-do-privacy-settings-work)
 * [How private is "Private"?](#how-private-is-private)
 * [What happens when someone follows me?](#what-happens-when-someone-follows-me)
@@ -117,51 +117,51 @@ Las instancias de Mastodon te permiten añadir metadatos a tu perfil - hasta cua
 
 Una instancia de Mastodon que permita eso contendrá las instrucciones en la página de **Editar Perfil** sobre como añadir el enlace de verificación.
 
-# HOW DO I PICK AN INSTANCE?
+# ¿COMO ELIJO UNA INSTANCIA?
 
-This one's big on purpose.
+Las mayúsculas son a propósito.
 
-Picking an instance can be hard. Many instances have a specific focus: `mastodon.lol` is a safe space for queer folks, `hackers.town` is a haven for computer touchers, `wandering.shop` is built for fans of science fiction and fantasy, and `botsin.space` focuses on the hosting and development of automated bots. On `oulipo.social` it's illicit to post a toot containing any "e"s. 
+Elegir una instancia puede ser difícil. Muchas instancias tienen un enfoque específico: `loa.masto.host` es un espacio seguro para gente LGTB+, `infosec.exchange` es un espacio para quienes les gusta la seguridad informática, `mastodont.cat` fue hecha para quienes hablan catalán, y `botsin.space` se enfoca en el desarrollo y alojamiento de bots automatizados. En `oulipo.social` no se permite escribir un toot que incluya la letra "e". 
 
-If you haven't created a mastodon account yet, you might find it useful to try one of the larger instances, like `mastodon.social` - the flagship instance, with over 100,000 users - or `mas.to` . These instances have large, usually-friendly populations that will help you find a more niche instance if that's what you're looking for. Be warned, though, that because of their size, the Local timelines on these instances can move *very* quickly.
+Si no te creaste una cuenta en mastodon todavía, te podría ser útil probar en una de las instancias más grandes, como `mastodon.social` - la instancia principal, con más de 100.000 usuarios activos - o `mas.to` . Estas instancias tienen una población enorme y generalmente amigable que te ayudarán a encontrar una instancia más de nicho si eso es lo que estás buscando. Sin embargo, cuidado, porque debido a su tamaño, las lineas de tiempo locales en esas instancias pueden moverse *muy* rápido.
 
-(*A brief note about mastodon.social: it **is** the largest general-purpose instance (the largest overall is a Japanese-language instance, [mstdn.jp](https://mstdn.jp)). Many people go there and never check out other instances. If you make an account on mastodon.social, consider treating it as a temporary waypoint while you find an instance that better fits your needs and interests. Once you've found one, you can export all the people you're following, muting, and blocking on mastodon.social and import them at your new account, so you don't have to go around and find everybody again.*)
+(*Una breve nota sobre mastodon.social: Esta **es** la instancia más grande de propósito general. Mucha gente va allí y nunca vuelve a buscar otras instancias. Si te hacés una cuenta en mastodon.social, considerá tratarla como una parada temporal mientras buscás una instancia que se adecúe más a tus necesidades e intereses. Una vez que la encuentres, podés exportar a toda la gente que seguís, silenciás y bloqueás en mastodon.social e importarlos a tu nueva cuenta, así no tenés que buscar a todos de nuevo.*)
 
-If you've already registered on an instance but you're not sure if it's a good fit for you, try asking around for instances where you might be a better fit. Also, try searching for a #hashtag that interests you; if you see a lot of people on one instance talking about that subject, it might be a good place for you to check out.
+Si ya te registraste en una instancia pero no estás seguro de si te sirve, intentá preguntar por allí si hay instancias que te podrían servir más. También, intentá buscar por un #hashtag que te interese; si ves a mucha gente en una instancia hablando de esa cuestión, puede que sea un buen lugar para que revises.
 
-You can also try the instance picker on [joinmastodon.org](https://joinmastodon.org/communities) or the wizard at [instances.social](https://instances.social/), although these have *lots* of instances listed and you might be overwhelmed. Take it slow and easy.
+También podés probar el selector de instancias en [joinmastodon.org](https://joinmastodon.org/communities) o el asistente [instances.social](https://instances.social/), aunque estos tienen *muchas* instancias listadas y puede que te abrumes. Hacelo despacio y con calma.
 
-## How do I mention someone who's not on my instance?
+## ¿Cómo menciono a alguien que no está en mi instancia?
 
-Mastodon usernames take the form @*username*@*instance*. My account on mastodon.social is @<span>noelle</span>@mastodon.social; my account on elekk.xyz is @<span>noelle</span>@elekk.xyz. If you're mentioning someone on a different instance, you have to type the whole thing (although the toot input box will help you auto-complete the username if it's a name the instance knows already). 
+Los nombres de usuario en Mastodon tienen la forma @*nombredeusuario*@*instancia*. Por ejemplo quien hizo esta guía en inglés tiene su cuenta en mastodon.social y es @<span>noelle</span>@mastodon.social; y tambien tiene una en elekk.xyz y es @<span>noelle</span>@elekk.xyz. Si estás mencionando a alguien en una instancia diferente, tenes que escribir toda la dirección (aunque el cuadrito donde escribís el toot te ayudará a autocompletar el nombre de usuario si es un nombre que la instancia ya conoce). 
 
-If you're mentioning someone on your own instance, you just have to type the first part; if you're on elekk.xyz, @noelle will get to me just like @<span>noelle</span>@elekk.xyz will. If you leave off the "@*instance*" Mastodon understands that you want to talk to the local user.
+Si estás mencionando a alguien de tu propia instancia, sólo necesitás escribir la primera parte; si estás en mastodon.social, @Gargron te llevará a contactar con él de la misma forma que @<span>Gargron</span>@mastodon.social. Si omitís el "@*instancia*" Mastodon entiende que le querés hablar al usuario local.
 
-## What are the rules?
+## ¿Cuales son las reglas?
 
-The rules depend on which instance you're on. Each instance has a page at https://<span>*instance*</span>/about/more that usually contains more information about the instance and often describes the community guidelines. For example, mastodon.social has its community guidelines posted at https://mastodon.social/about/more .
+Las reglas dependen de la instancia en que estés. Cada instancia tiene una página en https://<span>*instancia*</span>/about/more que por lo general contiene más información sobre la instancia y a menudo describe las normas de la comunidad. Por ejemplo, mastodon.social tiene las normas de su comunidad escritas en https://mastodon.social/about/more .
 
-Keep in mind that these are usually guidelines and not hard-and-fast rules. Since each instance is run by a separate team of moderators - often just one person! - they have the final say over what's allowed and not allowed on their instance. Your instance admins might even go so far as to block an entire other instance if their users turn out to be incompatible with your instance's values and the other instance's moderators won't help.
+Tené presente que estas son normas en general y no reglas estrictas. Como cada instancia es administrada por un grupo separado de moderadores - ¡a menudo suele haber un solo moderador! - ellos tienen la última palabra sobre qué se permite y qué no se permite en sus instancias. Los administradores de tu instancia incluso pueden llegar hasta bloquear una instancia entera si sus usuarios resultan incompatibles con los valores que defiende tu instancia y los moderadores de la otra instancia no ayudan.
 
-## What if I see someone breaking the rules?
+## ¿Qué pasa si veo a alguien rompiendo las reglas?
 
-If you see someone breaking the rules, you can send a report. Click on the `...` under the offending post, and select `Report @user` (which is usually at the very bottom of that menu). This will bring up a window where you can select additional recent posts from that user, if you need to, and also type out a *reason* for the report, so that the moderator who receives the report will understand why you sent it. 
+Si ves a alguien que rompe las reglas, podés reportarlo. Hacé click en la parte `...` que aparece debajo del post que rompe la regla, y seleccioná dentro del menú `Reportar`. Eso mostrará una ventana donde podés elegir otros posts recientes de ese usuario, si es necesario, y también escibir una *razón* para reportarlo, para que el moderador que reciba el reporte entienda por qué se lo mandaste. 
 
-If the user is from a different instance, then underneath the report reason, you will also see a switch next to "Forward to *their instance*". This not only reports the user to the moderators on your instance, it sends the report to the other user's instance as well. Before you do this, **check the rules of the instance they're on**. They may not be breaking their local rules.
+Si el usuario es de otra instancia, debajo de las razones del reporte, aparecerá un switch para "Reenviar a *su instancia*". Esto no solo reporta el usuario a los moderadores de tu instancia, sino que también manda el reporte a la instancia del otro usuario. Antes de hacer eso, **comprobá las reglas de la instancia en la que el usuario está**. Puede que no esté rompiendo sus reglas.
 
-**The moderators and administrators of *your* instance will be able to see that it was you who sent the report. If you forward the report to a remote user's instance, the moderators and administrators of that instance *will not* be able to see who sent the report — only that it came from your instance.**
+**Los moderadores y administradores de *tu* instancia podrán ver que vos mandaste el reporte. Si enviás el reporte a la instancia de un usuario remoto, los moderadores y administradores de esa instancia *no* podrán ver quién envió el reporte — sólo podrán ver que vino desde tu instancia.**
 
-By default, you will not get any notification about actions that any moderators or administrators take in response to your reports. You can ask them, but be prepared to hear something like "we don't comment on how we resolve reports".
+Por defecto, no te llegarán notificaciones sobre las acciones que los moderadores y administradores tomen en respuesta a tu reporte. Podés preguntarles, pero que no te extrañe si te responden "no hacemos comentarios sobre como resolvemos los reportes".
 
-## What are the different kinds of posts?
+## ¿Cuales son los diferentes tipos de posts?
 
-Mastodon (and other fediverse) posts can be chained together in different ways. I use three terms to refer to different kinds of posts. These might not be the terms other people use.
+Los posts de Mastodon (y de otros servidores del fediverso) pueden encadenarse de diferentes maneras. Se pueden usar estos tres términos para referirse a los tipos diferentes de posts. Puede que otra gente use otros términos.
 
-* **Stand-alone posts** are posts that are not replies to any other post. (That is, you did not click on the Reply button to start the post.) They are at the head of a chain. You can include people's usernames in stand-alone posts to tag them; doing that does not make the post a reply. **For example:** You use the standard compose box ("What's on your mind?" in the default Mastodon settings) to create a new post.
-* **Self-replies** are posts that are a direct reply to *one of your own* stand-alone posts or another self-reply. Again, they can include references to another person. You can continue to reply to your own posts as long as you like, and *as long as someone else's post isn't above what you're currently writing in the chain*, they'll continue being self-replies. **For example:** You click on the reply button on one of your own stand-alone posts to reply to yourself, then click on the reply button on *that* post to reply to yourself again.
-* **Replies** are posts that are replies to someone else *or replies to a reply to someone else*. **For example:** You click on the reply button on someone else's post to reply to them, **or** you click on the reply button on one of your own posts that's a reply to someone else's post.
+* Los **posts sueltos** son posts que no son respuestas a ningún otro post. (O sea, no hiciste click en el botón de responder para escibir el post.) Estos están al principio de la cadena. Podés incluir los nombre de usuarios de otra gente en los posts sueltos para mencionarlos; hacer eso no hace que el post sea una respuesta. **Por ejemplo:** Vos usás el cuadrito (El que dice "¿En qué estás pensando?") para hacer un post nuevo.
+* Las **autorespuestas** son posts que son respuestas directas a *uno de tus propios* posts sueltos o a otra autorespuesta. De nuevo, estas pueden incluir referencias a otra persona. Podés seguir respondiendo tus propios posts lo más que quieras, y *mientras un post de otro no esté encima de lo que estés escribiendo en la cadena*, seguirán siendo autorespuestas. **Por ejemplo:**  Vos hacés click en el botón de responder en uno de tus propios posts sueltos para responderte a ti mismo, y luego haces click en responder a *ese* post para responderte de nuevo.
+* Las **respuestas** son posts que son respuestas a los posts de otra perona *o respuestas a una respuesta de otra persona*. **Por ejemplo:** Hacés click en el botón de respuesta del post de otra persona para responderle, **o** hacés click en el botón de respuesta de un post tuyo que sea la respuesta a un post de otra persona.
 
-I've included a diagram [here](replies.png) (it's a link because it's big). Notice how as soon as someone else's post enters the chain, your replies stop being self-replies. This is important, because self-replies and replies work differently in your followers' timelines.
+[Aquí](replies.png) tenés un diagrama para ver mejor (es un link porque es una imagen grande). Vas a ver que apenas entre en la cadena un post de otra persona, tus respuestas dejan de ser autorespuestas. Esto es importante, porque las autorespuestas y las respuestas funcionan distinto en las lineas de tiempo de tus seguidores.
 
 ## How do privacy settings work?
 
