@@ -4,7 +4,7 @@
 
 Acá se hizo lo posible para que esto sea entendible, pero se agradece cualquier sugerencia! Si tenés cuenta en Github, podés mandar tus pedidos de cambios de forma directa; o si no, podés contactarte con dos personas:
 
-1) Con la que hizo la guía original en inglés [en Mastodon](https://elekk.xyz/@noelle) o por mail en `noelle AT noelle.codes`. 
+1) Con quien hizo la guía original en inglés [en Mastodon](https://elekk.xyz/@noelle) o por mail en `noelle AT noelle.codes`. 
 2) Conmigo [en Mastodon](https://social.pueseso.club/@diazepan) o por mail en `juntapuchos AT firemail.cc`
 
 Si vas a copiar un link de esta página, usá este link http://guidetomastodon.com, y acordate de darle crédito a [@Noelle@elekk.xyz](https://elekk.xyz/@noelle). ¡Muchas Gracias!
@@ -14,10 +14,10 @@ Si vas a copiar un link de esta página, usá este link http://guidetomastodon.c
 * [¿Qué es Mastodon?](#qué-es-mastodon)
 * [¿Qué parecido tiene con Twitter?](#qué-parecido-tiene-con-twitter)
 * [¿Qué parecido tiene con el email?](#qué-parecido-tiene-con-el-email)
-* [¿Y qué tiene de distinto con ambas; o mejor dicho, qué son las Lineas Temporales Locales y Federales?](#y-qué-tiene-de-distinto-con-ambas-o-mejor-dicho-qué-son-las-lineas-temporales-locales-y-federales)
-* [What is the Fediverse?](#what-is-the-fediverse)
-* [How do I establish my brand's presence on Mastodon?](#how-do-i-establish-my-brands-presence-on-mastodon)
-* [How do I get verified on Mastodon?](#how-do-i-get-verified-on-mastodon)
+* [¿Y qué tiene de distinto con ambas; o mejor dicho, qué son las Lineas de tiempo locales y federadas?](#y-qué-tiene-de-distinto-con-ambas-o-mejor-dicho-qué-son-las-lineas-de-tiempo-locales-y-federadas)
+* [¿Qué es el Fediverso?](#qué-es-el-fediverso)
+* [¿Cómo establezco la presencia de mi marca en Mastodon?](#cómo-establezco-la-presencia-de-mi-marca-en-mastodon)
+* [¿Cómo puedo estar verificado en Mastodon?](#cómo-puedo-estar-verificado-en-mastodon)
 * [Okay, how do I let people know that I am who I say I am?](#okay-how-do-i-let-people-know-that-i-am-who-i-say-i-am)
 * [HOW DO I PICK AN INSTANCE?](#how-do-i-pick-an-instance)
 * [How do I mention someone who's not on my instance?](#how-do-i-mention-someone-whos-not-on-my-instance)
@@ -57,7 +57,7 @@ Mastodon es una red social al estilo de Twitter combinada con servidores de inst
 
 ## ¿Qué parecido tiene con Twitter?
 
-Allí escribís estados relativamente cortos, y podés ver una lista en constante actualización de los estados de tus amigos. Podés tener la notificaciones (respuestas, republicaciones, favoritos, DMs) en una columna separada.
+Allí escribís estados relativamente cortos, y podés ver una lista en constante actualización de los estados de la gente que seguís. Podés tener la notificaciones (respuestas, republicaciones, favoritos, DMs) en una columna separada.
 
 Así como los estados en Twitter se llaman "tweets", los de Mastodon se llaman "toots". Un toot puede tener como mucho 500 caracteres.
 
@@ -73,39 +73,39 @@ Podés crearte cuentas en varias instancias si lo que querés es hablar de cosas
 
 Tené en cuenta que en general, al hablar de Mastodon, "instancia" y "servidor" significan lo mismo.
 
-## ¿Y qué tiene de distinto con ambas; o mejor dicho, qué son las Lineas Temporales Locales y Federales?
+## ¿Y qué tiene de distinto con ambas; o mejor dicho, qué son las Lineas de tiempo locales y federadas?
 
-Mastodon has two additional timelines that you can view: the Local timeline and the Federated timeline.
+Mastodon tiene dos lineas de tiempo adicionales que podés ver: la Linea de tiempo local y la Linea de tiempo federada.
 
-The Local timeline is every post with a public status posted by users on your instance, with the exception of replies. (A reply is any toot posted in response to another toot - NOT any toot that simply mentions another user!)
+La Linea de tiempo local se hace con todos los posteos de estado público escritos por los usuarios de tu instancia, salvo las respuestas. (Una respuesta se refiere solo a los toots posteados en respuesta a otro toot - ¡NO a cualquier toot que sólo mencione a otro usuario!)
 
-The Federated timeline is every post with a public status posted by any user that your instance knows about, even from other instances. Your instance knows about a remote user if at least one user on your instance has EVER followed them.
+La Linea de tiempo federada se hace con todos los posteos de estado público escritos por cualquier usuario del cual tu instancia tenga conocimiento, incluso de otras instancias. Tu instancia conoce a un usuario remoto si al menos un usuario de tu instancia lo haya seguido ALGUNA vez.
 
-The Local and Federated timelines can turn into firehoses sometimes. Be careful!
+Las Lineas de tiempo locales y federadas pueden a veces ser chorros de mucha información de lo rápido que van. ¡Ten cuidado!
 
-## What is the Fediverse?
+## ¿Qué es el Fediverso?
 
-~~Unfortunately, no one can be told what the Fediverse is~~
+~~Desafortunadamente, nada puede decirse sobre qué es el Fediverso~~
 
-The Fediverse is the vast array of servers that communicate via the ActivityPub or OStatus protocols. (Generally speaking, unless you're making or editing software to interact with the fediverse, you don't need to know what those are.) There are lots of different kinds of server software on the fediverse, like Pixelfed, Pleroma, Misskey, or WriteFreely. Mastodon is one of the most popular of these, and it's what this guide is about. If you're using one of the others, this guide probably won't help you much.
+El Fediverso es esa gigantesca matriz de servidores que se comunican a través de los protocolos ActivityPub u OStatus. (Hablando en general, a menos de que desarrolles o edites software para interactuar con el fediverso, no necesitás saber qué son esos protocolos.) En el fediverso hay muchos y variados tipos diferentes de software para servidor, por ejemplo Pixelfed, Pleroma, Misskey, o WriteFreely. Entre ellos Mastodon es uno de los más populares, y esta guía es sobre este. Si estás usando alguno de los otros, esta guía quizás no te va a servir mucho.
 
-## How do I establish my brand's presence on Mastodon?
+## ¿Cómo establezco la presencia de mi marca en Mastodon?
 
-The short answer: **Very carefully.**
+Respuesta corta: **De forma extremadamente cuidadosa.**
 
-We've had a decade of Twitter, Facebook, and heaven knows how many other social media platforms becoming platforms for Search Engine Optimization, Brand Awareness, and Corporate Synergy, and I'll be blunt: we're really, really tired of it.
+Hemos llevado toda una década de cómo Twitter, Facebook, y quién sabe cuantas otras plataformas de redes sociales se convirtieron en plataformas para la Optimización para motores de búsqueda (o por sus siglas en inglés, SEO), la Conciencia de marca (Brand Awareness), y la Sinergia corporativa, y acá se debe decir con franqueza: ESTAMOS MUY, PERO QUE MUY CANSADOS DE ESO.
 
-Mastodon isn't about leveraging followers into customers. It's not about SEO or brand loyalty. **Mastodon is about people.** Don't treat people like potential customers who might buy your stuff; treat them like *people* whom you might want to get to know.
+Mastodon no se trata de aprovechar a tus seguidores para convertirlos en clientes. No se trata de SEO o lealtad de marca. **Mastodon se trata de gente.** No trates a la gente como clientes potenciales que puedan comprarte lo que vendés; tratalos como la *gente* a quien te gustaría conocer.
 
-If you're a person who makes or does something and you think someone might want to buy your product or use your service, great! You can tell people about it - just *treat them like people*, not marketing targets.
+Si sos alguien que hace o crea algo y pensás que alguien querría comprar tu producto o usar tu servicio, ¡está bien! Podés contarle a la gente sobre eso - solamente *tratalos como gente*, no como objetivos de marketing.
 
-There's one behavior that companies often engage in that drives people nuts, and you *really* shouldn't do it: **don't send unsolicited messages to people advertising your product or service**. Get to know someone, engage in conversations with them, and if you think someone you know would be interested and doesn't already know about what you do, *then* tell them about what you do or what you make.
+Hay un comportamiento en que las compañías participan a menudo y que enloquece a la gente, y es algo que *de verdad* no deberías hacer: **no mandes mensajes promocionando tu producto o servicio a nadie y sin que te lo pidan**. Conocé gente, conversá con esa gente, y si pensás que alguien que vos conocés podría estar interesado y no sabe lo que estás haciendo, *entonces* contale lo que hacés o lo que creas.
 
-If you represent a company and your boss has told you that your company needs a Mastodon presence, here's what you can tell them (and you can tell them I told you to say it):
+Si representás a una compañía y tu jefe te dice que tu compañía necesita tener presencia en Mastodon, esto es lo que le podés decir (e incluso podés decirle que yo te dije que se lo dijeras):
 
-> Mastodon doesn't really work like that. If we're going to have a Mastodon presence, it needs to be one person who's free to *be* a person on that account, instead of a corporate mouthpiece. That means the person on the Mastodon account isn't going to get along with everybody (although they should certainly try to) and is going to treat other users like they're people instead of marketing targets. If you're okay with that, then I'll get right on it. If not, then you need to do some more research into Mastodon before you establish a presence there.
+> Mastodon no funciona así. Si vamos a tener presencia en Mastodon, debe ser alguien con tiempo para *ser* alguien en esa cuenta, y no un portavoz corporativo. Eso significa que la persona en la cuenta de Mastodon no se va a llevar bien con todo el mundo (aunque debería intentarlo) y va a tratar a los otros usuarios como gente y no como objetivos de marketing. Si está bien así, me encargaré de eso. Si no, tenés que hacer una mayor investigación sobre Mastodon antes de establecer una presencia ahí.
 
-## How do I get verified on Mastodon?
+## ¿Cómo puedo estar verificado en Mastodon?
 
 There's no such thing as a verified account on Mastodon. We assume you are who you say you are. If you see someone with a checkmark by their name (like ✅), they've just typed that emoji into their display name. 
 
