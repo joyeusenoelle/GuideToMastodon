@@ -23,9 +23,9 @@ Si vas a copiar un link de esta página, usá este link http://guidetomastodon.c
 * [¿Cómo menciono a alguien que no está en mi instancia?](#cómo-menciono-a-alguien-que-no-está-en-mi-instancia)
 * [¿Cuales son las reglas?](#cuales-son-las-reglas)
 * [¿Qué pasa si veo a alguien rompiendo las reglas?](#qué-pasa-si-veo-a-alguien-rompiendo-las-reglas)
-* [¿Cuales son los diferentes tipos de posts?](#cuales-son-los-diferentes-tipos-de-posts)
-* [How do privacy settings work?](#how-do-privacy-settings-work)
-* [How private is "Private"?](#how-private-is-private)
+* [¿Cuales son los diferentes tipos de toots?](#cuales-son-los-diferentes-tipos-de-toots)
+* [¿Cómo funciona la configuración de privacidad?](#cómo-funciona-la-configuración-de-privacidad)
+* [¿Qué tan privado es "Privado"?](#qué-tan-privado-es-privado)
 * [What happens when someone follows me?](#what-happens-when-someone-follows-me)
 * [So if I lock my account, only approved people can see my posts?](#so-if-i-lock-my-account-only-approved-people-can-see-my-posts)
 * [What if someone's following or interacting with me and I don't want them to?](#what-if-someones-following-or-interacting-with-me-and-i-dont-want-them-to)
@@ -61,7 +61,7 @@ Allí escribís estados relativamente cortos, y podés ver una lista en constant
 
 Así como los estados en Twitter se llaman "tweets", los de Mastodon se llaman "toots". Un toot puede tener como mucho 500 caracteres.
 
-Mastodon también soporta hashtags, que son palabras con el prefijo #, como por ejemplo "#juegos" or "#introduccion". Podés hacer click en un hashtag para buscar otros posts que tienen ese tag.
+Mastodon también soporta hashtags, que son palabras con el prefijo #, como por ejemplo "#software" or "#introduccion". Podés hacer click en un hashtag para buscar otros toots que tienen ese tag.
 
 ## ¿Qué parecido tiene con el email?
 
@@ -69,7 +69,7 @@ Cada instancia de Mastodon es independiente pero dentro de una red, como los ser
 
 Aquí pasa lo mismo. Si te hacés una cuenta en mastodon.social, no hace falta que te hagas una cuenta en cualquier otra instancia, pero podés conversar con usuarios de otras instancias y estos pueden conversar contigo. 
 
-Podés crearte cuentas en varias instancias si lo que querés es hablar de cosas distintas de forma separada. Por ejemplo una cuenta en https://cybre.space para hablar de tecnología, otra en https://elekk.xyz para hablar de juegos, y otra en https://mastodon.social para charlas en general. Tenés que loguearte en cada cuenta de forma separada y mantenerlas abiertas en ventanas o pestañas separadas.
+Podés crearte cuentas en varias instancias si lo que querés es hablar de cosas distintas de forma separada. Por ejemplo una cuenta en https://qoto.org para hablar de ciencia y tecnología, otra en https://mastodon.gamedev.place para hablar de juegos, y otra en https://mastodon.social para charlas en general. Tenés que loguearte en cada cuenta de forma separada y mantenerlas abiertas en ventanas o pestañas separadas.
 
 Tené en cuenta que en general, al hablar de Mastodon, "instancia" y "servidor" significan lo mismo.
 
@@ -107,9 +107,9 @@ Si representás a una compañía y tu jefe te dice que tu compañía necesita te
 
 ## ¿Cómo puedo estar verificado en Mastodon?
 
-There's no such thing as a verified account on Mastodon. We assume you are who you say you are. If you see someone with a checkmark by their name (like ✅), they've just typed that emoji into their display name. 
+No existen las cuentas verificadas en Mastodon. Acá asumimos que sos quien decis ser. Si ves a alguien con un check junto al nombre (tipo ✅), simplemente escribieron el emoji junto al nombre y nada más. 
 
-If someone's impersonating you, contact the admin of the instance they're on to get it sorted out.
+Sin embargo si alguien se hace pasar por vos, contactate con el administrador de la instancia en que está esa persona para resolverlo.
 
 ## Está bien, ¿Cómo hago para que la gente sepa que yo soy quien dice ser?
 
@@ -145,7 +145,7 @@ Tené presente que estas son normas en general y no reglas estrictas. Como cada 
 
 ## ¿Qué pasa si veo a alguien rompiendo las reglas?
 
-Si ves a alguien que rompe las reglas, podés reportarlo. Hacé click en la parte `...` que aparece debajo del post que rompe la regla, y seleccioná dentro del menú `Reportar`. Eso mostrará una ventana donde podés elegir otros posts recientes de ese usuario, si es necesario, y también escibir una *razón* para reportarlo, para que el moderador que reciba el reporte entienda por qué se lo mandaste. 
+Si ves a alguien que rompe las reglas, podés reportarlo. Hacé click en la parte `...` que aparece debajo del toot que rompe la regla, y seleccioná dentro del menú `Reportar`. Eso mostrará una ventana donde podés elegir otros toots recientes de ese usuario, si es necesario, y también escibir una *razón* para reportarlo, para que el moderador que reciba el reporte entienda por qué se lo mandaste. 
 
 Si el usuario es de otra instancia, debajo de las razones del reporte, aparecerá un switch para "Reenviar a *su instancia*". Esto no solo reporta el usuario a los moderadores de tu instancia, sino que también manda el reporte a la instancia del otro usuario. Antes de hacer eso, **comprobá las reglas de la instancia en la que el usuario está**. Puede que no esté rompiendo sus reglas.
 
@@ -153,40 +153,40 @@ Si el usuario es de otra instancia, debajo de las razones del reporte, aparecer�
 
 Por defecto, no te llegarán notificaciones sobre las acciones que los moderadores y administradores tomen en respuesta a tu reporte. Podés preguntarles, pero que no te extrañe si te responden "no hacemos comentarios sobre como resolvemos los reportes".
 
-## ¿Cuales son los diferentes tipos de posts?
+## ¿Cuales son los diferentes tipos de toots?
 
-Los posts de Mastodon (y de otros servidores del fediverso) pueden encadenarse de diferentes maneras. Se pueden usar estos tres términos para referirse a los tipos diferentes de posts. Puede que otra gente use otros términos.
+Los toots de Mastodon (y de otros servidores del fediverso) pueden encadenarse de diferentes maneras. Se pueden usar estos tres términos para referirse a los tipos diferentes de toots. Puede que otra gente use otros términos.
 
-* Los **posts sueltos** son posts que no son respuestas a ningún otro post. (O sea, no hiciste click en el botón de responder para escibir el post.) Estos están al principio de la cadena. Podés incluir los nombre de usuarios de otra gente en los posts sueltos para mencionarlos; hacer eso no hace que el post sea una respuesta. **Por ejemplo:** Vos usás el cuadrito (El que dice "¿En qué estás pensando?") para hacer un post nuevo.
-* Las **autorespuestas** son posts que son respuestas directas a *uno de tus propios* posts sueltos o a otra autorespuesta. De nuevo, estas pueden incluir referencias a otra persona. Podés seguir respondiendo tus propios posts lo más que quieras, y *mientras un post de otro no esté encima de lo que estés escribiendo en la cadena*, seguirán siendo autorespuestas. **Por ejemplo:**  Vos hacés click en el botón de responder en uno de tus propios posts sueltos para responderte a ti mismo, y luego haces click en responder a *ese* post para responderte de nuevo.
-* Las **respuestas** son posts que son respuestas a los posts de otra perona *o respuestas a una respuesta de otra persona*. **Por ejemplo:** Hacés click en el botón de respuesta del post de otra persona para responderle, **o** hacés click en el botón de respuesta de un post tuyo que sea la respuesta a un post de otra persona.
+* Los **toots sueltos** son toots que no son respuestas a ningún otro toot. (O sea, no hiciste click en el botón de responder para escibir el toot.) Estos están al principio de la cadena. Podés incluir los nombre de usuarios de otra gente en los toots sueltos para mencionarlos; hacer eso no hace que el toot sea una respuesta. **Por ejemplo:** Vos usás el cuadrito (El que dice "¿En qué estás pensando?") para hacer un toot nuevo.
+* Las **autorespuestas** son toots que son respuestas directas a *uno de tus propios* toots sueltos o a otra autorespuesta. De nuevo, estas pueden incluir referencias a otra persona. Podés seguir respondiendo tus propios toots lo más que quieras, y *mientras un toot de otro no esté encima de lo que estés escribiendo en la cadena*, seguirán siendo autorespuestas. **Por ejemplo:**  Vos hacés click en el botón de responder en uno de tus propios toots sueltos para responderte a ti mismo, y luego haces click en responder a *ese* toot para responderte de nuevo.
+* Las **respuestas** son toots que son respuestas a los toots de otra perona *o respuestas a una respuesta de otra persona*. **Por ejemplo:** Hacés click en el botón de respuesta del toot de otra persona para responderle, **o** hacés click en el botón de respuesta de un toot tuyo que sea la respuesta a un toot de otra persona.
 
-[Aquí](replies.png) tenés un diagrama para ver mejor (es un link porque es una imagen grande). Vas a ver que apenas entre en la cadena un post de otra persona, tus respuestas dejan de ser autorespuestas. Esto es importante, porque las autorespuestas y las respuestas funcionan distinto en las lineas de tiempo de tus seguidores.
+[Aquí](replies.png) tenés un diagrama para ver mejor (es un link porque es una imagen grande). Vas a ver que apenas entre en la cadena un toot de otra persona, tus respuestas dejan de ser autorespuestas. Esto es importante, porque las autorespuestas y las respuestas funcionan distinto en las lineas de tiempo de tus seguidores.
 
-## How do privacy settings work?
+## ¿Cómo funciona la configuración de privacidad?
 
-Under each post, you'll see three icons: a camera, a globe or a padlock, and the letters "CW". Click on the globe or padlock to choose the privacy settings for your post. *You can set the default privacy level for your posts under **Preferences > Other > Posting Privacy**.*
+Debajo del cuadrado para escribir toots, verás unos íconos: entre ellos está uno que puede ser un planeta o un candado. Hacés click ahi y con eso elegis configurar la privacidad de ese toot que vas a escribir. *Podés elegir el nivel por defecto de privacidad en la parte de **Preferencias > Otros > Privacidad de publicaciones**.*
 
-* **Public** means that everyone can see your post. It will appear on your list of posts and in your followers' Home timelines. Your *stand-alone posts* and *self-replies* that are public will appear in your list of toots, in your followers' Home timelines, in the public local and federated timelines, and in the Mentions of anyone you mention by username. Your *replies* that are public will appear in your list of *toots and replies* (*not* the primary list of toots; it's a separate list!), in the Home timelines of any of your followers who *also* follow the person you're replying to, and in the Mentions of anyone you mention by username.
-* **Unlisted** means that everyone can see your post, but it won't appear on the public timelines - either Local or Federated. Other than that, Unlisted posts behave exactly like Public posts.
-* **Followers-Only** means that only people who follow you and people mentioned in the post can see your post in their timelines or on your profile page. If someone who doesn't follow you views your profile, they won't see your followers-only posts. *For your followers*, followers-only posts behave exactly like Unlisted posts. **Your followers-only posts that mention another user will also appear in that user's mentions, even if they don't follow you!**
-* **Private** means that only people who are mentioned in your post can see it. It will appear in their mentions and, on Mastodon servers above version 3.0, will appear in their Direct Messages column.
+* **Público** significa que todos pueden ver el toot. Aparecerá en tu lista de toots y en las lineas de tiempo principales de tus seguidores. Tus *toots sueltos* y *autorespuestas* que sean públicas aparecerán en tu lista de toots, en las lineas de tiempo principales de tus seguidores, en las lineas de tiempo locales y federadas, y en las menciones de cualquiera a quien menciones por su nombre de usuario. Tus *respuestas* públicas aparecerán en tu lista de *toots y respuestas* (*no* en la lista principal de toots; ¡es una lista separada!), en las lineas de tiempo principales de cualquier seguidor tuyo que *también* siga a esa persona a la que seguís, y en las menciones de cualquiera a quien menciones por su nombre de usuario.
+* **No listado** significa que todos pueden ver el toot, pero no aparecerá en las lineas de tiempo públicas - tanto la Local como la Federada. Aparte de eso, los toots no listados se comportan de la misma manera que los toots públicos.
+* **Solo seguidores** significa que sólo la gente que te sigue y la gente que mencionaste en el toot puede ver el toot en sus lineas de tiempo o en tu página de perfil. Si alguien que no te sigue ve tu perfil, no verá tus posts que son solo seguidores. *Para tus seguidores*, los toots solo seguidores se comportan de la misma manera que los toots no listados. **Tus toots solo seguidores que mencionen a otro usuario también aparecerán en las menciones de ese usuario, ¡incluso si no te sigue!**
+* **Solo cuentas mencionadas** significa que sólo la gente mencionada en tu toot pueden verlo. Aparecerán en sus menciones y, en los servidores de Mastodon por encima de la versión 3.0, aparecerán en la columna de Mensajes Directos.
 
-Keep in mind that some servers, which run software that's compatible with but not the same as Mastodon, will ignore these privacy settings if you send a message to their users, so be careful!
+Tené presente que algunos servidores, que corren un software distinto pero compatible con el de Mastodon, ignorarán esas configuraciones de privacidad si les mandás un mensaje a esos usuarios, ¡así que tené cuidado!
 
-## How private is "Private"?
+## ¿Qué tan privado es "Privado"?
 
-I cannot stress this enough: **Private toots are not encrypted or secure.**
+Esto no se puede enfatizar lo suficiente: **Los toots privados (Tanto solo seguidores como solo cuentas mencionadas) NO están cifrados ni son seguros.**
 
-The admin of your server may be able to read *any* toot posted on their server, as well as *any* toot sent to a user on their server. **However**, it's a pain in the ass to do so. Your private posts will not appear in the admin panel on the website; your admin has to manually, directly access the database -- typically through logging into the server's command line -- in order to access them. This isn't something admins do on a whim; they only do it when they absolutely have to, and this is because:
+El administrador de tu servidor puede leer *cualquier* toot escrito en tu servidor, como también *cualquier* toot enviado a otro usuario en tu servidor. **Sin embargo**, es bastante difícil hacerlo. Tus toots privados no aparecerán en el panel de administrador del sitio; tu administrador tiene que acceder manualmente, directamente a la base de datos -- normalmente logueándose a la linea de comandos del servidor -- para poder acceder a estos. No es algo que los administradores hagan por capricho; sólo lo hacen cuando están obligados a hacerlo, y esta es la razón:
 
-This is a necessary security precaution. Admins *don't want* to read your private toots, but they have to be *able* to because otherwise private toots allow some users to secretly harass others or to conduct illegal dealings without the admin's knowledge, and under many laws the admin will be responsible for enabling the harassment or illegal behavior *even if they didn't know it was happening*.
+Esta es una precaución necesaria de seguridad. Los administradores *no quieren* leer tus toots privados, pero tienen que ser *capaces* de hacerlo porque si no los toots privados permiten que ciertos usuarios puedan acosar a otros en secreto o llevar a cabo acciones ilegales sin el conocimiento del administrador, y bajo varias leyes el administrador será considerado responsable por permitir el acoso o el comportamiento ilegal *incluso si ellos no sabían que esto ocurría*.
 
-That said, in general, your admin will only look over the toots you've marked Private if they have reason to believe harassment or illicit dealings are going on. Make sure you trust your admin to act like this, and if you don't, it might be time to look for another instance.
+Dicho esto, en general, tu administrador sólo revisarán tus toots marcados como solo seguidores o solo cuentas mencionadas si tienen una razón para creer que está ocurriendo un caso de acoso o de acciones ilegales. Asegurate de que confiás en que tu administrador actúe de esa manera, y si no, puede ser un buen momento para buscar otra instancia.
 
-While we're on the subject, it's worth noting that this is true of nearly any social media software. Twitter admins can read your DMs. Forum admins can read your private messages. This is not a novel or unusual feature of Mastodon; I'm just making sure you know about it.
+Siguiendo con la cuestión, hay que mencionar que esto ocurre en casi todas las redes sociales. Los administradores de Twitter pueden leer tus DMs. Los administradores de un foro pueden leer tus mensajes privados. No es una novedad ni una característica inusual de Mastodon; Sólo queremos asegurarnos de que lo sepas.
 
-**As a general rule, if an application you're using isn't [peer-to-peer](https://en.wikipedia.org/wiki/Peer-to-peer) and relies on an intermediary like a server, the information you're sending isn't secure unless you take extra steps outside the application to secure it.**
+**Como regla general, si una aplicación que usás no es [peer-to-peer](https://es.wikipedia.org/wiki/Peer-to-peer) y depende de un intermediario como por ejemplo un servidor, la información que estás mandando no está segura a menos de que tomes medidas extra por fuera de la aplicación para asegurarla.**
 
 ## What happens when someone follows me?
 
