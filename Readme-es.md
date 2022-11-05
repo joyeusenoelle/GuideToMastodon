@@ -18,7 +18,7 @@ Si vas a copiar un link de esta página, usá este link http://guidetomastodon.c
 * [¿Qué es el Fediverso?](#qué-es-el-fediverso)
 * [¿Cómo establezco la presencia de mi marca en Mastodon?](#cómo-establezco-la-presencia-de-mi-marca-en-mastodon)
 * [¿Cómo puedo estar verificado en Mastodon?](#cómo-puedo-estar-verificado-en-mastodon)
-* [Okay, how do I let people know that I am who I say I am?](#okay-how-do-i-let-people-know-that-i-am-who-i-say-i-am)
+* [Está bien, ¿Cómo hago para que la gente sepa que yo soy quien dice ser?](#está-bien-cómo-hago-para-que-la-gente-sepa-que-yo-soy-quien-dice-ser)
 * [HOW DO I PICK AN INSTANCE?](#how-do-i-pick-an-instance)
 * [How do I mention someone who's not on my instance?](#how-do-i-mention-someone-whos-not-on-my-instance)
 * [What are the rules?](#what-are-the-rules)
@@ -111,11 +111,11 @@ There's no such thing as a verified account on Mastodon. We assume you are who y
 
 If someone's impersonating you, contact the admin of the instance they're on to get it sorted out.
 
-## Okay, how do I let people know that I am who I say I am?
+## Está bien, ¿Cómo hago para que la gente sepa que yo soy quien dice ser?
 
-Mastodon instances will allow you to add metadata to your profile - up to four items displayed in a table on your profile page that don't count against the length of your profile text. If you use these fields to link to your other websites, some instances will allow you to verify that you *own* those websites by providing a link on those websites back to your Mastodon account. For instance, if you have a personal website, you can include the link to your website in your Mastodon metadata, and then include a link to your Mastodon account in the header of your website, and Mastodon will verify that you're the person who owns your website.
+Las instancias de Mastodon te permiten añadir metadatos a tu perfil - hasta cuatro campos que se muestran en una tabla en tu página de perfil que no cuentan dentro del largo del texto del perfil. Si usás esos campos para enlazar a tus otros sitios web, algunas instancias te dejarán verificar que esos sitios web son *tuyos* al ofrecer un link en esos sitios web que dirijan a tu cuenta en Mastodon. Por ejemplo, si tenés un sitio web personal, podés incluir el link a tu sitio web en tus metadatos de Mastodon, y luego incuir un link a tu cuenta de Mastodon en el header del sitio web, y Mastodon verificará que sos la persona que es dueña de tu sitio web.
 
-A Mastodon instance that allows this will have instructions on your **Edit Profile** page telling you how to add the verification link.
+Una instancia de Mastodon que permita eso contendrá las instrucciones en la página de **Editar Perfil** sobre como añadir el enlace de verificación.
 
 # HOW DO I PICK AN INSTANCE?
 
