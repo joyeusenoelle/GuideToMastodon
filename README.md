@@ -68,9 +68,9 @@ Each Mastodon instance is independent but networked, like email servers. If you 
 
 Likewise, if you sign up for an account on mastodon.social, that doesn't make an account for you on every other instance, but you can talk to users from other instances and they can talk to you. 
 
-You can make accounts on multiple instances if you want to talk about different things separately. You could have an account on https://cybre.space to talk about technology, an account on https://elekk.xyz to talk about gaming, and an account on https://mastodon.social for general chatter. You have to sign into each account separately and keep each open in a separate browser tab or window.
+You can make accounts on multiple instances if you want to talk about different things separately. You could have an account on https://hackers.town to talk about technology, an account on https://elekk.xyz to talk about gaming, and an account on https://mastodon.online for general chatter. You have to sign into each account separately and keep each open in a separate browser tab or window. (The various mobile apps all allow multiple accounts, too.)
 
-Keep in mind that in general, when talking about Mastodon, "instance" and "server" mean the same thing.
+**Keep in mind that in general, when talking about Mastodon, "instance" and "server" mean the same thing.**
 
 ## How is it not like either of those; or, What are the Local and Federated Timelines?
 
@@ -147,21 +147,22 @@ If you **migrate** your account, all the same things will happen as redirecting 
 Here are the steps for **migrating** your account, including optional steps. (It looks like a lot of steps, but I've split some things up to make the instructions easier to follow.)
 
 1. Create your **new** account. This can be on the same instance you're on now, or on a different instance.
-2. On your **new** account, click `Preferences` in the right-hand Getting Started panel, then go to `Account > Account Settings`. At the bottom of that page, under the `Moving from a different account` header, click "**create an account alias**".
-3. Type in the `username@instance` of the **old** account (for example, `noelle@elekk.xyz`) and click "**Create Alias**".
-4. (Optional) On your **old** account, in Preferences, go to `Import and export > Data export`.
-5. (Optional) You'll see a list of account... statistics, I guess? Next to "Follows", "Lists", "You block", "You mute", "Domain blocks", and "Bookmarks", you'll see `⬇️CSV`. Click that for each thing you want to move over to your new account; this will download a list of each of those in a standardized format. Make a note of where the downloads go.
-6. (Optional) On your **new** account, in Preferences, go to `Import and export > Import`. For each of the files you just downloaded (except Lists, which doesn't have an import function yet):
+2. On your **new** account, click `Preferences` in the right-hand Getting Started panel, then go to `Profile > Appearance`. Below your header and profile picture, make sure **Require follow requests** is *unchecked*. (If it's checked, you'll have to manually approve every follower the automated process tries to bring over.) Click **Save changes** at the top or bottom of the page if you had to uncheck the box.
+3. On your **new** account, in Preferences, go to `Account > Account Settings`. At the bottom of that page, under the `Moving from a different account` header, click "**create an account alias**".
+4. Type in the `username@instance` of the **old** account (for example, `noelle@elekk.xyz`) and click "**Create Alias**".
+5. (Optional) On your **old** account, in Preferences, go to `Import and export > Data export`.
+6. (Optional) You'll see a list of account... statistics, I guess? Next to "Follows", "Lists", "You block", "You mute", "Domain blocks", and "Bookmarks", you'll see `⬇️CSV`. Click that for each thing you want to move over to your new account; this will download a list of each of those in a standardized format. Make a note of where the downloads go.
+7. (Optional) On your **new** account, in Preferences, go to `Import and export > Import`. For each of the files you just downloaded (except Lists, which doesn't have an import function yet):
   * Use the drop-down menu at the top (under `Import type`) to select the appropriate kind of thing to import.
   * Under `Data`, click the "**Browse...**" button to pull up a file selector, and select the CSV file you just downloaded.
   * Select "**Merge**", if it's not already selected.
   * Click "**Upload**".
-7. On your **old** account, in Preferences, go to `Account > Account Settings`. Near the bottom of that page, under the `Move to a different account` header, click "**configure it here**".
-8. Enter the `username@instance` of your **new** account, along with the password for your **old** account. This verifies that you're the owner of the account (in case you forgot to log out and someone else is using the computer). Then click "**Move Followers**".
+8. On your **old** account, in Preferences, go to `Account > Account Settings`. Near the bottom of that page, under the `Move to a different account` header, click "**configure it here**".
+9. Enter the `username@instance` of your **new** account, along with the password for your **old** account. This verifies that you're the owner of the account (in case you forgot to log out and someone else is using the computer). Then click "**Move Followers**".
 
 And you're done! Please note that it might take a while to migrate everything over and to import everything you've uploaded, especially if you're moving to or from a large or old server.
 
-Special thanks to [Ted](https://peoplemaking.games/@esdin) for helping me make sure I got this right!
+Special thanks to [Ted](https://peoplemaking.games/@esdin) and arachnomyrmex for helping me make sure I got this right!
 
 ## How do I mention someone who's not on my instance?
 
