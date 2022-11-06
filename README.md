@@ -17,6 +17,7 @@ When linking to this page, please use the link http://guidetomastodon.com, and p
 * [How do I get verified on Mastodon?](#how-do-i-get-verified-on-mastodon)
 * [Okay, how do I let people know that I am who I say I am?](#okay-how-do-i-let-people-know-that-i-am-who-i-say-i-am)
 * [HOW DO I PICK AN INSTANCE?](#how-do-i-pick-an-instance)
+* [I've found another instance I like better. Can I move my account?](#ive-found-another-instance-i-like-better-can-i-move-my-account)
 * [How do I mention someone who's not on my instance?](#how-do-i-mention-someone-whos-not-on-my-instance)
 * [What are the rules?](#what-are-the-rules)
 * [What if I see someone breaking the rules?](#what-if-i-see-someone-breaking-the-rules)
@@ -151,10 +152,10 @@ Here are the steps for **migrating** your account, including optional steps. (It
 4. (Optional) On your **old** account, in Preferences, go to `Import and export > Data export`.
 5. (Optional) You'll see a list of account... statistics, I guess? Next to "Follows", "Lists", "You block", "You mute", "Domain blocks", and "Bookmarks", you'll see `⬇️CSV`. Click that for each thing you want to move over to your new account; this will download a list of each of those in a standardized format. Make a note of where the downloads go.
 6. (Optional) On your **new** account, in Preferences, go to `Import and export > Import`. For each of the files you just downloaded (except Lists, which doesn't have an import function yet):
-* * Use the drop-down menu at the top (under `Import type`) to select the appropriate kind of thing to import.
-* * Under `Data`, click the "**Browse...**" button to pull up a file selector, and select the CSV file you just downloaded.
-* * Select "**Merge**", if it's not already selected.
-* * Click "**Upload**".
+  * Use the drop-down menu at the top (under `Import type`) to select the appropriate kind of thing to import.
+  * Under `Data`, click the "**Browse...**" button to pull up a file selector, and select the CSV file you just downloaded.
+  * Select "**Merge**", if it's not already selected.
+  * Click "**Upload**".
 7. On your **old** account, in Preferences, go to `Account > Account Settings`. Near the bottom of that page, under the `Move to a different account` header, click "**configure it here**".
 8. Enter the `username@instance` of your **new** account, along with the password for your **old** account. This verifies that you're the owner of the account (in case you forgot to log out and someone else is using the computer). Then click "**Move Followers**".
 
