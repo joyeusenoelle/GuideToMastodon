@@ -34,11 +34,11 @@ Si vas a copiar un link de esta página, usá este link http://guidetomastodon.c
 * [¿Qué son los hashtags?](#qué-son-los-hashtags)
 * [¿Qué significa "CW"?](#qué-significa-cw)
 * [Le adjunté una foto a mi toot. ¿Qué es eso de 'marcar como sensible'?](#le-adjunté-una-foto-a-mi-toot-qué-es-eso-de-marcar-como-sensible)
-* [I just attached a picture to my toot. How can I add a caption to it?](#i-just-attached-a-picture-to-my-toot-how-can-i-add-a-caption-to-it)
-* [Why should I add a caption to my picture?](#why-should-i-add-a-caption-to-my-picture)
-* [How come my friend on another instance can use this emoji, but I can't?](#how-come-my-friend-on-another-instance-can-use-this-emoji-but-i-cant)
-* [Why can't I search for a specific word or phrase?](#why-cant-i-search-for-a-specific-word-or-phrase)
-* [Why can't I quote someone's toot, like a quote-tweet?](#why-cant-i-quote-someones-toot-like-a-quote-tweet)
+* [Le adjunté una foto a mi toot. ¿Qué es ese botón de editar?](#le-adjunté-una-foto-a-mi-toot-qué-es-ese-botón-de-editar)
+* [¿Por qué debería agregarle un texto alternativo a mi foto?](#por-qué-debería-agregarle-un-texto-alternativo-a-mi-foto)
+* [¿Cómo es que mi amigo en otra instancia puede usar este emoji y yo no puedo?](#cómo-es-que-mi-amigo-en-otra-instancia-puede-usar-este-emoji-y-yo-no-puedo)
+* [¿Por qué no puedo buscar una palabra o frase específica?](#por-qué-no-puedo-buscar-una-palabra-o-frase-específica)
+* [¿Por qué no puedo citar un toot?](#por-qué-no-puedo-citar-un-toot)
 * [The Mastodon culture seems pretty weird?](#the-mastodon-culture-seems-pretty-weird)
 * [What's the generally-accepted Mastodon etiquette?](#whats-the-generally-accepted-mastodon-etiquette)
 * [I like mastodon but I prefer the way twitter looks.](#i-like-mastodon-but-i-prefer-the-way-twitter-looks)
@@ -282,33 +282,33 @@ Si marcás tu foto como sensible, la foto quedará oculta detrás de una capa de
 
 Notarás que si tenés una imagen y un CW en un toot, la capa de "Contenido sensible" se prende automáticamente y no puede apagarse. Es a propósito.
 
-## I just attached a picture to my toot. How can I add a caption to it?
+## Le adjunté una foto a mi toot. ¿Qué es ese botón de editar?
 
-When you attach an image, you'll see "Edit" (plus a pencil icon) at the top right of the image. Clicking this will pop up a dialog box that lets you determine what part of the image should show in the preview; it also allows you to set alt-text for the image, which people can read if they mouse over the text, and which screen-readers (such as for the visually-impaired) can read instead of just saying "embedded image".
+Cuando adjuntás una imagen, vas a ver un botón de "Editar" (con un ícono de lápiz) en la esquina superior derecha de la imagen. Al haceer click ahí se abre una caja de diálogo que te permite determinar qué parte de la imagen debe verse en en la vista previa; también te permite colocar un texto alternativo para la imagen, el cual la gente puede leer si coloca el mouse sobre el texto, y el cual los lectores de pantalla (los cuales son usados por usuarios con discapacidad visual) pueden leer en vez de decir "imagen embebida".
 
-Text in the description box has its own character limit of 1,500 characters; it **does not** count against the character limit for your toot!
+El texto en la caja de descripción tiene su propio límite de 1500 caracteres; ¡y **no** cuentan como parte del límite de caracteres del toot!
 
-## Why should I add a caption to my picture?
+## ¿Por qué debería agregarle un texto alternativo a mi foto?
 
-In a word: Accessibility. 
+En una palabra: Accesibilidad. 
 
-Some people who use Mastodon are visually impaired and use screen readers. Some people who use Mastodon have images turned off to conserve their data usage. Sometimes disk errors or server errors happen, or your admin decides to prune old files, and your image just doesn't load anymore. Captioning an image allows people in these conditions to participate in your toots with full context.
+Hay gente en Mastodon que tiene discapacidad visual y usan lectores de pantalla. Hay otros en Mastodon que tienen las imágenes apagadas para reducir el consumo de datos. También pueden ocurrir errores con los discos duros o los servidores, o que el administrador decida borrar archivos viejos, y que tu imagen ya no se cargue más. Agregarle un texto alternativo a una foto permite que la gente en esas condiciones participen en tus toots con todo el contexto.
 
-You can also use image captions to insert additional jokes (like webcomics often do) or additional commentary on the image. Take advantage of the fact that image descriptions have their own separate character limit and put whatever you like in there. The sky's the limit.
+También podés usar los textos alternativos para agregar chistes extra (como ocurre con los webcomics) o dar un comentario adicional a la imagen. Aprovechá que las descripciones tienen su propio límite de caracteres y escribí lo que quieres.
 
-## How come my friend on another instance can use this emoji, but I can't?
+## ¿Cómo es que mi amigo en otra instancia puede usar este emoji y yo no puedo?
 
-Each instance can define custom emoji for their users to use, and many have taken advantage of this. Your instance admin can copy emoji that they like from other instances. If you see an emoji that you like and it's not available on your instance, ask your admin to copy it over.
+Cada instancia puede definir emojis personalizados para que sus usuarios los usen, y muchas lo han aprovechado. El administrador de tu instancia puede copiar los emojis que le gustan desde otras instancias. Si ves un emoji que te gusta y no está disponible en tu instancia, pedíle a tu administrador que lo copie para allí.
 
-## Why can't I search for a specific word or phrase?
+## ¿Por qué no puedo buscar una palabra o frase específica?
 
-It's an anti-harassment feature. Harassers often search for particular words or phrases (like "TERF" or "homophobic" or "white supremacy") in order to attack and dogpile people they disagree with. By limiting search to usernames and hashtags, Mastodon allows users to decide how they want their toots to show up in others' searches. (While some Mastodon instances *do* allow full-text search, you can only search your own toots on those instances. This makes it easier to find something that you posted a while ago without exposing you to harassment.)
+Es una herramienta contra el acoso. Los acosadores a menudo buscan palabras o frases en particular (como "TERF" u "homofóbico" o "todes") para venirse encima y atacar a la gente con la que están en desacuerdo. Al limitar la búsqueda sólo a nombres de usuarios y hashtags, Mastodon permite a los usuarios decidir como quieren que sus toots aparezcan en las búsquedas de otros. (Aunque alguna instancias de Mastodon *permiten* búsqueda de texto, sólo podés buscar tus propios toots en esas instancias. Eso te facilita encontrar algo que escribiste hace un rato sin exponerte al acoso.)
 
-## Why can't I quote someone's toot, like a quote-tweet?
+## ¿Por qué no puedo citar un toot?
 
-Like search, it's an anti-harassment feature. If you want to reply to someone's toot, you have to actually reply to it; you can't just broadcast it to your followers with a snarky comment.
+Al igual que con la búsqueda, es otra herramienta contra el acoso. Si querés responder el toot de alguien, tenés que responder a ese toot; no podés retransmitir ese toot a tus seguidores y agregarle un comentario sarcástico.
 
-*(Don't try to get around this by screencapping toots and attaching them as images. You **can** do it, but the Mastodon community tends to frown on it and you'll get a bad reputation pretty quickly if you keep it up.)*
+*(Ni siquiera intentes esquivar eso haciendo una captura de pantalla del toot y adjuntarlo como una imagen. **Podés** hacerlo, pero la comunidad de Mastodon tiende a ver eso de mala manera y si seguís haciendolo vas a conseguir una mala reputación bastante rápido.)*
 
 ## The Mastodon culture seems pretty weird?
 
