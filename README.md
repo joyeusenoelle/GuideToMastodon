@@ -430,6 +430,7 @@ Ask around! People are usually pretty happy to answer questions and help out. Al
 
 * [FediThing](https://tech.lgbt/@FediThing) has [an excellent website](https://fedi.tips/).
 * [Ted](https://peoplemaking.games/esdin) maintains a [tips and FAQ document](https://docs.google.com/document/d/1gln7Lg92Vz3TbIjz6qZkpdPOxDAe63jof5snpR4xAa0/).
+* [elilla](https://transmom.love/@elilla) has written [a futuristic Mastodon introduction](https://wordsmith.social/elilla/a-futuristic-mastodon-introduction-for-2021).
 
 If you really get stuck, ask me: https://elekk.xyz/@noelle
 
