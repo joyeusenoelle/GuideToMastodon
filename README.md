@@ -328,6 +328,8 @@ You'll notice that if you have both an image and a CW on a toot, the "Sensitive 
 
 When you attach an image, you'll see "Edit" (plus a pencil icon) at the top right of the image. Clicking this will pop up a dialog box that lets you determine what part of the image should show in the preview; it also allows you to set alt-text for the image, which people can read if they mouse over the text, and which screen-readers (such as for the visually-impaired) can read instead of just saying "embedded image".
 
+For images that are largely text (for example, a screenshot of a Tumblr post), Mastodon has built-in optical character recognition (OCR) and can often transcribe the image for you, although you should probably double-check the transcription to make sure it's accurate. If, for some reason, your instance's OCR isn't working, you can use an online tool like [Online OCR](https://www.onlineocr.net) to transcribe your image. And if all else fails, there are OCRBots on the fediverse that will reply to your post with a transcription if you @mention them.
+
 Text in the description box has its own character limit of 1,500 characters; it **does not** count against the character limit for your toot!
 
 ## Why should I add a caption to my picture?
