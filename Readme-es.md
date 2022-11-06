@@ -2,10 +2,10 @@
 
 <p style="text-align:center;"><h1>NO SE ASUSTEN.</h1></p>
 
-Acá se hizo lo posible para que esto sea entendible, pero se agradece cualquier sugerencia! Si tenés cuenta en Github, podés mandar tus pedidos de cambios de forma directa; o si no, podés contactarte con dos personas:
+Acá se hizo lo posible para que esto sea entendible, ¡pero se agradece cualquier sugerencia! Si tenés cuenta en Github, podés mandar tus pedidos de cambios de forma directa; o si no, podés contactarte con dos personas:
 
 1) Con quien hizo la guía original en inglés [en Mastodon](https://elekk.xyz/@noelle) o por mail en `noelle AT noelle.codes`. 
-2) Conmigo [en Mastodon](https://social.pueseso.club/@diazepan) o por mail en `juntapuchos AT firemail.cc`
+2) Conmigo que hice esta traducción [en Mastodon](https://social.pueseso.club/@diazepan) o por mail en `juntapuchos AT firemail.cc`
 
 Si vas a copiar un link de esta página, usá este link http://guidetomastodon.com, y acordate de darle crédito a [@Noelle@elekk.xyz](https://elekk.xyz/@noelle). ¡Muchas Gracias!
 
@@ -26,14 +26,14 @@ Si vas a copiar un link de esta página, usá este link http://guidetomastodon.c
 * [¿Cuales son los diferentes tipos de toots?](#cuales-son-los-diferentes-tipos-de-toots)
 * [¿Cómo funciona la configuración de privacidad?](#cómo-funciona-la-configuración-de-privacidad)
 * [¿Qué tan privado es "Privado"?](#qué-tan-privado-es-privado)
-* [What happens when someone follows me?](#what-happens-when-someone-follows-me)
-* [So if I lock my account, only approved people can see my posts?](#so-if-i-lock-my-account-only-approved-people-can-see-my-posts)
-* [What if someone's following or interacting with me and I don't want them to?](#what-if-someones-following-or-interacting-with-me-and-i-dont-want-them-to)
-* [How will I know if someone's muted or blocked me?](#how-will-I-know-if-someones-muted-or-blocked-me)
-* [What if I go over the character limit?](#what-if-i-go-over-the-character-limit)
-* [What are hashtags?](#what-are-hashtags)
-* [What does "CW" mean?](#what-does-cw-mean)
-* [I just attached a picture to my toot. What's with the new 'eye' icon?](#i-just-attached-a-picture-to-my-toot-whats-with-the-new-eye-icon)
+* [¿Qué pasa cuando alguien me sigue?](#qué-pasa-cuando-alguien-me-sigue)
+* [Así que si hago privada mi cuenta, ¿Sólo la gente aprobada podrá ver mis toots?](#así-que-si-hago-privada-mi-cuenta-sólo-la-gente-aprobada-podrá-ver-mis-toots)
+* [¿Qué pasa si alguien está siguiéndome o interactuando conmigo y no quiero que siga haciéndolo?](#qué-pasa-si-alguien-está-siguiéndome-o-interactuando-conmigo-y-no-quiero-que-siga-haciéndolo)
+* [¿Cómo sé si alguien me silenció o me bloqueó?](#cómo-sé-si-alguien-me-silenció-o-me-bloqueó)
+* [¿Qué pasa si me paso del límite de caracteres?](#qué-pasa-si-me-paso-del-límite-de-caracteres)
+* [¿Qué son los hashtags?](#qué-son-los-hashtags)
+* [¿Qué significa "CW"?](#qué-significa-cw)
+* [Le adjunté una foto a mi toot. ¿Qué es eso de 'marcar como sensible'?](#le-adjunté-una-foto-a-mi-toot-qué-es-eso-de-marcar-como-sensible)
 * [I just attached a picture to my toot. How can I add a caption to it?](#i-just-attached-a-picture-to-my-toot-how-can-i-add-a-caption-to-it)
 * [Why should I add a caption to my picture?](#why-should-i-add-a-caption-to-my-picture)
 * [How come my friend on another instance can use this emoji, but I can't?](#how-come-my-friend-on-another-instance-can-use-this-emoji-but-i-cant)
@@ -176,120 +176,111 @@ Tené presente que algunos servidores, que corren un software distinto pero comp
 
 ## ¿Qué tan privado es "Privado"?
 
-Esto no se puede enfatizar lo suficiente: **Los toots privados (Tanto solo seguidores como solo cuentas mencionadas) NO están cifrados ni son seguros.**
+Esto no se puede enfatizar lo suficiente: **Los toots privados (Solo cuentas mencionadas) NO están cifrados ni son seguros.**
 
 El administrador de tu servidor puede leer *cualquier* toot escrito en tu servidor, como también *cualquier* toot enviado a otro usuario en tu servidor. **Sin embargo**, es bastante difícil hacerlo. Tus toots privados no aparecerán en el panel de administrador del sitio; tu administrador tiene que acceder manualmente, directamente a la base de datos -- normalmente logueándose a la linea de comandos del servidor -- para poder acceder a estos. No es algo que los administradores hagan por capricho; sólo lo hacen cuando están obligados a hacerlo, y esta es la razón:
 
 Esta es una precaución necesaria de seguridad. Los administradores *no quieren* leer tus toots privados, pero tienen que ser *capaces* de hacerlo porque si no los toots privados permiten que ciertos usuarios puedan acosar a otros en secreto o llevar a cabo acciones ilegales sin el conocimiento del administrador, y bajo varias leyes el administrador será considerado responsable por permitir el acoso o el comportamiento ilegal *incluso si ellos no sabían que esto ocurría*.
 
-Dicho esto, en general, tu administrador sólo revisarán tus toots marcados como solo seguidores o solo cuentas mencionadas si tienen una razón para creer que está ocurriendo un caso de acoso o de acciones ilegales. Asegurate de que confiás en que tu administrador actúe de esa manera, y si no, puede ser un buen momento para buscar otra instancia.
+Dicho esto, en general, tu administrador sólo revisará tus toots marcados como solo cuentas mencionadas si tienen una razón para creer que está ocurriendo un caso de acoso o de acciones ilegales. Asegurate de que confiás en que tu administrador actúe de esa manera, y si no, puede ser un buen momento para buscar otra instancia.
 
 Siguiendo con la cuestión, hay que mencionar que esto ocurre en casi todas las redes sociales. Los administradores de Twitter pueden leer tus DMs. Los administradores de un foro pueden leer tus mensajes privados. No es una novedad ni una característica inusual de Mastodon; Sólo queremos asegurarnos de que lo sepas.
 
 **Como regla general, si una aplicación que usás no es [peer-to-peer](https://es.wikipedia.org/wiki/Peer-to-peer) y depende de un intermediario como por ejemplo un servidor, la información que estás mandando no está segura a menos de que tomes medidas extra por fuera de la aplicación para asegurarla.**
 
-## What happens when someone follows me?
+## ¿Qué pasa cuando alguien me sigue?
 
-~~If someone follows you, you incur a life debt to that person. You will be required to lay down your life for that person when they need it. Once you've done so, they will unfollow you and, if you survived, you are free to go about your life normally.~~
+~~Si alguien te sigue, sufrirás una deuda vitalicia hacia esa persona. Se te pedirá que sacrifiques tu vida por esa persona cuando esta lo requiera. Una vez que hayas hecho eso, te dejará de seguir y, si has sobrevivido, eres libre de seguir con tu vida normalmente.~~
 
-Just kidding.
+Nah, es joda.
 
-If someone follows you, they will see your posts on their Home timeline and they will be able to see your followers-only posts. If you want, you can limit the people who can follow you by clicking on **Edit profile** and selecting **Lock account**, which will allow you to manually approve and reject people who want to follow you.
+Si alguien te sigue, verá tus toots en su linea de tiempo principal y podrá ver tus toots que son solo seguidores. Si querés, podés limitar a la gente que puede seguirte haciendo click en **Editar perfil** y seleccionar **Hacer privada esta cuenta**, lo cual te permitirá aprobar y rechazar manualmente a la gente que quiera seguirte.
 
-## So if I lock my account, only approved people can see my posts?
+## Así que si hago privada mi cuenta, ¿Sólo la gente aprobada podrá ver mis toots?
 
-Yes and no.
+Sí y no.
 
-With a locked account, you get to approve who can follow you *through the Mastodon interface*. This means that only the people you approve will be able to see your **followers-only** posts. Your **unlisted** posts will still show up on your profile, and your **public** posts will still show up on your profile and on the local and federated timelines.
+Con la cuenta puesta en privado, podés aprobar a quienes pueden seguirte *a través de la interfaz de Mastodon*. Eso significa que sólo la gente que apruebes podrá ver tus toots de **solo seguidores**. Tus toots **no listados** seguirán apareciendo en tu perfil, y tus toots **públicos** aparecerán tanto en tu perfil como en las lineas de tiempo locales y federadas.
 
-**However.**
+**Sin embargo.**
 
-Every Mastodon account (on an unmodified server) also creates an RSS feed of their public and unlisted posts - i.e. the posts that appear on the account's profile. It does not include followers-only toots or direct messages, and if you've [put a CW on a toot](#what-does-cw-mean), only the CW appears in the RSS feed, not what's underneath it. 
+Todas las cuentas de Mastodon (en un servidor no modificado) también crean una fuente RSS de sus toots públicos y no listados - p.e. los toots que aparecen en el perfil de la cuenta. No incluye los toots de solo seguidores ni los mensajes directos, y si le [pusiste un CW a un toot](#qué-significa-cw), sólo el CW aparece en la fuente RSS, no lo que está debajo. 
 
-Your RSS feed appears at `https://<your-server>/users/<your-username>.rss` ; for example, since I'm `https://elekk.xyz/@noelle`, my RSS feed is `https://elekk.xyz/users/noelle.rss` . (Remember to remove the `@`!)
+Tu fuente de RSS aparece en `https://<your-server>/users/<your-username>.rss` ; por ejemplo, como estoy en `https://social.pueseso.club/@diazepan`, mi fuente de RSS es `https://social.pueseso.club/users/diazepan.rss` . (¡Acordate de quitarle el `@`!)
 
-**Anyone can subscribe to these feeds using an RSS reader to see your public and unlisted posts when you post them.** You can't control who can see these feeds, but they do not (and, by design, cannot) contain your followers-only or private toots. *If you only post followers-only toots, your RSS feed will be empty.*
+**Todos pueden suscribirse a esas fuentes usando un lector de RSS para ver tus toots públicos y no listados cuando los posteás.** No podés controlar quien puede ver esas fuentes, pero no contienen (y, por diseño, no pueden contener) tus toots de solo seguidores o mensajes directos. *Si sólo escribís toots que son solo para seguidores, tu fuente de RSS estará vacía.*
 
-Remember, you can set the default privacy level for your posts under **Preferences > Other > Posting Privacy**. If you have a locked account, you might prefer to set that default to followers-only so you have to make an active effort to post an unlisted or public toot.
+Recordá, podés elegir el nivel por defecto de privacidad para tus toots en la parte de **Preferencias > Otros > Privacidad de publicaciones**. Si tenés una cuenta puesta como privada, probablemente preferirás elegir por defecto que tus toots sean de solo seguidores para que tengas que hacer un esfuerzo activo para hacer un toot público o no listado.
 
-## What if someone's following or interacting with me and I don't want them to?
+## ¿Qué pasa si alguien está siguiéndome o interactuando conmigo y no quiero que siga haciéndolo?
 
-You have a couple options.
+Acá tenes unas opciones.
 
-* **If you just don't want to see them in your feed anymore**, you can *mute* them. This will prevent their posts from showing up in any of your feeds; you can optionally block notifications (Favorites, Boosts, and Mentions) from them, so that if you don't want to see someone's stand-alone posts but do want to see their attempts to interact with you, you can.
-* **If you don't want to see them and you don't want them to see you**, you can *block* them. This will automatically mute them; if they were following you and/or you were following them, it will sever those as well. They will not be able to follow you or show up in *any* of your feeds unless you unblock them. (But see below.)
-* **If they are harassing you or otherwise breaking the rules**, you can [report them](#what-if-i-see-someone-breaking-the-rules), and hopefully, your moderator will deal with it.
+* **Si lo único que querés es que no aparezca en tus lineas de tiempo**, podés *silenciarlo*. Esto evitará que sus toots aparezcan en tus lineas de tiempo; podés incluso bloquear las notificaciones (Favoritos, retooteos y menciones) de ese usuario, por ende si no querés ver los toots sueltos de alguien pero sí querés ver sus intentos de interactuar contigo, podés hacer eso.
+* **Si no querés ver a ese usuario y tampoco querés que te vea**, podés *bloquearlo*. Esto automáticamente lo silenciará; si te estaba siguiendo y/o lo estabas siguiendo, cortará esas relaciones también. El usuario no será capaz de seguirte o de aparecer en *ninguna* de tus lineas de tiempo a menos que lo desbloquees. (Ver el sin embargo más abajo.)
+* **Si te está acosando o está rompiendo las reglas**, podés [reportarlo](#qué-pasa-si-veo-a-alguien-rompiendo-las-reglas), y con suerte, tu moderador se encargará de eso.
 
-All three of these options are available by clicking the `...` under one of the user's toots or on their profile inside the Mastodon web interface.
+Todas esas tres opciones están disponibles haciendo click en la parte `...` que aparece debajo del toot del usuario o en su perfil dentro de la interfaz web de Mastodon.
 
-**However.**
+**Sin embargo.**
 
-Just like with a [locked account](#so-if-i-lock-my-account-only-approved-people-can-see-my-posts), any user — even ones you've blocked or that have been suspended by a moderator — can go to your public page or your RSS feed to view your public and unlisted toots. There is not a good way around this, unfortunately, except to make all of your toots followers-only.
+Al igual que con una [cuenta privada](#así-que-si-hago-privada-mi-cuenta-sólo-la-gente-aprobada-podrá-ver-mis-toots), cualquier usuario — incluso los que has bloqueado o que hayan sido suspendidos por un moderador — pueden ir a tu página pública o tu fuente de RSS para ver toots públicos y no listados. No hay una buena manera de evitar eso desafortunadamente, salvo hacer que todos tus toots sean solo para seguidores.
 
-## How will I know if someone's muted or blocked me?
+## ¿Cómo sé si alguien me silenció o me bloqueó?
 
-You will not get a notification if someone mutes or blocks you.
+No vas a recibir una notificación si alguien te silencia o te bloquea.
 
-If someone's muted you, there's really no way for you to tell. If they consistently don't reply to you when you mention their username, you might get suspicious, but Mastodon deliberately makes it almost impossible to know if you've been muted. (Among other things, this is a stopgap to try to prevent someone harassing you by creating multiple accounts to get around mutes.)
+Si alguien te silenció, no hay manera de que te enteres. Si no te responde consistentemente cuando lo mencionás, podés tener sospechas, pero Mastodon deliberadamente hace que te sea casi imposible saber si te han silenciado. (Entre otras cosas, es un recurso temporal para tratar de evitar que alguien te acose creando varias cuentas para esquivar los silenciamientos.)
 
-If someone's blocked you, you will no longer be following them, their posts won't appear in your feed, and when you view their account profile *within Mastodon's web interface*, none of their posts will load. (It is worth noting that if you're looking at the profile of someone you *don't* follow, sometimes their posts won't load and it's just because the server is being slow, not because they've blocked you, so don't be *too* quick to make an assumption.)
+Si alguien te bloqueó, ya no podrás seguirlo, sus toots no aparecerán en tu linea de tiempo, y cuando veas el perfil de su cuenta *dentro de la interfaz web de Mastodon*, ninguno de sus toots cargarán. (Vale notar que si estás mirando el perfil de alguien que *no* seguís, a veces sus toots no cargarán y es solo porque el servidor está lento, no porque te haya bloqueado, así que no seas *tan* rápido para asumir algo.)
 
-If someone has blocked you, you *can* still go to their public page and see their public and unlisted toots; public profiles don't require authentication (i.e. you don't have to be signed into that instance to view them) and so they can't tell who you are or that the user has blocked you. **That said**, let's be honest. If someone's blocked you, they don't want you around. You *can* keep reading their public and unlisted posts, but maybe don't? In a substantial way you're invading their privacy and deliberately crossing a boundary they've set up, and "the software allows me to, so it must be okay" is a pretty flimsy justification. Just leave them alone, please.
+Si alguien te bloqueó, *podés* igual ir a su página pública y ver sus toots públicos y sin listar; los perfiles públicos no necesitan autenticación (o sea, no necesitás estar logueado en esa instancia para verlos) y por ende no pueden saber quien sos ni que el usuario te bloqueó. **Habiendo dicho esto**, seamos honestos. Si alguien te bloqueó, no te quiere cerca. *Podés* seguir leyendo sus toots públicos y sin listar, pero ¿quizás no conviene? En una manera sustancial estás invadiendo su privacidad y cruzando deliberadamente un límite que marcó, y eso de que "el software me lo permite, por lo tanto se puede" es una justificación muy poco sólida. En resumen, dejalo solo.
 
-## What if I go over the character limit?
+## ¿Qué pasa si me paso del límite de caracteres?
 
-Don't worry. First, you can't; Mastodon won't let you post a toot over the instance's character limit. You won't get in trouble or anything.
+No te preocupes. En primer lugar, no podés pasarte; Mastodon no te dejará postear un toot con más caracteres que el límite de la instancia. No vas a meterte en problemas ni nada.
 
-If you find that what you want to say is too long for a single toot, or if you think of something else after you've posted a toot, you can *reply to your own toot*. Mastodon supports toot threads, so you can toot as many times as you want to, replying to each toot in sequence, and the whole series will show up when someone clicks on any of the toots in the thread.
+Si resulta que lo que querés decir es demasiado largo como para caber en un solo toot, o si pensás en algo más después de postear el toot, podés *responder a tu propio toot*. Soporta hilos de toots, así que podés tootear tantas veces como quieras, respondiendo a cada toot en secuencia, y toda la serie aparecerá cuando alguien haga click en cualquiera de los toots del hilo.
 
-So if your toot is too long, just split it up and make the second half a reply to the first; if you think of something else later, just reply to your original toot and the reply will show up whenever anyone clicks on the original toot.
+Así que si tu toot es muy largo, dividilo en partes y hacé que una parte sea una respuesta de la parte anterior; si pensás en otra cosa después, respondé al toot original y la respuesta aparecerá cuando alguien haga click en el toot original.
 
-## What are hashtags?
+## ¿Qué son los hashtags?
 
-To make a hashtag, type "#" and then any number of letters or numbers. Accents count; punctuation, spaces, symbols, and emoji don't. #howismydaygoing is a valid hashtag; #höwísmydàygôíng is valid; #how-is-my-day-going isn't (it'll just catch #how).
+Para hacer un hashtag, escribí "#" y luego una serie de letras o números. Los acentos cuentan; puntuaciones, espacios, símbolos, y emojis no. #buenosdiasloprimero es un hashtag válido; #büénòsdĩǎslŏprįmèrö también; sin embargo #buenos-dias-lo-primero no (solo queda en #buenos).
 
-A hashtag is metadata about your toot: it provides additional information that doesn't necessarily belong in the body of the toot, but is useful for understanding. If you're a programmer, it's sort of like a code comment.
+Un hashtag es un metadato sobre tu toot: provee información adicional que no necesariamente pertenece al cuerpo del toot, pero que es útil para entenderlo. Si sos programador, es casi como un comentario en el código.
 
-As a bonus†, hashtags are tracked by each instance. Clicking on a hashtag takes you to a list of public posts with that hashtag. You can use them to track #politics, check out the users people are recommending on #FollowFriday, or see people's artwork using #mastoart.
+Como bonus†, los hashtags son rastreados por cada instancia. Hacer click en un hashtag te dirige a una lista de toots públicos con ese hashtag. Podés usarlos por ejemplo para seguir discusiones de #política, ver gente nueva que llega a Mastodon en #introducción, o seguir las obras hechas por los usuarios en #mastoart.
 
-Don't go overboard with hashtags. As a guideline, your hashtags probably shouldn't be more than 10% of the total length of your toot. If you find yourself going over that, you might be spreading things a bit too thin.
+No exagerés con los hashtags. Como norma, tus hashtags probablemente no deberían ocupar más del 10% del largo total de tu toot. Si exagerás con eso, puede que estés intentando hacer demasiadas cosas a la vez.
 
-† *This was actually the original intent of hashtags, but the usage has moved on since then.*
+† *Esta era la intención original de los hashtags, pero el uso cambió desde ese entonces.*
 
-## What does "CW" mean?
+## ¿Qué significa "CW"?
 
-CW stands for Content Warning. It hides your post behind text (which you get to choose); it's like a Read More link.
+CW significa Content Warning (Aviso de contenido). Lo que hace es el ocultar el texto de un toot debajo de otro texto (el cual podés elegir); es como un enlace al estilo Leer Más.
 
-You might use CWs for:
+Hay gente que usa CWs para hablar de:
 
-* Politics
-* Sex
-* Gross topics
-* Common phobias, like spiders or blood
-* Health discussions
-* Punchlines to jokes
-* Long posts that might otherwise fill up people's timelines
-* Commentary on discussions that are going on elsewhere in the fediverse, often with the CW "meta" or "discourse"
+* Política
+* Sexo
+* Cuestiones de mal gusto
+* Fobias comunes, como arañas o sangre
+* Discusiones sobre salud, tanto física como mental
+* Remates para chistes
+* Toots largos que de otra manera llenarían las lineas de tiempo de otra gente
+* Comentarios sobre discusiones que ocurren en otros lugares del fediverso
+* Contacto visual (eso se usa generalmente cuando se suben fotos)
 
-Some common abbreviations you'll find in CWs are:
+En general, hacé uso de tu sano juicio; Pensá seriamente si hay alguna razón de que alguien no quiera ver esto. Si la hay, usa CW y vas a evitar molestias innecesarias.
 
-* mh: mental health
-* ph: physical health
-* alc: alcohol
-* pol: politics, sometimes plus locale, like "uspol" means United States politics
-* pda: public display of affection
-* nsfw: not safe for work
-* ec: eye contact, usually used when there's a photograph attached
+**Una nota importante:** Mastodon *no* rastrea hashtags dentro del texto de un CW. Mastodon *sí* rastrea hashtags que están *bajo* un CW. Siempre poné tus hashtags en el cuerpo del toot, nunca en el aviso de contenido.
 
-In general, just use your best judgment; think "is there a reason someone might not want to see this?". You have the opportunity to take an extra moment and make the fediverse a nicer place for people to be. Why wouldn't you take that opportunity?
+## Le adjunté una foto a mi toot. ¿Qué es eso de 'marcar como sensible'?
 
-**An important note:** Mastodon *does not* track hashtags that are in the text of a CW. Mastodon *does* track hashtags that are *under* a CW. Always put your hashtags in the body of your toot, never in the content warning.
+Si marcás tu foto como sensible, la foto quedará oculta detrás de una capa de "Contenido sensible". Esto conviene por ejemplo con fotos que contienen desnudos, violencia gráfica, etc.
 
-## I just attached a picture to my toot. What's with the new 'eye' icon?
-
-Clicking that will hide your image behind a "Sensitive content" overlay. This is good for nudity, gore and violence, political topics, etc.
-
-You'll notice that if you have both an image and a CW on a toot, the "Sensitive content" overlay is turned on automatically and can't be turned off. That's on purpose.
+Notarás que si tenés una imagen y un CW en un toot, la capa de "Contenido sensible" se prende automáticamente y no puede apagarse. Es a propósito.
 
 ## I just attached a picture to my toot. How can I add a caption to it?
 
