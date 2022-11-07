@@ -42,15 +42,15 @@ Si vas a copiar un link de esta página, usá este link http://guidetomastodon.c
 * [¿Por qué no puedo citar un toot?](#por-qué-no-puedo-citar-un-toot)
 * [La cultura en Mastodon parece rara, ¿no?](#la-cultura-en-mastodon-parece-rara-no)
 * [¿Cual es la etiqueta generalmente aceptada en Mastodon?](#whats-the-generally-accepted-mastodon-etiquette)
-* [I like mastodon but I prefer the way twitter looks.](#i-like-mastodon-but-i-prefer-the-way-twitter-looks)
-* [I like mastodon but I want to use it on my phone.](#i-like-mastodon-but-i-want-to-use-it-on-my-phone)
-* [How can I back up my Mastodon account?](#how-can-i-back-up-my-mastodon-account)
-* [Can I use the keyboard to navigate Mastodon?](#can-i-use-the-keyboard-to-navigate-mastodon)
-* [How do favorites work on other server types?](#how-do-favorites-work-on-other-server-types)
-* [Weird, my server doesn't have a bunch of these features.](#weird-my-server-doesnt-have-a-bunch-of-these-features)
+* [Me gusta Mastodon pero prefiero la apariencia de Twitter.](#me-gusta-mastodon-pero-prefiero-la-apariencia-de-twitter)
+* [Me gusta Mastodon pero quiero usarlo en mi teléfono.](#me-gusta-mastodon-pero-quiero-usarlo-en-mi-teléfono)
+* [¿Cómo puedo respaldar mi cuenta de Mastodon?](#cómo-puedo-respaldar-mi-cuenta-de-mastodon)
+* [¿Puedo usar el teclado para navegar en Mastodon?](#puedo-usar-el-teclado-para-navegar-en-mastodon)
+* [¿Cómo funcionan los favoritos en otros tipos de servidores?](#cómo-funcionan-los-favoritos-en-otros-tipos-de-servidores)
+* [Qué raro, mi servidor tiene un montón de características extra.](#qué-raro-mi-servidor-tiene-un-montón-de-características-extra)
 * [Weird, my server has a bunch of extra features.](#weird-my-server-has-a-bunch-of-extra-features)
-* [I have other questions.](#i-have-other-questions)
-* [How can I contribute to the Guide?](#how-can-i-contribute-to-the-guide)
+* [Tengo otras preguntas.](#tengo-otras-preguntas)
+* [¿Cómo puedo contribuir a la guía?](#cómo-puedo-contribuir-a-la-guía)
 
 ## ¿Qué es Mastodon?
 
@@ -368,59 +368,57 @@ No hay reglas estrictas para todos, y (como se mencionó antes) diferentes insta
 * No necesitás usar un acortador de URLs. Mastodon asume que todas las URLs tienen 20 caracteres de largo. Dejá que la gente vea a donde dirige el link.
 * Si hacés un bot que hace posteos automáticos, hacelo que postee con el nivel de privacidad [no listado](#cómo-funciona-la-configuración-de-privacidad). Eso evita que tu bot sea marcado como spam.
 * Si usas un script para hacer cross-posting con Twitter (y así postear tus tweets en Mastodon), configurá el script para que use CWs. Eso evita que los temas sensibles (ya mencionados) se pasen de Twitter a Mastodon.
-* Ya que hablamos de cross-posting, otra cosa que no es nada bienvenida es usar la cuenta de Mastodon para repetir tweets y nada más, ni siquiera interactuar con otros usuarios. Eso también se ve como spam.
+* Ya que hablamos de cross-posting, otra cosa que **no es nada bienvenida** es usar la cuenta de Mastodon para repetir tweets y nada más, ni siquiera interactuar con otros usuarios. Eso también se ve como spam.
 * Si ves una conversación y tienes algo para comentar allí:
     * Hacé click en la conversación y asegurate de que lo que queres decir no se haya dicho antes por otro. 
     * Asegurate de que el comentario sea acorde al tono de la conversación, así sos amable con los otros posteadores de la conversación y le da a los demás el beneficio de la duda.
 * Recordá que si alguien no te responde, no significa que te ignore. Puede que esté lejos de Mastodon; puede que tenga tantas notificaciones que no haya visto tu toot; puede que haya silenciado la conversación, así que tu respuesta no siguiera apareció. Hay muchas razones por las que alguien se pierde un toot, incluso si está dirigido a ese alguien; no te lo tomes como algo personal.
 
-## I like Mastodon but I prefer the way Twitter looks.
+## Me gusta Mastodon pero prefiero la apariencia de Twitter.
 
-You might get some mileage out of [Pinafore](https://pinafore.social/), an interface for Mastodon by [Nolan Lawson](https://toot.cafe/@nolan).
+Podrías aprovechar a usar [Pinafore](https://pinafore.social/), una interfaz para Mastodon hecha por [Nolan Lawson](https://toot.cafe/@nolan).
 
-[Halcyon](https://notabug.org/halcyon-suite/halcyon) is a web client for Mastodon that replicates the Twitter interface. Since Halcyon is itself open-source software, there are [multiple servers running it](https://notabug.org/halcyon-suite/halcyon#instances); you can choose the one you like. Use your existing Mastodon login when you use Halcyon; for example, if you have an account on elekk.xyz, you would use `your-account@elekk.xyz` and your Elekk password to log in.
+[Halcyon](https://notabug.org/halcyon-suite/halcyon) es u cliente web para Mastodon que replica la interfaz de Twitter. Como Halcyon en sí es software libre y de código abierto, hay [varios servidores que lo usan](https://notabug.org/halcyon-suite/halcyon#instances); podés elegir el que quieras. Usas tu cuenta de Mastodon cuando usas Halcyon; por ejemplo, si tenés cuenta en elekk.xyz, podés usar `tucuenta@elekk.xyz` y la contraseña de allí para loguearte.
 
-Remember that Pinafore and Halcyon are third-party clients, and make sure you trust them before you give them your login information!
+Recordá que Pinafore y Halcyon son clientes de terceros, ¡y asegurate de que confíes en ellos antes de darles tu información de sesión!
 
-## I like Mastodon but I want to use it on my phone.
+## Me gusta Mastodon pero quiero usarlo en mi teléfono.
 
-Mastodon has a responsive design, so you can use it in your phone's browser. Alternately, there are many apps available for Mastodon, including an official "Mastodon for iPhone" app released in August 2021. On iOS, try [Toot!](https://apps.apple.com/app/toot/id1229021451?ls=1). On Android, try [Tusky](https://tusky.app/).
+Mastodon tiene un diseño adaptable, así que podés usarlo en el navegador del teléfono. Alternativamente, hay muchas apps disponibles para Mastodon que las podés encontrar [acá](https://joinmastodon.org/apps) entre ellas aplicaciones oficiales [para iOS](https://apps.apple.com/us/app/mastodon-for-iphone/id1571998974) y [para Android](https://play.google.com/store/apps/details?id=org.joinmastodon.android).
 
-*(NB: I've been told that "Tootdon silently forwards copies of posts you interact as well as the auth token to your account to its to own servers." I don't know if that still holds. As always, be cautious when giving apps your information.)*
+## ¿Cómo puedo respaldar mi cuenta de Mastodon?
 
-## How can I back up my Mastodon account?
+[Alex Schroeder](https://octodon.social/@kensanata) tiene hecho este [Archivador de Mastodon](https://github.com/kensanata/mastodon-backup/) que te ayudará a respaldar tu cuenta y mucho más.
 
-[Alex Schroeder](https://octodon.social/@kensanata) has an excellent [Mastodon Archiver](https://github.com/kensanata/mastodon-backup/) that will help you back up your account and much more.
+## ¿Puedo usar el teclado para navegar en Mastodon?
 
-## Can I use the keyboard to navigate Mastodon?
+En la interfaz web, sí. Los atajos en la interfaz web se explican en `https://<tu-servidor>/web/keyboard-shortcuts` , a la cual podés acceder cuando estás logueado en la interfaz web. (Podés encontrar el enlace al fondo de la columna **Primeros pasos**, con la etiqueta "Atajos".)
 
-In the web interface, yes. The Mastodon web hotkeys are documented at `https://<your-server>/web/keyboard-shortcuts` , which you can access when you're logged into the web interface. (You can find the link at the bottom of the **Getting Started** column, labeled "Hotkeys".)
+## ¿Cómo funcionan los favoritos en otros tipos de servidores?
 
-## How do favorites work on other server types?
+En general:
 
-In general:
+* Si le das click a 'favorito' en un post de otro tipo de servidor (Misskey, Pleroma, GNU Social, etc.) federará apropiadamente. Algunos de estos servidores permiten emojis múltiples de respuestas, y cada uno de ellos selecciona un emoji genérico de "favorito", el cual aparecerá en el post del recipiente.
+* Si alguien en un tipo de servidor distinto selecciona un emoji para responder a tu toot, este federará hacia vos en Mastodon como un favorito, *sin importar qué emoji sea*.
 
-* If you click 'favorite' on a post from a different server type (Misskey, Pleroma, GNU Social, etc.) it will federate properly. Some of these servers allow multiple response emoji, and each of them selects a generic "favorite" emoji, which will show up on the recipient's post.
-* If someone on a different server type selects an emoji to respond to your post, it will federate to you on Mastodon as a favorite, *no matter what the emoji is*.
+## Qué raro, mi servidor no tiene muchas de esas cosas.
 
-## Weird, my server doesn't have a bunch of these features.
+¡Puede que no estés en Mastodon! El Fediverso - la gigantesca colección de servidores conectada por los protocolos ActivityPub/OStatus - tiene un montón de tipos distintos de servidores allí. ¡Tu servidor puede que esté usando Pleroma, Misskey, GNU Social, u otra cosa! Desafortunadamente, no sé mucho de ellos, así que tendŕas que preguntar a sus usuarios por una guia como esta.
 
-You might not be on Mastodon! The Fediverse - the vast collection of servers connected by the ActivityPub/OStatus protocol - has a lot of different kinds of servers on it. Your server might be running Pleroma, Misskey, GNU Social, or something else! Unfortunately, I don't know much about them, so you'll have to ask their users for a getting-started guide like this one.
+## Qué raro, mi servidor tiene un montón de características extra.
 
-## Weird, my server has a bunch of extra features.
+Como [Mastodon es de código abierto](https://github.com/mastodon/mastodon), podés hacer una copia del código y hacerle todos los cambios que quieras. Y algunos decidieron hacer públicos sus cambios; una de las versiones editadas más populares de Mastodon es [Mastodon Glitch Edition](https://glitch-soc.github.io/docs/), o "glitch-soc". (Se llama así, según yo sé, porque viene de la instancia [glitch.social](https://glitch.social). Glitch-soc tiene varias características extra que los usuarios aprecian a menudo, como la capacidad de usar Markdown en toots y la opción de hacer que un toot solo aparezca en la instancia local pero que no federe a otros servidores.
 
-Because [Mastodon is open source](https://github.com/mastodon/mastodon), you can make a copy of it and make any changes you want. Some people have decided to make their changes public; one of the most popular edited versions of Mastodon is [Mastodon Glitch Edition](https://glitch-soc.github.io/docs/), or "glitch-soc". (It's called that, as far as I know, because it originated with the instance [glitch.social](https://glitch.social). Glitch-soc has a bunch of extra features that users often appreciate, like the ability to use Markdown in toots and the option to make a given post only show up on your local instance and not get federated out to other servers.
+## Tengo otras preguntas.
 
-## I have other questions.
+¡Preguntá! La gente está generalmente feliz de responder preguntas y ayudar. También, podés beneficiarte de mirar una de estas guías, que tienen una perspectiva distinta:
 
-Ask around! People are usually pretty happy to answer questions and help out. Also, you might benefit from checking out one of these other guides, which have a different perspective:
+* [FediThing](https://tech.lgbt/@FediThing) tiene [este sitio web](https://fedi.tips/).
+* [Ted](https://peoplemaking.games/esdin) tiene [un documento de tips y FAQ](https://docs.google.com/document/d/1gln7Lg92Vz3TbIjz6qZkpdPOxDAe63jof5snpR4xAa0/).
+* [elilla](https://transmom.love/@elilla) hizo esta [introducción futurística a Mastodon](https://wordsmith.social/elilla/a-futuristic-mastodon-introduction-for-2021).
 
-* [FediThing](https://tech.lgbt/@FediThing) has [an excellent website](https://fedi.tips/).
-* [Ted](https://peoplemaking.games/esdin) maintains a [tips and FAQ document](https://docs.google.com/document/d/1gln7Lg92Vz3TbIjz6qZkpdPOxDAe63jof5snpR4xAa0/).
-* [elilla](https://transmom.love/@elilla) has written [a futuristic Mastodon introduction](https://wordsmith.social/elilla/a-futuristic-mastodon-introduction-for-2021).
+Si aún estás confundido, preguntame: https://social.pueseso.club/@diazepan
 
-If you really get stuck, ask me: https://elekk.xyz/@noelle
+## ¿Cómo puedo contribuir a la guía?
 
-## How can I contribute to the Guide?
-
-Please check out [the contributions guide](contributing.md)!
+Mirá [la guía de contribuciones](contributing.md)!
