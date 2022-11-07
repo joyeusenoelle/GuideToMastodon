@@ -20,6 +20,7 @@ Si vas a copiar un link de esta página, usá este link http://guidetomastodon.c
 * [¿Cómo puedo estar verificado en Mastodon?](#cómo-puedo-estar-verificado-en-mastodon)
 * [Está bien, ¿Cómo hago para que la gente sepa que yo soy quien dice ser?](#está-bien-cómo-hago-para-que-la-gente-sepa-que-yo-soy-quien-dice-ser)
 * [¿COMO ELIJO UNA INSTANCIA?](#como-elijo-una-instancia)
+* [Encontré otra instancia que me gusta más. ¿Puedo mudar mi cuenta?](#encontré-otra-instancia-que-me-gusta-más-puedo-mudar-mi-cuenta)
 * [¿Cómo menciono a alguien que no está en mi instancia?](#cómo-menciono-a-alguien-que-no-está-en-mi-instancia)
 * [¿Cuales son las reglas?](#cuales-son-las-reglas)
 * [¿Qué pasa si veo a alguien rompiendo las reglas?](#qué-pasa-si-veo-a-alguien-rompiendo-las-reglas)
@@ -39,8 +40,8 @@ Si vas a copiar un link de esta página, usá este link http://guidetomastodon.c
 * [¿Cómo es que mi amigo en otra instancia puede usar este emoji y yo no puedo?](#cómo-es-que-mi-amigo-en-otra-instancia-puede-usar-este-emoji-y-yo-no-puedo)
 * [¿Por qué no puedo buscar una palabra o frase específica?](#por-qué-no-puedo-buscar-una-palabra-o-frase-específica)
 * [¿Por qué no puedo citar un toot?](#por-qué-no-puedo-citar-un-toot)
-* [The Mastodon culture seems pretty weird?](#the-mastodon-culture-seems-pretty-weird)
-* [What's the generally-accepted Mastodon etiquette?](#whats-the-generally-accepted-mastodon-etiquette)
+* [La cultura en Mastodon parece rara, ¿no?](#la-cultura-en-mastodon-parece-rara-no)
+* [¿Cual es la etiqueta generalmente aceptada en Mastodon?](#whats-the-generally-accepted-mastodon-etiquette)
 * [I like mastodon but I prefer the way twitter looks.](#i-like-mastodon-but-i-prefer-the-way-twitter-looks)
 * [I like mastodon but I want to use it on my phone.](#i-like-mastodon-but-i-want-to-use-it-on-my-phone)
 * [How can I back up my Mastodon account?](#how-can-i-back-up-my-mastodon-account)
@@ -69,9 +70,9 @@ Cada instancia de Mastodon es independiente pero dentro de una red, como los ser
 
 Aquí pasa lo mismo. Si te hacés una cuenta en mastodon.social, no hace falta que te hagas una cuenta en cualquier otra instancia, pero podés conversar con usuarios de otras instancias y estos pueden conversar contigo. 
 
-Podés crearte cuentas en varias instancias si lo que querés es hablar de cosas distintas de forma separada. Por ejemplo una cuenta en https://qoto.org para hablar de ciencia y tecnología, otra en https://mastodon.gamedev.place para hablar de juegos, y otra en https://mastodon.social para charlas en general. Tenés que loguearte en cada cuenta de forma separada y mantenerlas abiertas en ventanas o pestañas separadas.
+Podés crearte cuentas en varias instancias si lo que querés es hablar de cosas distintas de forma separada. Por ejemplo una cuenta en https://qoto.org para hablar de ciencia y tecnología, otra en https://mastodon.gamedev.place para hablar de juegos, y otra en https://mastodon.online para charlas en general. Tenés que loguearte en cada cuenta de forma separada y mantenerlas abiertas en ventanas o pestañas separadas. (Todas las aplicaciones móviles también permiten cuentas múltiples.)
 
-Tené en cuenta que en general, al hablar de Mastodon, "instancia" y "servidor" significan lo mismo.
+**Tené en cuenta que en general, al hablar de Mastodon, "instancia" y "servidor" significan lo mismo.**
 
 ## ¿Y qué tiene de distinto con ambas; o mejor dicho, qué son las Lineas de tiempo locales y federadas?
 
@@ -93,7 +94,7 @@ El Fediverso es esa gigantesca matriz de servidores que se comunican a través d
 
 Respuesta corta: **De forma extremadamente cuidadosa.**
 
-Hemos llevado toda una década de cómo Twitter, Facebook, y quién sabe cuantas otras plataformas de redes sociales se convirtieron en plataformas para la Optimización para motores de búsqueda (o por sus siglas en inglés, SEO), la Conciencia de marca (Brand Awareness), y la Sinergia corporativa, y acá se debe decir con franqueza: ESTAMOS MUY, PERO QUE MUY CANSADOS DE ESO.
+Hemos llevado quince años de cómo Twitter, Facebook, y quién sabe cuantas otras plataformas de redes sociales se convirtieron en plataformas para la Optimización para motores de búsqueda (o por sus siglas en inglés, SEO), la Conciencia de marca (Brand Awareness), y la Sinergia corporativa, y acá se debe decir con franqueza: LA MAYORÍA DE NOSOTROS ESTAMOS MUY, PERO QUE MUY CANSADOS DE ESO.
 
 Mastodon no se trata de aprovechar a tus seguidores para convertirlos en clientes. No se trata de SEO o lealtad de marca. **Mastodon se trata de gente.** No trates a la gente como clientes potenciales que puedan comprarte lo que vendés; tratalos como la *gente* a quien te gustaría conocer.
 
@@ -130,6 +131,40 @@ Si no te creaste una cuenta en mastodon todavía, te podría ser útil probar en
 Si ya te registraste en una instancia pero no estás seguro de si te sirve, intentá preguntar por allí si hay instancias que te podrían servir más. También, intentá buscar por un #hashtag que te interese; si ves a mucha gente en una instancia hablando de esa cuestión, puede que sea un buen lugar para que revises.
 
 También podés probar el selector de instancias en [joinmastodon.org](https://joinmastodon.org/communities) o el asistente [instances.social](https://instances.social/), aunque estos tienen *muchas* instancias listadas y puede que te abrumes. Hacelo despacio y con calma.
+
+## Encontré otra instancia que me gusta más. ¿Puedo mudar mi cuenta?
+
+Sí y no.
+
+Hay dos maneras de lograr esto: podés **redirigir** tu cuenta o **migrar** tu cuenta.
+
+Si **redirigis** tu cuenta, tu cuenta vieja tendrá una noticia de redirección añadida, y no podrás volver a usarla por completo (Creo que esto significa que no podrás postear toots desde esa cuenta). Igual podrás exportar los datos de tu cuenta, y podrás reactivar tu cuenta en cualquier momento. A los usuarios que van al perfil de tu vieja cuenta se les contará que te pueden encontrar en tu cuenta nueva. Nada más se transferirá automáticamente. Podés hacerlo yendo a `[tu servidor]/settings/migration/redirect/new` (por ejemplo, elekk.xyz/settings/migration/redirect/new). También hay un link en la página de migración de cuentas. Todo lo que tenés que hacer es colocar el nombre de la cuenta a la que estás redirigiendo y Mastodon hará el resto.
+
+(Podés mudar manualmente una buena parte de tu información si redireccionás tu cuenta. Ver los pasos 4-6 más abajo.)
+
+Si **migrás** tu cuenta, pasarán las mismas cosas que si redirigís tu cuenta. **Además**, todos tus seguidores se moverán a tu nueva cuenta (para que nadie tenga que buscarte y volverte a seguir). *Podés*, además, mudar manualmente tus seguimientos, listas, usuarios bloqueados, silenciados, dominios bloqueados, y marcadores, pero el sistema no lo hará de manera automática.
+
+**En ninguno de los casos se mudarán tus toots. Estarás empezando con un historial vacío de toots en tu nueva cuenta.**
+
+Estos son los pasos para **migrar** tu cuenta, incluyendo pasos adicionales. (Parecen muchos pasos, pero se dividieron algunas cosas para que las instrucciones sean más fáciles de seguir.)
+
+1. Creá tu cuenta **nueva**. Esto puede hacerse en la misma instancia en la que estás, o en otra instancia.
+2. En tu cuenta **nueva**, hacé click en `Preferencias` en el panel de la derecha, luego a `Perfil > Apariencia`. Debajo de la imagen de cabecera y el avatar, asegurate de que **Hacer privada esta cuenta** *no esté marcado*. (Si está marcado, tendrás que aprobar manualmente cada seguidor que el proceso automatizado intente traer.) Hacé click en **Guardar Cambios** en la parte de arriba o abajo de la página si tuviste que desmarcar la opción.
+3. En tu cuenta **nueva**, en Preferencias, andá a `Cuenta > Ajustes de la cuenta `. En la parte de abajo de la página, bajo el encabezado `Migrar de una cuenta diferente` , hacé click en "**crear un alias de la cuenta**".
+4. Escribí el `nombredeusuario@instancia` de la cuenta **vieja** (por ejemplo, `noelle@elekk.xyz`) y hacé click en "**Crear Alias**".
+5. (Opcional) En tu cuenta **vieja**, en Preferencias, andá a `Importar y exportar > Exportar información`.
+6. (Opcional) Verás una lista de... ¿estadísticas de la cuenta, quizás? Junto a "Sigue", "Listas", "Personas que has bloqueado", "Tienes en silencio", "Bloqueos de dominios", y "Marcadores", verás un `⬇️CSV`. Hacé click ahí por cada cosa que quieras mudar a tu cuenta nueva; esto descargará una lista de esas cosas en un formato estandar. Hacé una nota de endonde se descargan.
+7. (Opcional) En tu cuenta **nueva**, en Preferencias, andá a `Importar y exportar > Importar`. Para cada uno de los archivos que descargaste (salvo las listas, las cuales no tienen una función para importar todavía):
+  * Usá el menú desplegable de arriba (debajo de `Importar tipo`) para seleccionar lo que querés importar.
+  * Debajo de `Información`, hacé click en el botón de "**Examinar...**" para que abra el selector de archivos, y selecciones el archivo CSV que acabás de descargar.
+  * Seleccioná "**Unir**", si no está seleccionado.
+  * Click en "**Cargar**".
+8. En tu cuenta **vieja**, en Preferencias, andá a `Cuenta > Ajustes de la cuenta `. Al fondo de la página, bajo el encabezado `Mudarse a otra cuenta`, hacé click en "**configurarlo aquí**".
+9. Escribí el `nombredeusuario@instancia` de la cuenta **nueva**, junto con la contraseña de la cuenta **vieja**. Esto verifica que sos el dueño de la cuenta (en caso de que te olvides de desloguearte y otro use la computadora). Y luego hacés click en "**Migrar Seguidores**".
+
+¡Y ya está! Notá por favor que puede tomar un rato migrar todo e importar todo lo que hayas subido, especialmente si te mueves desde o hacia un servidor grande o viejo.
+
+¡Agradecimientos a [Ted](https://peoplemaking.games/@esdin) y arachnomyrmex que ayudaron en que esto sea claro!
 
 ## ¿Cómo menciono a alguien que no está en mi instancia?
 
@@ -286,6 +321,8 @@ Notarás que si tenés una imagen y un CW en un toot, la capa de "Contenido sens
 
 Cuando adjuntás una imagen, vas a ver un botón de "Editar" (con un ícono de lápiz) en la esquina superior derecha de la imagen. Al haceer click ahí se abre una caja de diálogo que te permite determinar qué parte de la imagen debe verse en en la vista previa; también te permite colocar un texto alternativo para la imagen, el cual la gente puede leer si coloca el mouse sobre el texto, y el cual los lectores de pantalla (los cuales son usados por usuarios con discapacidad visual) pueden leer en vez de decir "imagen embebida".
 
+Para imágenes que mayormente son textos (por ejemplo, una captura de pantalla de un post de Tumblr), Mastodon tiene incorporado un reconocedor óptico de caracteres (OCR) y a menudo puede transcribir la imagen, aunque probablemente deberías revisar la transcripción para asegurarte de que sea precisa. Si, por alguna razón, no funciona el OCR de tu instancia, podés usar una herramienta online como [Online OCR](https://www.onlineocr.net) para transcribir tu imagen. Y si todo eso falla, hay Bots OCR en el fediverso que responderán a tu post con una transcripción si los @mencionás.
+
 El texto en la caja de descripción tiene su propio límite de 1500 caracteres; ¡y **no** cuentan como parte del límite de caracteres del toot!
 
 ## ¿Por qué debería agregarle un texto alternativo a mi foto?
@@ -310,34 +347,32 @@ Al igual que con la búsqueda, es otra herramienta contra el acoso. Si querés r
 
 *(Ni siquiera intentes esquivar eso haciendo una captura de pantalla del toot y adjuntarlo como una imagen. **Podés** hacerlo, pero la comunidad de Mastodon tiende a ver eso de mala manera y si seguís haciendolo vas a conseguir una mala reputación bastante rápido.)*
 
-## The Mastodon culture seems pretty weird?
+## La cultura en Mastodon parece rara, ¿no?
 
-It can be! But it gets to be a comfortable weirdness.
+¡Puede serlo! Pero suele ser una rareza cómoda
 
-Here are some common weirdnesses:
+Estos son ejemplos de rarezas comunes (en la comunidad hispanohablante):
 
-* :pineapple:: nobody really knows. [acw](https://cybre.space/@acw) posted it, someone else picked it up, and it's been going ever since. It's just silliness. When in doubt, just post a :pineapple:.
-* AWOO: [Awoo.Space](https://awoo.space) was one of the earlier Mastodon instances. "Awoo" is the sound of a wolf howling. It's fun to say. Awoo! (Pawoo.net has nothing to do with this; in Japanese, "pawoo" is the sound of an elephant trumpeting.) Someone got irritated at the awoos and instituted a $350 fine for awooing. Nobody's ever actually paid it, don't worry.
-* #gameing: There was (and still is) a perception that #gaming is "hardcore" and elitist, and there were (and are) worries about certain breeds of gamer overrunning the #gaming hashtag. #gameing was a pre-emptive strike; it's about a fun, lighthearted, and accessible approach to games, video and otherwise.
-* IT'S BEEN/SOME as CWs: a reference to the Barenaked Ladies song [*One Week*](https://www.youtube.com/watch?v=fC_q9KPczAg) and the Smash Mouth song [*All Star*](https://www.youtube.com/watch?v=L_jWHffIx5E) respectively. A common meme on Mastodon is to put the first word or two of the song into the CW and then subvert expectations by posting something else under the cut.
+* Joseos: Se refiere a la práctica de copiar el texto de un toot, alterar mínimamente su contenido (añadiendo, quitando o modificando palabras) con fines cómicos y postearlo (y opcionalmente retootear el toot original). No se sabe a ciencia cierta el origen del nombre, aunque su establecimiento se remonta a la llegada de usuarios españoles en octubre del 2018. La opinión sobre los joseos está dividida. Por un lado hay muchos usuarios, moderadores y administradores que lo consideran una diversión sana y por otro hay instancias que lo prohiben o que lo restringen a que se haga solo de forma local.
+* Fotocachos: Así le dicen a las fotos que se toman los usuarios de sus partes corporales. Generalmente vienen marcadas como material sensible y acompañadas de un hashtag. Hay que insistir en que esta **muy mal** visto descargarse los fotocachos de otros y resubirlos, así que evitá hacerlo.
 
-You'll get used to it.
+Ya te vas a acostumbrar.
 
-## What's the generally-accepted Mastodon etiquette? 
+## ¿Cual es la etiqueta generalmente aceptada en Mastodon?
 
-There are no hard-and-fast rules for everybody, and (as noted above) different instances have different guidelines. That said, many people follow some simple guidelines meant to make Mastodon a friendlier place for everybody.
+No hay reglas estrictas para todos, y (como se mencionó antes) diferentes instancias tienen diferentes normas. Dicho esto, muchos siguen unas normas simples para hacer que Mastodon sea un lugar más amigable para todos.
 
-* If you attach an image to your toot but don't describe it in the toot, use [alt text](#i-just-attached-a-picture-to-my-toot-how-can-i-make-sure-its-accessible) to describe the image so that people using screen readers can understand it.
-* If you attach an image that contains **nudity, porn or sexually-suggestive content, gore, violence, or politics**, or any of a number of common PTSD/anxiety triggers (such as food, spiders, etc.), [mark it sensitive](#i-just-attached-a-picture-to-my-toot-whats-with-the-new-eye-icon).
-* If the *text* of your toot contains any of those subjects, [use a content warning](#what-does-cw-mean).
-* You don't need to use a URL shortener. Mastodon assumes that all URLs are exactly 20 characters long. Let people see what you're actually linking to.
-* If you make a bot that posts automatically, have it post using the [unlisted privacy setting](#how-do-privacy-settings-work). This avoids having your bot flagged as spam.
-* If you use a script that cross-posts your Twitter tweets to Mastodon, have the script set to use a CW. This avoids sensitive topics (see above) being cross-posted to Mastodon.
-* If you see a conversation and have a comment you'd like to add:
-    * Click through to the full conversation and make sure your thought hasn't already been expressed by someone else. 
-    * Make sure that your comment adheres to the tone of the conversation, is kind to the other posters in the conversation, and gives the other posters the benefit of the doubt.
-* "noadvice", as a hashtag or a CW, indicates that the user is just venting and is not looking for help or suggestions. Sympathy and comfort are welcome, though.
-* Remember that if someone doesn't reply to you, that doesn't mean they're ignoring you. They might be away from Mastodon; they might have so many notifications that they missed your post; they might have muted the conversation, so your reply didn't even show up! There are many reasons for someone to miss a toot, even one directed at them; don't take it personally.
+* Si añadís una imagen a un toot pero no lo describís en el toot, usá [un texto alternativo](#le-adjunté-una-foto-a-mi-toot-qué-es-ese-botón-de-editar) para describir la imagen para que la gente que usa lectores de pantalla lo puedan entender.
+* Si añadís una imagen que contiene **desnudos, pornografía o contenido sexualmente sugerente, gore, violencia, o política**, o algo que desate desordenes de ansiedad o traumas (como comida, arañas, contacto visual, etc.), [marcalo como sensible](#le-adjunté-una-foto-a-mi-toot-qué-es-eso-de-marcar-como-sensible).
+* Si el *texto* de tu toot habla de alguno de esos temas, [usá un aviso de contenido](#qué-significa-cw).
+* No necesitás usar un acortador de URLs. Mastodon asume que todas las URLs tienen 20 caracteres de largo. Dejá que la gente vea a donde dirige el link.
+* Si hacés un bot que hace posteos automáticos, hacelo que postee con el nivel de privacidad [no listado](#cómo-funciona-la-configuración-de-privacidad). Eso evita que tu bot sea marcado como spam.
+* Si usas un script para hacer cross-posting con Twitter (y así postear tus tweets en Mastodon), configurá el script para que use CWs. Eso evita que los temas sensibles (ya mencionados) se pasen de Twitter a Mastodon.
+* Ya que hablamos de cross-posting, otra cosa que no es nada bienvenida es usar la cuenta de Mastodon para repetir tweets y nada más, ni siquiera interactuar con otros usuarios. Eso también se ve como spam.
+* Si ves una conversación y tienes algo para comentar allí:
+    * Hacé click en la conversación y asegurate de que lo que queres decir no se haya dicho antes por otro. 
+    * Asegurate de que el comentario sea acorde al tono de la conversación, así sos amable con los otros posteadores de la conversación y le da a los demás el beneficio de la duda.
+* Recordá que si alguien no te responde, no significa que te ignore. Puede que esté lejos de Mastodon; puede que tenga tantas notificaciones que no haya visto tu toot; puede que haya silenciado la conversación, así que tu respuesta no siguiera apareció. Hay muchas razones por las que alguien se pierde un toot, incluso si está dirigido a ese alguien; no te lo tomes como algo personal.
 
 ## I like Mastodon but I prefer the way Twitter looks.
 
@@ -378,7 +413,11 @@ Because [Mastodon is open source](https://github.com/mastodon/mastodon), you can
 
 ## I have other questions.
 
-Ask around! People are usually pretty happy to answer questions and help out. Also, [FediThing](https://tech.lgbt/@FediThing) has [an excellent website](https://fedi.tips/) that covers the Fediverse from a different perspective, and you might find your answer there.
+Ask around! People are usually pretty happy to answer questions and help out. Also, you might benefit from checking out one of these other guides, which have a different perspective:
+
+* [FediThing](https://tech.lgbt/@FediThing) has [an excellent website](https://fedi.tips/).
+* [Ted](https://peoplemaking.games/esdin) maintains a [tips and FAQ document](https://docs.google.com/document/d/1gln7Lg92Vz3TbIjz6qZkpdPOxDAe63jof5snpR4xAa0/).
+* [elilla](https://transmom.love/@elilla) has written [a futuristic Mastodon introduction](https://wordsmith.social/elilla/a-futuristic-mastodon-introduction-for-2021).
 
 If you really get stuck, ask me: https://elekk.xyz/@noelle
 
