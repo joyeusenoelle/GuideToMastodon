@@ -17,6 +17,7 @@ When linking to this page, please use the link http://guidetomastodon.com, and p
 * [How do I get verified on Mastodon?](#how-do-i-get-verified-on-mastodon)
 * [Okay, how do I let people know that I am who I say I am?](#okay-how-do-i-let-people-know-that-i-am-who-i-say-i-am)
 * [HOW DO I PICK AN INSTANCE?](#how-do-i-pick-an-instance)
+* [I've found another instance I like better. Can I move my account?](#ive-found-another-instance-i-like-better-can-i-move-my-account)
 * [How do I mention someone who's not on my instance?](#how-do-i-mention-someone-whos-not-on-my-instance)
 * [What are the rules?](#what-are-the-rules)
 * [What if I see someone breaking the rules?](#what-if-i-see-someone-breaking-the-rules)
@@ -67,9 +68,9 @@ Each Mastodon instance is independent but networked, like email servers. If you 
 
 Likewise, if you sign up for an account on mastodon.social, that doesn't make an account for you on every other instance, but you can talk to users from other instances and they can talk to you. 
 
-You can make accounts on multiple instances if you want to talk about different things separately. You could have an account on https://cybre.space to talk about technology, an account on https://elekk.xyz to talk about gaming, and an account on https://mastodon.social for general chatter. You have to sign into each account separately and keep each open in a separate browser tab or window.
+You can make accounts on multiple instances if you want to talk about different things separately. You could have an account on https://hackers.town to talk about technology, an account on https://elekk.xyz to talk about gaming, and an account on https://mastodon.online for general chatter. You have to sign into each account separately and keep each open in a separate browser tab or window. (The various mobile apps all allow multiple accounts, too.)
 
-Keep in mind that in general, when talking about Mastodon, "instance" and "server" mean the same thing.
+**Keep in mind that in general, when talking about Mastodon, "instance" and "server" mean the same thing.**
 
 ## How is it not like either of those; or, What are the Local and Federated Timelines?
 
@@ -128,6 +129,40 @@ If you haven't created a mastodon account yet, you might find it useful to try o
 If you've already registered on an instance but you're not sure if it's a good fit for you, try asking around for instances where you might be a better fit. Also, try searching for a #hashtag that interests you; if you see a lot of people on one instance talking about that subject, it might be a good place for you to check out.
 
 You can also try the instance picker on [joinmastodon.org](https://joinmastodon.org/communities) or the wizard at [instances.social](https://instances.social/), although these have *lots* of instances listed and you might be overwhelmed. Take it slow and easy.
+
+## I've found another instance I like better. Can I move my account?
+
+Yes and no.
+
+There are two ways to accomplish this: you can **redirect** your account or **migrate** your account.
+
+If you **redirect** your account, your old account will have a redirection notice added to it, and you won't be able to fully use it (I believe this mostly means you won't be able to post from it anymore). You'll still be able to export your account's data, and you can reactivate your account at any time. Users who go to your old account's profile will be told that they can find you at your new account. Nothing else will be transferred automatically. You can do this by going to `[your server]/settings/migration/redirect/new` (for example, elekk.xyz/settings/migration/redirect/new). There's also a link on the account migration page. All you have to do is put in the name of the account you're redirecting to and Mastodon will handle the rest.
+
+(You can manually move a bunch of your information over if you redirect your account. See steps 4-6 below.)
+
+If you **migrate** your account, all the same things will happen as redirecting your account. **In addition**, all of your followers will be moved to your new account (so nobody has to find and re-follow you). You *can*, in addition, manually move your follows, lists, blocks, mutes, domain blocks, and bookmarks over, but the system won't automatically do that for you.
+
+**In neither case will your posts move over. You'll be starting with an empty post history on your new account.**
+
+Here are the steps for **migrating** your account, including optional steps. (It looks like a lot of steps, but I've split some things up to make the instructions easier to follow.)
+
+1. Create your **new** account. This can be on the same instance you're on now, or on a different instance.
+2. On your **new** account, click `Preferences` in the right-hand Getting Started panel, then go to `Profile > Appearance`. Below your header and profile picture, make sure **Require follow requests** is *unchecked*. (If it's checked, you'll have to manually approve every follower the automated process tries to bring over.) Click **Save changes** at the top or bottom of the page if you had to uncheck the box.
+3. On your **new** account, in Preferences, go to `Account > Account Settings`. At the bottom of that page, under the `Moving from a different account` header, click "**create an account alias**".
+4. Type in the `username@instance` of the **old** account (for example, `noelle@elekk.xyz`) and click "**Create Alias**".
+5. (Optional) On your **old** account, in Preferences, go to `Import and export > Data export`.
+6. (Optional) You'll see a list of account... statistics, I guess? Next to "Follows", "Lists", "You block", "You mute", "Domain blocks", and "Bookmarks", you'll see `⬇️CSV`. Click that for each thing you want to move over to your new account; this will download a list of each of those in a standardized format. Make a note of where the downloads go.
+7. (Optional) On your **new** account, in Preferences, go to `Import and export > Import`. For each of the files you just downloaded (except Lists, which doesn't have an import function yet):
+  * Use the drop-down menu at the top (under `Import type`) to select the appropriate kind of thing to import.
+  * Under `Data`, click the "**Browse...**" button to pull up a file selector, and select the CSV file you just downloaded.
+  * Select "**Merge**", if it's not already selected.
+  * Click "**Upload**".
+8. On your **old** account, in Preferences, go to `Account > Account Settings`. Near the bottom of that page, under the `Move to a different account` header, click "**configure it here**".
+9. Enter the `username@instance` of your **new** account, along with the password for your **old** account. This verifies that you're the owner of the account (in case you forgot to log out and someone else is using the computer). Then click "**Move Followers**".
+
+And you're done! Please note that it might take a while to migrate everything over and to import everything you've uploaded, especially if you're moving to or from a large or old server.
+
+Special thanks to [Ted](https://peoplemaking.games/@esdin) and arachnomyrmex for helping me make sure I got this right!
 
 ## How do I mention someone who's not on my instance?
 
@@ -293,6 +328,8 @@ You'll notice that if you have both an image and a CW on a toot, the "Sensitive 
 
 When you attach an image, you'll see "Edit" (plus a pencil icon) at the top right of the image. Clicking this will pop up a dialog box that lets you determine what part of the image should show in the preview; it also allows you to set alt-text for the image, which people can read if they mouse over the text, and which screen-readers (such as for the visually-impaired) can read instead of just saying "embedded image".
 
+For images that are largely text (for example, a screenshot of a Tumblr post), Mastodon has built-in optical character recognition (OCR) and can often transcribe the image for you, although you should probably double-check the transcription to make sure it's accurate. If, for some reason, your instance's OCR isn't working, you can use an online tool like [Online OCR](https://www.onlineocr.net) to transcribe your image. And if all else fails, there are OCRBots on the fediverse that will reply to your post with a transcription if you @mention them.
+
 Text in the description box has its own character limit of 1,500 characters; it **does not** count against the character limit for your toot!
 
 ## Why should I add a caption to my picture?
@@ -389,7 +426,11 @@ Because [Mastodon is open source](https://github.com/mastodon/mastodon), you can
 
 ## I have other questions.
 
-Ask around! People are usually pretty happy to answer questions and help out. Also, [FediThing](https://tech.lgbt/@FediThing) has [an excellent website](https://fedi.tips/) that covers the Fediverse from a different perspective, and you might find your answer there.
+Ask around! People are usually pretty happy to answer questions and help out. Also, you might benefit from checking out one of these other guides, which have a different perspective:
+
+* [FediThing](https://tech.lgbt/@FediThing) has [an excellent website](https://fedi.tips/).
+* [Ted](https://peoplemaking.games/esdin) maintains a [tips and FAQ document](https://docs.google.com/document/d/1gln7Lg92Vz3TbIjz6qZkpdPOxDAe63jof5snpR4xAa0/).
+* [elilla](https://transmom.love/@elilla) has written [a futuristic Mastodon introduction](https://wordsmith.social/elilla/a-futuristic-mastodon-introduction-for-2021).
 
 If you really get stuck, ask me: https://elekk.xyz/@noelle
 
