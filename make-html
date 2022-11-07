@@ -1,2 +1,2 @@
 #!/bin/bash
-pandoc -f markdown-smart -t html -o index.html README.md
+pandoc -f gfm -t html -o index.html README.md
