@@ -92,7 +92,7 @@ The Fediverse is the vast array of servers that communicate via the ActivityPub 
 
 The short answer: **Very carefully.**
 
-We've had a decade of Twitter, Facebook, and heaven knows how many other social media platforms becoming platforms for Search Engine Optimization, Brand Awareness, and Corporate Synergy, and I'll be blunt: we're really, really tired of it.
+We've had fifteen years of Twitter, Facebook, and heaven knows how many other social media platforms becoming platforms for Search Engine Optimization, Brand Awareness, and Corporate Synergy, and I'll be blunt: **most of us are really, really tired of it**.
 
 Mastodon isn't about leveraging followers into customers. It's not about SEO or brand loyalty. **Mastodon is about people.** Don't treat people like potential customers who might buy your stuff; treat them like *people* whom you might want to get to know.
 
