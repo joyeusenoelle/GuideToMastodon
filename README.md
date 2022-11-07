@@ -2,6 +2,8 @@
 
 <p style="text-align:center;"><h1>DON'T PANIC.</h1></p>
 
+**Mastodon has several important differences from Twitter, but you'll get used to it.** I've tried to mark all of the important differences with the :bangbang: emoji; forgive me if I missed some. It's been a while since I've been on Twitter!
+
 I've done my best to make this understandable, but you're welcome to suggest changes! If you have a Github account, you can submit change requests directly; otherwise, feel free to contact me [on Mastodon](https://elekk.xyz/@noelle) or by email at `noelle AT noelle.codes`. 
 
 When linking to this page, please use the link http://guidetomastodon.com, and please credit [@Noelle@elekk.xyz](https://elekk.xyz/@noelle). Thank you!
@@ -64,7 +66,7 @@ Mastodon also supports hashtags, which are words prefixed by #, like "#gaming" o
 
 ## How is it like email?
 
-Each Mastodon instance is independent but networked, like email servers. If you sign up for an email account on gmail.com, you don't automatically have an account on hotmail.com or aol.com, but you can send and receive messages to and from users on hotmail.com and aol.com. 
+:bangbang: Each Mastodon instance is independent but networked, like email servers. If you sign up for an email account on gmail.com, you don't automatically have an account on hotmail.com or aol.com, but you can send and receive messages to and from users on hotmail.com and aol.com. 
 
 Likewise, if you sign up for an account on mastodon.social, that doesn't make an account for you on every other instance, but you can talk to users from other instances and they can talk to you. 
 
@@ -74,7 +76,7 @@ You can make accounts on multiple instances if you want to talk about different 
 
 ## How is it not like either of those; or, What are the Local and Federated Timelines?
 
-Mastodon has two additional timelines that you can view: the Local timeline and the Federated timeline.
+:bangbang: Mastodon has two additional timelines that you can view: the Local timeline and the Federated timeline.
 
 The Local timeline is every post with a public status posted by users on your instance, with the exception of replies. (A reply is any toot posted in response to another toot - NOT any toot that simply mentions another user!)
 
@@ -90,9 +92,9 @@ The Fediverse is the vast array of servers that communicate via the ActivityPub 
 
 ## How do I establish my brand's presence on Mastodon?
 
-The short answer: **Very carefully.**
+:bangbang: The short answer: **Very carefully.**
 
-We've had a decade of Twitter, Facebook, and heaven knows how many other social media platforms becoming platforms for Search Engine Optimization, Brand Awareness, and Corporate Synergy, and I'll be blunt: we're really, really tired of it.
+We've had fifteen years of Twitter, Facebook, and heaven knows how many other social media platforms becoming platforms for Search Engine Optimization, Brand Awareness, and Corporate Synergy, and I'll be blunt: most of us are really, really tired of it.
 
 Mastodon isn't about leveraging followers into customers. It's not about SEO or brand loyalty. **Mastodon is about people.** Don't treat people like potential customers who might buy your stuff; treat them like *people* whom you might want to get to know.
 
@@ -106,7 +108,7 @@ If you represent a company and your boss has told you that your company needs a 
 
 ## How do I get verified on Mastodon?
 
-There's no such thing as a verified account on Mastodon. We assume you are who you say you are. If you see someone with a checkmark by their name (like ✅), they've just typed that emoji into their display name. 
+:bangbang: There's no such thing as a verified account on Mastodon. We assume you are who you say you are. If you see someone with a checkmark by their name (like ✅), they've just typed that emoji into their display name. 
 
 If someone's impersonating you, contact the admin of the instance they're on to get it sorted out.
 
@@ -162,11 +164,21 @@ Here are the steps for **migrating** your account, including optional steps. (It
 
 And you're done! Please note that it might take a while to migrate everything over and to import everything you've uploaded, especially if you're moving to or from a large or old server.
 
+:bangbang: **Important**: This process is the closest thing Mastodon has to changing your username.
+
 Special thanks to [Ted](https://peoplemaking.games/@esdin) and arachnomyrmex for helping me make sure I got this right!
+
+## How can I change my username?
+
+:bangbang: The short version: you can't. Once you choose a username for your account, it's immutable, so choose wisely.
+
+The long version: The only way to kind of change your username is to migrate your account (see above), but again, you won't take your post history with you no matter what you do. 
+
+Some enterprising admins have tried changing someone's username directly in the database (at their request), and for whatever reason, doing so breaks federation for that account; they can no longer reliably send messages to other instances or receive mentions.
 
 ## How do I mention someone who's not on my instance?
 
-Mastodon usernames take the form @*username*@*instance*. My account on mastodon.social is @<span>noelle</span>@mastodon.social; my account on elekk.xyz is @<span>noelle</span>@elekk.xyz. If you're mentioning someone on a different instance, you have to type the whole thing (although the toot input box will help you auto-complete the username if it's a name the instance knows already). 
+:bangbang: Mastodon usernames take the form @*username*@*instance*. My account on mastodon.social is @<span>noelle</span>@mastodon.social; my account on elekk.xyz is @<span>noelle</span>@elekk.xyz. If you're mentioning someone on a different instance, you have to type the whole thing (although the toot input box will help you auto-complete the username if it's a name the instance knows already). 
 
 If you're mentioning someone on your own instance, you just have to type the first part; if you're on elekk.xyz, @noelle will get to me just like @<span>noelle</span>@elekk.xyz will. If you leave off the "@*instance*" Mastodon understands that you want to talk to the local user.
 
@@ -188,7 +200,7 @@ By default, you will not get any notification about actions that any moderators 
 
 ## What are the different kinds of posts?
 
-Mastodon (and other fediverse) posts can be chained together in different ways. I use three terms to refer to different kinds of posts. These might not be the terms other people use.
+:bangbang: Mastodon (and other fediverse) posts can be chained together in different ways. I use three terms to refer to different kinds of posts. These might not be the terms other people use.
 
 * **Stand-alone posts** are posts that are not replies to any other post. (That is, you did not click on the Reply button to start the post.) They are at the head of a chain. You can include people's usernames in stand-alone posts to tag them; doing that does not make the post a reply. **For example:** You use the standard compose box ("What's on your mind?" in the default Mastodon settings) to create a new post.
 * **Self-replies** are posts that are a direct reply to *one of your own* stand-alone posts or another self-reply. Again, they can include references to another person. You can continue to reply to your own posts as long as you like, and *as long as someone else's post isn't above what you're currently writing in the chain*, they'll continue being self-replies. **For example:** You click on the reply button on one of your own stand-alone posts to reply to yourself, then click on the reply button on *that* post to reply to yourself again.
@@ -203,13 +215,13 @@ Under each post, you'll see three icons: a camera, a globe or a padlock, and the
 * **Public** means that everyone can see your post. It will appear on your list of posts and in your followers' Home timelines. Your *stand-alone posts* and *self-replies* that are public will appear in your list of toots, in your followers' Home timelines, in the public local and federated timelines, and in the Mentions of anyone you mention by username. Your *replies* that are public will appear in your list of *toots and replies* (*not* the primary list of toots; it's a separate list!), in the Home timelines of any of your followers who *also* follow the person you're replying to, and in the Mentions of anyone you mention by username.
 * **Unlisted** means that everyone can see your post, but it won't appear on the public timelines - either Local or Federated. Other than that, Unlisted posts behave exactly like Public posts.
 * **Followers-Only** means that only people who follow you and people mentioned in the post can see your post in their timelines or on your profile page. If someone who doesn't follow you views your profile, they won't see your followers-only posts. *For your followers*, followers-only posts behave exactly like Unlisted posts. **Your followers-only posts that mention another user will also appear in that user's mentions, even if they don't follow you!**
-* **Private** means that only people who are mentioned in your post can see it. It will appear in their mentions and, on Mastodon servers above version 3.0, will appear in their Direct Messages column.
+* :bangbang: **Mentioned People Only** means exactly that: only people who are mentioned in your post can see it, and **every** person who's mentioned can see it (unless they've blocked or muted you). It will appear in their mentions and, on Mastodon servers above version 3.0, will appear in their Direct Messages column.
 
 Keep in mind that some servers, which run software that's compatible with but not the same as Mastodon, will ignore these privacy settings if you send a message to their users, so be careful!
 
 ## How private is "Private"?
 
-I cannot stress this enough: **Private toots are not encrypted or secure.**
+I cannot stress this enough: **Mention-only toots ("DMs") are not encrypted or secure.**
 
 The admin of your server may be able to read *any* toot posted on their server, as well as *any* toot sent to a user on their server. **However**, it's a pain in the ass to do so. Your private posts will not appear in the admin panel on the website; your admin has to manually, directly access the database -- typically through logging into the server's command line -- in order to access them. This isn't something admins do on a whim; they only do it when they absolutely have to, and this is because:
 
@@ -219,7 +231,7 @@ That said, in general, your admin will only look over the toots you've marked Pr
 
 While we're on the subject, it's worth noting that this is true of nearly any social media software. Twitter admins can read your DMs. Forum admins can read your private messages. This is not a novel or unusual feature of Mastodon; I'm just making sure you know about it.
 
-**As a general rule, if an application you're using isn't [peer-to-peer](https://en.wikipedia.org/wiki/Peer-to-peer) and relies on an intermediary like a server, the information you're sending isn't secure unless you take extra steps outside the application to secure it.**
+**As a general rule, if an application you're using isn't [end-to-end encrypted](https://en.wikipedia.org/wiki/End-to-end_encryption), the information you're sending isn't secure unless you take [extra steps outside the application to secure it](https://en.wikipedia.org/wiki/Pretty_Good_Privacy).**
 
 ## What happens when someone follows me?
 
@@ -237,7 +249,7 @@ With a locked account, you get to approve who can follow you *through the Mastod
 
 **However.**
 
-Every Mastodon account (on an unmodified server) also creates an RSS feed of their public and unlisted posts - i.e. the posts that appear on the account's profile. It does not include followers-only toots or direct messages, and if you've [put a CW on a toot](#what-does-cw-mean), only the CW appears in the RSS feed, not what's underneath it. 
+:bangbang: Every Mastodon account (on an unmodified server) also creates an RSS feed of their public and unlisted posts - i.e. the posts that appear on the account's profile. It does not include followers-only toots or direct messages, and if you've [put a CW on a toot](#what-does-cw-mean), only the CW appears in the RSS feed, not what's underneath it. 
 
 Your RSS feed appears at `https://<your-server>/users/<your-username>.rss` ; for example, since I'm `https://elekk.xyz/@noelle`, my RSS feed is `https://elekk.xyz/users/noelle.rss` . (Remember to remove the `@`!)
 
@@ -291,7 +303,7 @@ Don't go overboard with hashtags. As a guideline, your hashtags probably shouldn
 
 ## What does "CW" mean?
 
-CW stands for Content Warning. It hides your post behind text (which you get to choose); it's like a Read More link.
+:bangbang: CW stands for Content Warning. It hides your post behind text (which you get to choose); it's like a Read More link.
 
 You might use CWs for:
 
@@ -320,13 +332,13 @@ In general, just use your best judgment; think "is there a reason someone might 
 
 ## I just attached a picture to my toot. What's with the new 'eye' icon?
 
-Clicking that will hide your image behind a "Sensitive content" overlay. This is good for nudity, gore and violence, political topics, etc.
+:bangbang: Clicking that will hide your image behind a "Sensitive content" overlay. This is good for nudity, gore and violence, political topics, etc.
 
 You'll notice that if you have both an image and a CW on a toot, the "Sensitive content" overlay is turned on automatically and can't be turned off. That's on purpose.
 
 ## I just attached a picture to my toot. How can I add a caption to it?
 
-When you attach an image, you'll see "Edit" (plus a pencil icon) at the top right of the image. Clicking this will pop up a dialog box that lets you determine what part of the image should show in the preview; it also allows you to set alt-text for the image, which people can read if they mouse over the text, and which screen-readers (such as for the visually-impaired) can read instead of just saying "embedded image".
+⁉️ When you attach an image, you'll see "Edit" (plus a pencil icon) at the top right of the image. Clicking this will pop up a dialog box that lets you determine what part of the image should show in the preview; it also allows you to set alt-text for the image, which people can read if they mouse over the text, and which screen-readers (such as for the visually-impaired) can read instead of just saying "embedded image".
 
 For images that are largely text (for example, a screenshot of a Tumblr post), Mastodon has built-in optical character recognition (OCR) and can often transcribe the image for you, although you should probably double-check the transcription to make sure it's accurate. If, for some reason, your instance's OCR isn't working, you can use an online tool like [Online OCR](https://www.onlineocr.net) to transcribe your image. And if all else fails, there are OCRBots on the fediverse that will reply to your post with a transcription if you @mention them.
 
@@ -342,7 +354,7 @@ You can also use image captions to insert additional jokes (like webcomics often
 
 ## How come my friend on another instance can use this emoji, but I can't?
 
-Each instance can define custom emoji for their users to use, and many have taken advantage of this. Your instance admin can copy emoji that they like from other instances. If you see an emoji that you like and it's not available on your instance, ask your admin to copy it over.
+:bangbang: :bangbang: Each instance can define custom emoji for their users to use, and many have taken advantage of this. Your instance admin can copy emoji that they like from other instances. If you see an emoji that you like and it's not available on your instance, ask your admin to copy it over.
 
 ## Why can't I search for a specific word or phrase?
 
@@ -350,7 +362,7 @@ It's an anti-harassment feature. Harassers often search for particular words or 
 
 ## Why can't I quote someone's toot, like a quote-tweet?
 
-Like search, it's an anti-harassment feature. If you want to reply to someone's toot, you have to actually reply to it; you can't just broadcast it to your followers with a snarky comment.
+:bangbang: Like search, it's an anti-harassment feature. If you want to reply to someone's toot, you have to actually reply to it; you can't just broadcast it to your followers with a snarky comment.
 
 *(Don't try to get around this by screencapping toots and attaching them as images. You **can** do it, but the Mastodon community tends to frown on it and you'll get a bad reputation pretty quickly if you keep it up.)*
 
