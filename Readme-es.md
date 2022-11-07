@@ -50,8 +50,8 @@ Si vas a copiar un link de esta página, usá este link http://guidetomastodon.c
 * [¿Cómo puedo respaldar mi cuenta de Mastodon?](#cómo-puedo-respaldar-mi-cuenta-de-mastodon)
 * [¿Puedo usar el teclado para navegar en Mastodon?](#puedo-usar-el-teclado-para-navegar-en-mastodon)
 * [¿Cómo funcionan los favoritos en otros tipos de servidores?](#cómo-funcionan-los-favoritos-en-otros-tipos-de-servidores)
+* [Qué raro, mi servidor no tiene muchas de esas cosas.](#qué-raro-mi-servidor-no-tiene-muchas-de-esas-cosas)
 * [Qué raro, mi servidor tiene un montón de características extra.](#qué-raro-mi-servidor-tiene-un-montón-de-características-extra)
-* [Weird, my server has a bunch of extra features.](#weird-my-server-has-a-bunch-of-extra-features)
 * [Tengo otras preguntas.](#tengo-otras-preguntas)
 * [¿Cómo puedo contribuir a la guía?](#cómo-puedo-contribuir-a-la-guía)
 
