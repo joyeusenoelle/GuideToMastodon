@@ -20,6 +20,7 @@ When linking to this page, please use the link http://guidetomastodon.com, and p
 * [Okay, how do I let people know that I am who I say I am?](#okay-how-do-i-let-people-know-that-i-am-who-i-say-i-am)
 * [HOW DO I PICK AN INSTANCE?](#how-do-i-pick-an-instance)
 * [I've found another instance I like better. Can I move my account?](#ive-found-another-instance-i-like-better-can-i-move-my-account)
+* [How can I change my username?](#how-can-i-change-my-username)
 * [How do I mention someone who's not on my instance?](#how-do-i-mention-someone-whos-not-on-my-instance)
 * [What are the rules?](#what-are-the-rules)
 * [What if I see someone breaking the rules?](#what-if-i-see-someone-breaking-the-rules)
