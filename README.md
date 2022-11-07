@@ -108,7 +108,7 @@ If you represent a company and your boss has told you that your company needs a 
 
 ## How do I get verified on Mastodon?
 
-:bangbang: There's no such thing as a verified account on Mastodon. We assume you are who you say you are. If you see someone with a checkmark by their name (like ✅), they've just typed that emoji into their display name. 
+:bangbang: There's no such thing as a verified account on Mastodon. We assume you are who you say you are. If you see someone with a checkmark by their name (like :white_check_mark:), they've just typed that emoji into their display name. 
 
 If someone's impersonating you, contact the admin of the instance they're on to get it sorted out.
 
@@ -153,7 +153,7 @@ Here are the steps for **migrating** your account, including optional steps. (It
 3. On your **new** account, in Preferences, go to `Account > Account Settings`. At the bottom of that page, under the `Moving from a different account` header, click "**create an account alias**".
 4. Type in the `username@instance` of the **old** account (for example, `noelle@elekk.xyz`) and click "**Create Alias**".
 5. (Optional) On your **old** account, in Preferences, go to `Import and export > Data export`.
-6. (Optional) You'll see a list of account... statistics, I guess? Next to "Follows", "Lists", "You block", "You mute", "Domain blocks", and "Bookmarks", you'll see `⬇️CSV`. Click that for each thing you want to move over to your new account; this will download a list of each of those in a standardized format. Make a note of where the downloads go.
+6. (Optional) You'll see a list of account... statistics, I guess? Next to "Follows", "Lists", "You block", "You mute", "Domain blocks", and "Bookmarks", you'll see :arrow_down:`CSV`. Click that for each thing you want to move over to your new account; this will download a list of each of those in a standardized format. Make a note of where the downloads go.
 7. (Optional) On your **new** account, in Preferences, go to `Import and export > Import`. For each of the files you just downloaded (except Lists, which doesn't have an import function yet):
   * Use the drop-down menu at the top (under `Import type`) to select the appropriate kind of thing to import.
   * Under `Data`, click the "**Browse...**" button to pull up a file selector, and select the CSV file you just downloaded.
@@ -338,7 +338,7 @@ You'll notice that if you have both an image and a CW on a toot, the "Sensitive 
 
 ## I just attached a picture to my toot. How can I add a caption to it?
 
-⁉️ When you attach an image, you'll see "Edit" (plus a pencil icon) at the top right of the image. Clicking this will pop up a dialog box that lets you determine what part of the image should show in the preview; it also allows you to set alt-text for the image, which people can read if they mouse over the text, and which screen-readers (such as for the visually-impaired) can read instead of just saying "embedded image".
+:interrobang: When you attach an image, you'll see "Edit" (plus a pencil icon) at the top right of the image. Clicking this will pop up a dialog box that lets you determine what part of the image should show in the preview; it also allows you to set alt-text for the image, which people can read if they mouse over the text, and which screen-readers (such as for the visually-impaired) can read instead of just saying "embedded image".
 
 For images that are largely text (for example, a screenshot of a Tumblr post), Mastodon has built-in optical character recognition (OCR) and can often transcribe the image for you, although you should probably double-check the transcription to make sure it's accurate. If, for some reason, your instance's OCR isn't working, you can use an online tool like [Online OCR](https://www.onlineocr.net) to transcribe your image. And if all else fails, there are OCRBots on the fediverse that will reply to your post with a transcription if you @mention them.
 
