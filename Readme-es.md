@@ -2,6 +2,8 @@
 
 <p style="text-align:center;"><h1>NO SE ASUSTEN.</h1></p>
 
+**Mastodon tiene unas cuantas diferencias importantes con Twitter, pero te acostumbrarás.** Se intentó marcar todas las diferencias importantes con el emoji :bangbang: ; disculpen si faltó alguna. ¡Ni quien escribió esta guía ni el que traduce andan en Twitter desde hace mucho!
+
 Acá se hizo lo posible para que esto sea entendible, ¡pero se agradece cualquier sugerencia! Si tenés cuenta en Github, podés mandar tus pedidos de cambios de forma directa; o si no, podés contactarte con dos personas:
 
 1) Con quien hizo la guía original en inglés [en Mastodon](https://elekk.xyz/@noelle) o por mail en `noelle AT noelle.codes`. 
@@ -21,6 +23,7 @@ Si vas a copiar un link de esta página, usá este link http://guidetomastodon.c
 * [Está bien, ¿Cómo hago para que la gente sepa que yo soy quien dice ser?](#está-bien-cómo-hago-para-que-la-gente-sepa-que-yo-soy-quien-dice-ser)
 * [¿COMO ELIJO UNA INSTANCIA?](#como-elijo-una-instancia)
 * [Encontré otra instancia que me gusta más. ¿Puedo mudar mi cuenta?](#encontré-otra-instancia-que-me-gusta-más-puedo-mudar-mi-cuenta)
+* [¿Cómo cambio mi nombre de usuario?](#cómo-cambio-mi-nombre-de-usuario)
 * [¿Cómo menciono a alguien que no está en mi instancia?](#cómo-menciono-a-alguien-que-no-está-en-mi-instancia)
 * [¿Cuales son las reglas?](#cuales-son-las-reglas)
 * [¿Qué pasa si veo a alguien rompiendo las reglas?](#qué-pasa-si-veo-a-alguien-rompiendo-las-reglas)
@@ -66,7 +69,7 @@ Mastodon también soporta hashtags, que son palabras con el prefijo #, como por 
 
 ## ¿Qué parecido tiene con el email?
 
-Cada instancia de Mastodon es independiente pero dentro de una red, como los servidores de correo electrónico. Si te registrás para tener una cuenta de email en gmail.com, no hace falta que tengas una cuenta en hotmail.com o aol.com, pero podés mandar y recibir mensajes desde y hacia usuarios en hotmail.com y aol.com. 
+:bangbang: Cada instancia de Mastodon es independiente pero dentro de una red, como los servidores de correo electrónico. Si te registrás para tener una cuenta de email en gmail.com, no hace falta que tengas una cuenta en hotmail.com o aol.com, pero podés mandar y recibir mensajes desde y hacia usuarios en hotmail.com y aol.com. 
 
 Aquí pasa lo mismo. Si te hacés una cuenta en mastodon.social, no hace falta que te hagas una cuenta en cualquier otra instancia, pero podés conversar con usuarios de otras instancias y estos pueden conversar contigo. 
 
@@ -76,7 +79,7 @@ Podés crearte cuentas en varias instancias si lo que querés es hablar de cosas
 
 ## ¿Y qué tiene de distinto con ambas; o mejor dicho, qué son las Lineas de tiempo locales y federadas?
 
-Mastodon tiene dos lineas de tiempo adicionales que podés ver: la Linea de tiempo local y la Linea de tiempo federada.
+:bangbang: Mastodon tiene dos lineas de tiempo adicionales que podés ver: la Linea de tiempo local y la Linea de tiempo federada.
 
 La Linea de tiempo local se hace con todos los posteos de estado público escritos por los usuarios de tu instancia, salvo las respuestas. (Una respuesta se refiere solo a los toots posteados en respuesta a otro toot - ¡NO a cualquier toot que sólo mencione a otro usuario!)
 
@@ -92,7 +95,7 @@ El Fediverso es esa gigantesca matriz de servidores que se comunican a través d
 
 ## ¿Cómo establezco la presencia de mi marca en Mastodon?
 
-Respuesta corta: **De forma extremadamente cuidadosa.**
+:bangbang: Respuesta corta: **De forma extremadamente cuidadosa.**
 
 Hemos llevado quince años de cómo Twitter, Facebook, y quién sabe cuantas otras plataformas de redes sociales se convirtieron en plataformas para la Optimización para motores de búsqueda (o por sus siglas en inglés, SEO), la Conciencia de marca (Brand Awareness), y la Sinergia corporativa, y acá se debe decir con franqueza: LA MAYORÍA DE NOSOTROS ESTAMOS MUY, PERO QUE MUY CANSADOS DE ESO.
 
@@ -108,7 +111,7 @@ Si representás a una compañía y tu jefe te dice que tu compañía necesita te
 
 ## ¿Cómo puedo estar verificado en Mastodon?
 
-No existen las cuentas verificadas en Mastodon. Acá asumimos que sos quien decis ser. Si ves a alguien con un check junto al nombre (tipo ✅), simplemente escribieron el emoji junto al nombre y nada más. 
+:bangbang: No existen las cuentas verificadas en Mastodon. Acá asumimos que sos quien decis ser. Si ves a alguien con un check junto al nombre (tipo :white_check_mark:), simplemente escribieron el emoji junto al nombre y nada más. 
 
 Sin embargo si alguien se hace pasar por vos, contactate con el administrador de la instancia en que está esa persona para resolverlo.
 
@@ -153,7 +156,7 @@ Estos son los pasos para **migrar** tu cuenta, incluyendo pasos adicionales. (Pa
 3. En tu cuenta **nueva**, en Preferencias, andá a `Cuenta > Ajustes de la cuenta `. En la parte de abajo de la página, bajo el encabezado `Migrar de una cuenta diferente` , hacé click en "**crear un alias de la cuenta**".
 4. Escribí el `nombredeusuario@instancia` de la cuenta **vieja** (por ejemplo, `noelle@elekk.xyz`) y hacé click en "**Crear Alias**".
 5. (Opcional) En tu cuenta **vieja**, en Preferencias, andá a `Importar y exportar > Exportar información`.
-6. (Opcional) Verás una lista de... ¿estadísticas de la cuenta, quizás? Junto a "Sigue", "Listas", "Personas que has bloqueado", "Tienes en silencio", "Bloqueos de dominios", y "Marcadores", verás un `⬇️CSV`. Hacé click ahí por cada cosa que quieras mudar a tu cuenta nueva; esto descargará una lista de esas cosas en un formato estandar. Hacé una nota de endonde se descargan.
+6. (Opcional) Verás una lista de... ¿estadísticas de la cuenta, quizás? Junto a "Sigue", "Listas", "Personas que has bloqueado", "Tienes en silencio", "Bloqueos de dominios", y "Marcadores", verás un :arrow_down:`CSV`. Hacé click ahí por cada cosa que quieras mudar a tu cuenta nueva; esto descargará una lista de esas cosas en un formato estandar. Hacé una nota de endonde se descargan.
 7. (Opcional) En tu cuenta **nueva**, en Preferencias, andá a `Importar y exportar > Importar`. Para cada uno de los archivos que descargaste (salvo las listas, las cuales no tienen una función para importar todavía):
   * Usá el menú desplegable de arriba (debajo de `Importar tipo`) para seleccionar lo que querés importar.
   * Debajo de `Información`, hacé click en el botón de "**Examinar...**" para que abra el selector de archivos, y selecciones el archivo CSV que acabás de descargar.
@@ -164,11 +167,21 @@ Estos son los pasos para **migrar** tu cuenta, incluyendo pasos adicionales. (Pa
 
 ¡Y ya está! Notá por favor que puede tomar un rato migrar todo e importar todo lo que hayas subido, especialmente si te mueves desde o hacia un servidor grande o viejo.
 
+:bangbang: **Importante**: Este proceso es lo más cercano que Mastodon tiene de cambiar el nombre de usuario.
+
 ¡Agradecimientos a [Ted](https://peoplemaking.games/@esdin) y arachnomyrmex que ayudaron en que esto sea claro!
+
+## ¿Cómo cambio mi nombre de usuario?
+
+:bangbang: Versión corta: no podés. Una vez que elegís el nombre de usuario de tu cuenta, no se puede cambiar, así que elegí con cuidado.
+
+Versión larga: La única manera de cambiar el nombre de usuario es migrando la cuenta (ver más arriba), pero de nuevo, esto no muda los toots de una cuenta a la otra. 
+
+Algunos administradores intentaron cambiar el nombre de usuario directamente en la base de datos (a pedido de los usuarios), y por alguna razón, al hacerlo se rompe la federación para esa cuenta; y no pueden mandar ni recibir mensajes a otras instancias ni recibir menciones.
 
 ## ¿Cómo menciono a alguien que no está en mi instancia?
 
-Los nombres de usuario en Mastodon tienen la forma @*nombredeusuario*@*instancia*. Por ejemplo quien hizo esta guía en inglés tiene su cuenta en mastodon.social y es @<span>noelle</span>@mastodon.social; y tambien tiene una en elekk.xyz y es @<span>noelle</span>@elekk.xyz. Si estás mencionando a alguien en una instancia diferente, tenes que escribir toda la dirección (aunque el cuadrito donde escribís el toot te ayudará a autocompletar el nombre de usuario si es un nombre que la instancia ya conoce). 
+:bangbang: Los nombres de usuario en Mastodon tienen la forma @*nombredeusuario*@*instancia*. Por ejemplo quien hizo esta guía en inglés tiene su cuenta en mastodon.social y es @<span>noelle</span>@mastodon.social; y tambien tiene una en elekk.xyz y es @<span>noelle</span>@elekk.xyz. Si estás mencionando a alguien en una instancia diferente, tenes que escribir toda la dirección (aunque el cuadrito donde escribís el toot te ayudará a autocompletar el nombre de usuario si es un nombre que la instancia ya conoce). 
 
 Si estás mencionando a alguien de tu propia instancia, sólo necesitás escribir la primera parte; si estás en mastodon.social, @Gargron te llevará a contactar con él de la misma forma que @<span>Gargron</span>@mastodon.social. Si omitís el "@*instancia*" Mastodon entiende que le querés hablar al usuario local.
 
@@ -190,7 +203,7 @@ Por defecto, no te llegarán notificaciones sobre las acciones que los moderador
 
 ## ¿Cuales son los diferentes tipos de toots?
 
-Los toots de Mastodon (y de otros servidores del fediverso) pueden encadenarse de diferentes maneras. Se pueden usar estos tres términos para referirse a los tipos diferentes de toots. Puede que otra gente use otros términos.
+:bangbang: Los toots de Mastodon (y de otros servidores del fediverso) pueden encadenarse de diferentes maneras. Se pueden usar estos tres términos para referirse a los tipos diferentes de toots. Puede que otra gente use otros términos.
 
 * Los **toots sueltos** son toots que no son respuestas a ningún otro toot. (O sea, no hiciste click en el botón de responder para escibir el toot.) Estos están al principio de la cadena. Podés incluir los nombre de usuarios de otra gente en los toots sueltos para mencionarlos; hacer eso no hace que el toot sea una respuesta. **Por ejemplo:** Vos usás el cuadrito (El que dice "¿En qué estás pensando?") para hacer un toot nuevo.
 * Las **autorespuestas** son toots que son respuestas directas a *uno de tus propios* toots sueltos o a otra autorespuesta. De nuevo, estas pueden incluir referencias a otra persona. Podés seguir respondiendo tus propios toots lo más que quieras, y *mientras un toot de otro no esté encima de lo que estés escribiendo en la cadena*, seguirán siendo autorespuestas. **Por ejemplo:**  Vos hacés click en el botón de responder en uno de tus propios toots sueltos para responderte a ti mismo, y luego haces click en responder a *ese* toot para responderte de nuevo.
@@ -205,13 +218,13 @@ Debajo del cuadrado para escribir toots, verás unos íconos: entre ellos está 
 * **Público** significa que todos pueden ver el toot. Aparecerá en tu lista de toots y en las lineas de tiempo principales de tus seguidores. Tus *toots sueltos* y *autorespuestas* que sean públicas aparecerán en tu lista de toots, en las lineas de tiempo principales de tus seguidores, en las lineas de tiempo locales y federadas, y en las menciones de cualquiera a quien menciones por su nombre de usuario. Tus *respuestas* públicas aparecerán en tu lista de *toots y respuestas* (*no* en la lista principal de toots; ¡es una lista separada!), en las lineas de tiempo principales de cualquier seguidor tuyo que *también* siga a esa persona a la que seguís, y en las menciones de cualquiera a quien menciones por su nombre de usuario.
 * **No listado** significa que todos pueden ver el toot, pero no aparecerá en las lineas de tiempo públicas - tanto la Local como la Federada. Aparte de eso, los toots no listados se comportan de la misma manera que los toots públicos.
 * **Solo seguidores** significa que sólo la gente que te sigue y la gente que mencionaste en el toot puede ver el toot en sus lineas de tiempo o en tu página de perfil. Si alguien que no te sigue ve tu perfil, no verá tus posts que son solo seguidores. *Para tus seguidores*, los toots solo seguidores se comportan de la misma manera que los toots no listados. **Tus toots solo seguidores que mencionen a otro usuario también aparecerán en las menciones de ese usuario, ¡incluso si no te sigue!**
-* **Solo cuentas mencionadas** significa que sólo la gente mencionada en tu toot pueden verlo. Aparecerán en sus menciones y, en los servidores de Mastodon por encima de la versión 3.0, aparecerán en la columna de Mensajes Directos.
+* :bangbang: **Solo cuentas mencionadas** significa eso exactamente; que sólo la gente mencionada en tu toot pueden verlo, y **cualquiera** que sea mencionada puede verlo (a menos de que te haya bloqueado o silenciado). Aparecerán en sus menciones y, en los servidores de Mastodon por encima de la versión 3.0, aparecerán en la columna de Mensajes Directos.
 
 Tené presente que algunos servidores, que corren un software distinto pero compatible con el de Mastodon, ignorarán esas configuraciones de privacidad si les mandás un mensaje a esos usuarios, ¡así que tené cuidado!
 
 ## ¿Qué tan privado es "Privado"?
 
-Esto no se puede enfatizar lo suficiente: **Los toots privados (Solo cuentas mencionadas) NO están cifrados ni son seguros.**
+Esto no se puede enfatizar lo suficiente: **Los toots que son solo cuentas mencionadas (DMs) NO están cifrados ni son seguros.**
 
 El administrador de tu servidor puede leer *cualquier* toot escrito en tu servidor, como también *cualquier* toot enviado a otro usuario en tu servidor. **Sin embargo**, es bastante difícil hacerlo. Tus toots privados no aparecerán en el panel de administrador del sitio; tu administrador tiene que acceder manualmente, directamente a la base de datos -- normalmente logueándose a la linea de comandos del servidor -- para poder acceder a estos. No es algo que los administradores hagan por capricho; sólo lo hacen cuando están obligados a hacerlo, y esta es la razón:
 
@@ -221,7 +234,7 @@ Dicho esto, en general, tu administrador sólo revisará tus toots marcados como
 
 Siguiendo con la cuestión, hay que mencionar que esto ocurre en casi todas las redes sociales. Los administradores de Twitter pueden leer tus DMs. Los administradores de un foro pueden leer tus mensajes privados. No es una novedad ni una característica inusual de Mastodon; Sólo queremos asegurarnos de que lo sepas.
 
-**Como regla general, si una aplicación que usás no es [peer-to-peer](https://es.wikipedia.org/wiki/Peer-to-peer) y depende de un intermediario como por ejemplo un servidor, la información que estás mandando no está segura a menos de que tomes medidas extra por fuera de la aplicación para asegurarla.**
+**Como regla general, si una aplicación que usás no está [cifrada de extremo a extremo](https://es.wikipedia.org/wiki/Cifrado_de_extremo_a_extremo), la información que estás mandando no está segura a menos de que tomes [medidas extra por fuera de la aplicación para asegurarla](https://es.wikipedia.org/wiki/Pretty_Good_Privacy).**
 
 ## ¿Qué pasa cuando alguien me sigue?
 
@@ -239,7 +252,7 @@ Con la cuenta puesta en privado, podés aprobar a quienes pueden seguirte *a tra
 
 **Sin embargo.**
 
-Todas las cuentas de Mastodon (en un servidor no modificado) también crean una fuente RSS de sus toots públicos y no listados - p.e. los toots que aparecen en el perfil de la cuenta. No incluye los toots de solo seguidores ni los mensajes directos, y si le [pusiste un CW a un toot](#qué-significa-cw), sólo el CW aparece en la fuente RSS, no lo que está debajo. 
+:bangbang: Todas las cuentas de Mastodon (en un servidor no modificado) también crean una fuente RSS de sus toots públicos y no listados - p.e. los toots que aparecen en el perfil de la cuenta. No incluye los toots de solo seguidores ni los mensajes directos, y si le [pusiste un CW a un toot](#qué-significa-cw), sólo el CW aparece en la fuente RSS, no lo que está debajo. 
 
 Tu fuente de RSS aparece en `https://<your-server>/users/<your-username>.rss` ; por ejemplo, como estoy en `https://social.pueseso.club/@diazepan`, mi fuente de RSS es `https://social.pueseso.club/users/diazepan.rss` . (¡Acordate de quitarle el `@`!)
 
@@ -293,7 +306,7 @@ No exagerés con los hashtags. Como norma, tus hashtags probablemente no deberí
 
 ## ¿Qué significa "CW"?
 
-CW significa Content Warning (Aviso de contenido). Lo que hace es el ocultar el texto de un toot debajo de otro texto (el cual podés elegir); es como un enlace al estilo Leer Más.
+:bangbang: CW significa Content Warning (Aviso de contenido). Lo que hace es el ocultar el texto de un toot debajo de otro texto (el cual podés elegir); es como un enlace al estilo Leer Más.
 
 Hay gente que usa CWs para hablar de:
 
@@ -313,13 +326,13 @@ En general, hacé uso de tu sano juicio; Pensá seriamente si hay alguna razón 
 
 ## Le adjunté una foto a mi toot. ¿Qué es eso de 'marcar como sensible'?
 
-Si marcás tu foto como sensible, la foto quedará oculta detrás de una capa de "Contenido sensible". Esto conviene por ejemplo con fotos que contienen desnudos, violencia gráfica, etc.
+:bangbang: Si marcás tu foto como sensible, la foto quedará oculta detrás de una capa de "Contenido sensible". Esto conviene por ejemplo con fotos que contienen desnudos, violencia gráfica, etc.
 
 Notarás que si tenés una imagen y un CW en un toot, la capa de "Contenido sensible" se prende automáticamente y no puede apagarse. Es a propósito.
 
 ## Le adjunté una foto a mi toot. ¿Qué es ese botón de editar?
 
-Cuando adjuntás una imagen, vas a ver un botón de "Editar" (con un ícono de lápiz) en la esquina superior derecha de la imagen. Al haceer click ahí se abre una caja de diálogo que te permite determinar qué parte de la imagen debe verse en en la vista previa; también te permite colocar un texto alternativo para la imagen, el cual la gente puede leer si coloca el mouse sobre el texto, y el cual los lectores de pantalla (los cuales son usados por usuarios con discapacidad visual) pueden leer en vez de decir "imagen embebida".
+:interrobang: Cuando adjuntás una imagen, vas a ver un botón de "Editar" (con un ícono de lápiz) en la esquina superior derecha de la imagen. Al haceer click ahí se abre una caja de diálogo que te permite determinar qué parte de la imagen debe verse en en la vista previa; también te permite colocar un texto alternativo para la imagen, el cual la gente puede leer si coloca el mouse sobre el texto, y el cual los lectores de pantalla (los cuales son usados por usuarios con discapacidad visual) pueden leer en vez de decir "imagen embebida".
 
 Para imágenes que mayormente son textos (por ejemplo, una captura de pantalla de un post de Tumblr), Mastodon tiene incorporado un reconocedor óptico de caracteres (OCR) y a menudo puede transcribir la imagen, aunque probablemente deberías revisar la transcripción para asegurarte de que sea precisa. Si, por alguna razón, no funciona el OCR de tu instancia, podés usar una herramienta online como [Online OCR](https://www.onlineocr.net) para transcribir tu imagen. Y si todo eso falla, hay Bots OCR en el fediverso que responderán a tu post con una transcripción si los @mencionás.
 
@@ -335,7 +348,7 @@ También podés usar los textos alternativos para agregar chistes extra (como oc
 
 ## ¿Cómo es que mi amigo en otra instancia puede usar este emoji y yo no puedo?
 
-Cada instancia puede definir emojis personalizados para que sus usuarios los usen, y muchas lo han aprovechado. El administrador de tu instancia puede copiar los emojis que le gustan desde otras instancias. Si ves un emoji que te gusta y no está disponible en tu instancia, pedíle a tu administrador que lo copie para allí.
+:bangbang: :bangbang: Cada instancia puede definir emojis personalizados para que sus usuarios los usen, y muchas lo han aprovechado. El administrador de tu instancia puede copiar los emojis que le gustan desde otras instancias. Si ves un emoji que te gusta y no está disponible en tu instancia, pedíle a tu administrador que lo copie para allí.
 
 ## ¿Por qué no puedo buscar una palabra o frase específica?
 
@@ -343,7 +356,7 @@ Es una herramienta contra el acoso. Los acosadores a menudo buscan palabras o fr
 
 ## ¿Por qué no puedo citar un toot?
 
-Al igual que con la búsqueda, es otra herramienta contra el acoso. Si querés responder el toot de alguien, tenés que responder a ese toot; no podés retransmitir ese toot a tus seguidores y agregarle un comentario sarcástico.
+:bangbang: Al igual que con la búsqueda, es otra herramienta contra el acoso. Si querés responder el toot de alguien, tenés que responder a ese toot; no podés retransmitir ese toot a tus seguidores y agregarle un comentario sarcástico.
 
 *(Ni siquiera intentes esquivar eso haciendo una captura de pantalla del toot y adjuntarlo como una imagen. **Podés** hacerlo, pero la comunidad de Mastodon tiende a ver eso de mala manera y si seguís haciendolo vas a conseguir una mala reputación bastante rápido.)*
 
