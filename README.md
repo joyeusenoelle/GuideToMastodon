@@ -55,7 +55,9 @@ When linking to this page, please use the link http://guidetomastodon.com, and p
 
 ## What is Mastodon?
 
-Mastodon is Twitter-style social networking combined with email-style instanced servers. It's named after the metal band, but themed after the extinct megafauna.
+Mastodon is a social networking software platform. It allows someone to run their own social media site (and let other people use it too, if they want), and each Mastodon site is capable of talking to all of the other Mastodon social media sites (as well as [many others](https://en.wikipedia.org/wiki/ActivityPub)). It's like a cross between Twitter and email, but it's not exactly like either of those.
+
+Mastodon is named after [the heavy metal band](https://www.mastodonrocks.com/), but themed after [the extinct megafauna](https://en.wikipedia.org/wiki/Mastodon).
 
 ## How is it like Twitter?
 
