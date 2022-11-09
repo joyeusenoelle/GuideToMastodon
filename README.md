@@ -109,9 +109,11 @@ If you represent a company and your boss has told you that your company needs a 
 
 ## How do I get verified on Mastodon?
 
-:bangbang: There's no such thing as a verified account on Mastodon. We assume you are who you say you are. If you see someone with a checkmark by their name (like :white_check_mark:), they've just typed that emoji into their display name. 
+:bangbang: Unlike Twitter, Mastodon has no built-in verification. We assume you are who you say you are. If you see someone with a checkmark by their name (like :white_check_mark:), they've just typed that emoji into their display name. 
 
-If someone's impersonating you, contact the admin of the instance they're on to get it sorted out.
+That being said, some instance admins do require proof of identity before allowing a user to register, but **don't rely on this being the case**.
+
+**If someone's impersonating you, contact the admin of the instance they're on to get it sorted out.**
 
 ## Okay, how do I let people know that I am who I say I am?
 
