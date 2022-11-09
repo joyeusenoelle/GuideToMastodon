@@ -57,7 +57,9 @@ Si vas a copiar un link de esta página, usá este link http://guidetomastodon.c
 
 ## ¿Qué es Mastodon?
 
-Mastodon es una red social al estilo de Twitter combinada con servidores de instancias al estilo de los emails. El nombre lo sacaron por la banda de metal de ese nombre, pero su temática viene del animal ya extinto de ese nombre.
+Mastodon es una plataforma de software de redes sociales. Permite que alguien administre su propio sitio de redes sociales (y deje que otra gente lo use también, si quiere), y cada sitio de Mastodon es capaz de comunicarse con todos los otros sitios de redes sociales de Mastodon (y también [algunos otros](https://en.wikipedia.org/wiki/ActivityPub)). Es como una cruza entre Twitter y el email, pero no es exactamente igual a cualquiera de estos.
+
+El nombre Mastodon viene de [la banda de metal de ese nombre](https://www.mastodonrocks.com/), pero su temática viene del animal ya extinto conocido como [Mastodonte (o Mammut)](https://es.wikipedia.org/wiki/Mammut).
 
 ## ¿Qué parecido tiene con Twitter?
 
@@ -111,9 +113,11 @@ Si representás a una compañía y tu jefe te dice que tu compañía necesita te
 
 ## ¿Cómo puedo estar verificado en Mastodon?
 
-:bangbang: No existen las cuentas verificadas en Mastodon. Acá asumimos que sos quien decis ser. Si ves a alguien con un check junto al nombre (tipo :white_check_mark:), simplemente escribieron el emoji junto al nombre y nada más. 
+:bangbang: A diferencia de Twitter, Mastodon no tiene incluida la verificación de cuentas. Acá asumimos que sos quien decis ser. Si ves a alguien con un check junto al nombre (tipo :white_check_mark:), simplemente escribieron el emoji junto al nombre y nada más. 
 
-Sin embargo si alguien se hace pasar por vos, contactate con el administrador de la instancia en que está esa persona para resolverlo.
+Dicho esto, algunos administradores de instancias requieren pruebas de identidad antes de permitir registrar a un usuario, pero **no cuentes en que eso sea lo normal**.
+
+**Si alguien se hace pasar por vos, contactate con el administrador de la instancia en que está esa persona para resolverlo.**
 
 ## Está bien, ¿Cómo hago para que la gente sepa que yo soy quien dice ser?
 
