@@ -300,7 +300,7 @@ To make a hashtag, type "#" and then any number of letters or numbers. Accents c
 
 A hashtag is metadata about your toot: it provides additional information that doesn't necessarily belong in the body of the toot, but is useful for understanding. If you're a programmer, it's sort of like a code comment.
 
-As a bonus†, hashtags are tracked by each instance. Clicking on a hashtag takes you to a list of public posts with that hashtag. You can use them to track #politics, check out the users people are recommending on #FollowFriday, or see people's artwork using #mastoart.
+As a bonus†, hashtags are tracked by each instance. Clicking on a hashtag takes you to a list of public posts with that hashtag. You can use them to track #politics, check out the users people are recommending on #FollowFriday, or see people's artwork using #mastoart. With Mastodon release 4.0.0 you can follow individual hashtags so that toots containing followed hashtag show up in your timeline.
 
 Don't go overboard with hashtags. As a guideline, your hashtags probably shouldn't be more than 10% of the total length of your toot. If you find yourself going over that, you might be spreading things a bit too thin.
 
