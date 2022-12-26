@@ -302,7 +302,7 @@ Para hacer un hashtag, escribí "#" y luego una serie de letras o números. Los 
 
 Un hashtag es un metadato sobre tu toot: provee información adicional que no necesariamente pertenece al cuerpo del toot, pero que es útil para entenderlo. Si sos programador, es casi como un comentario en el código.
 
-Como bonus†, los hashtags son rastreados por cada instancia. Hacer click en un hashtag te dirige a una lista de toots públicos con ese hashtag. Podés usarlos por ejemplo para seguir discusiones de #política, ver gente nueva que llega a Mastodon en #introducción, o seguir las obras hechas por los usuarios en #mastoart.
+Como bonus†, los hashtags son rastreados por cada instancia. Hacer click en un hashtag te dirige a una lista de toots públicos con ese hashtag. Podés usarlos por ejemplo para seguir discusiones de #política, ver gente nueva que llega a Mastodon en #introducción, o seguir las obras hechas por los usuarios en #mastoart. Con el lanzamiento de la versión 4.0.0 de Mastodon podés seguir hashtags individuales y de esa forma los toots que contienen el hashtag que seguís aparecen en tu linea de tiempo.
 
 No exagerés con los hashtags. Como norma, tus hashtags probablemente no deberían ocupar más del 10% del largo total de tu toot. Si exagerás con eso, puede que estés intentando hacer demasiadas cosas a la vez.
 
