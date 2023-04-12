@@ -37,6 +37,7 @@ When linking to this page, please use the link http://guidetomastodon.com, and p
 * [I just attached a picture to my toot. What's with the new 'eye' icon?](#i-just-attached-a-picture-to-my-toot-whats-with-the-new-eye-icon)
 * [I just attached a picture to my toot. How can I add a caption to it?](#i-just-attached-a-picture-to-my-toot-how-can-i-add-a-caption-to-it)
 * [Why should I add a caption to my picture?](#why-should-i-add-a-caption-to-my-picture)
+* [How do I use my server's custom emoji?](#how-do-i-use-my-servers-custom-emoji)
 * [How come my friend on another instance can use this emoji, but I can't?](#how-come-my-friend-on-another-instance-can-use-this-emoji-but-i-cant)
 * [Why can't I search for a specific word or phrase?](#why-cant-i-search-for-a-specific-word-or-phrase)
 * [Why can't I quote someone's toot, like a quote-tweet?](#why-cant-i-quote-someones-toot-like-a-quote-tweet)
@@ -63,7 +64,7 @@ Mastodon is named after [the heavy metal band](https://www.mastodonrocks.com/), 
 
 You post relatively-short status updates, and you can see a streaming list of your friends' status updates. You can keep notifications (replies, boosts, favorites, and DMs) in a separate column.
 
-Mastodon's statuses are called "toots", like Twitter's are called "tweets". A toot can be up to 500 characters long.
+Mastodon's statuses are called "toots", like Twitter's are called "tweets". A toot can be up to 500 characters long - or more, depending on your server's settings.
 
 Mastodon also supports hashtags, which are words prefixed by #, like "#gaming" or "#pineapple". You can click on a hashtag to search for other posts containing that tag.
 
@@ -79,13 +80,17 @@ You can make accounts on multiple instances if you want to talk about different 
 
 ## How is it not like either of those; or, What are the Local and Federated Timelines?
 
-:bangbang: Mastodon has two additional timelines that you can view: the Local timeline and the Federated timeline.
+:bangbang: Mastodon has timelines that you can view beyond what you might be familiar with from Twitter: the Local timeline and the Federated timeline.
 
-The Local timeline is every post with a public status posted by users on your instance, with the exception of replies. (A reply is any toot posted in response to another toot - NOT any toot that simply mentions another user!)
+Mastodon starts with your **Home** timeline, which is roughly equivalent to Twitter's "Latest Tweets" timeline. This contains posts that you've made, posts that the people you're following have made, posts that the people you're following have boosted, and posts from any hashtags you're following. It also has a **Notifications** timeline. By default, this shows you any time anyone's interacted with any of your posts at all; there's a slider button at the top of the column that you can use to curate which notifications (favorites, boosts, replies, etc.) you see in that column. You can also easily set it to just show mentions - any time someone uses your @handle in a post.
 
-The Federated timeline is every post with a public status posted by any user that your instance knows about, even from other instances. Your instance knows about a remote user if at least one user on your instance has EVER followed them.
+The **Local** timeline is every post with a public status posted by users on your instance, with the exception of replies. (A reply is any toot posted in response to another toot - NOT any toot that simply mentions another user!)
+
+The **Federated** timeline is every post with a public status posted by any user that your instance knows about, even from other instances. Your instance knows about a remote user if at least one user on your instance has EVER followed them.
 
 The Local and Federated timelines can turn into firehoses sometimes. Be careful!
+
+Unless there's a server hiccup, **all timelines in Mastodon are reverse-chronological**. If you see posts out of order, it doesn't mean there's an algorithm at play; it means your server received the posts out of order.
 
 ## What is the Fediverse?
 
@@ -127,7 +132,7 @@ A Mastodon instance that allows this will have instructions on your **Edit Profi
 
 This one's big on purpose.
 
-Picking an instance can be hard. Many instances have a specific focus: `mastodon.lol` is a safe space for queer folks, `hackers.town` is a haven for computer touchers, `wandering.shop` is built for fans of science fiction and fantasy, and `botsin.space` focuses on the hosting and development of automated bots. On `oulipo.social` it's illicit to post a toot containing any "e"s. 
+Picking an instance can be hard. Many instances have a specific focus: `hackers.town` is a haven for computer touchers, `wandering.shop` is built for fans of science fiction and fantasy, and `botsin.space` focuses on the hosting and development of automated bots. On `oulipo.social` it's illicit to post a toot containing any "e"s. 
 
 If you haven't created a mastodon account yet, you might find it useful to try one of the larger instances, like `mastodon.social` - the flagship instance, with over 100,000 users - or `mas.to` . These instances have large, usually-friendly populations that will help you find a more niche instance if that's what you're looking for. Be warned, though, that because of their size, the Local timelines on these instances can move *very* quickly.
 
@@ -212,6 +217,8 @@ By default, you will not get any notification about actions that any moderators 
 * **Replies** are posts that are replies to someone else *or replies to a reply to someone else*. **For example:** You click on the reply button on someone else's post to reply to them, **or** you click on the reply button on one of your own posts that's a reply to someone else's post.
 
 I've included a diagram [here](replies.png) (it's a link because it's big). Notice how as soon as someone else's post enters the chain, your replies stop being self-replies. This is important, because self-replies and replies work differently in your followers' timelines.
+
+If you click on a post, you'll see it in a kind of "tree view"; you'll see all of the direct ancestors to that post, and all the replies to it (and any replies to those replies, and so on). This is good for focusing in on the replies to a single post, but if you want to see the whole discussion, then scroll up to the top, to the very first post, and click on that; that will show you every reply to the first post in the chain, then every reply to those posts, and so on. It's possible you won't be able to view the very first post for a variety of reasons; if that's the case, you can select the `...` menu from a given post and then select "Open original page..." at the top, which will open a new browser tab with the conversation tree in it; you can proceed from there. (Unfortunately, there doesn't seem to be a way to view conversations in a true tree view.)
 
 ## How do privacy settings work?
 
@@ -357,9 +364,15 @@ Some people who use Mastodon are visually impaired and use screen readers. Some 
 
 You can also use image captions to insert additional jokes (like webcomics often do) or additional commentary on the image. Take advantage of the fact that image descriptions have their own separate character limit and put whatever you like in there. The sky's the limit.
 
+## How do I use my server's custom emoji?
+
+You can insert an emoji your server has installed by putting its name between colons, like this: `:blobheart:`. If you type a colon (`:`) and then start typing after it, with no space, Mastodon will suggest emoji for you to use. You can also select one directly; at the top right of the Compose box is an emoji (currently "cry-laughing"), and if you click it, you'll get a context menu full of the emoji that are available for you to use.
+
+Mastodon users often call custom emoji "emojos". The reasons for this are lost to time.
+
 ## How come my friend on another instance can use this emoji, but I can't?
 
-:bangbang: :bangbang: Each instance can define custom emoji for their users to use, and many have taken advantage of this. Your instance admin can copy emoji that they like from other instances. If you see an emoji that you like and it's not available on your instance, ask your admin to copy it over.
+:bangbang: Each instance can define custom emoji for their users to use, and many have taken advantage of this. Your instance admin can copy emoji that they like from other instances. If you see an emoji that you like and it's not available on your instance, ask your admin to copy it over. [iliana etaoin](https://iliana.fyi) has made a [custom emoji finder](https://emojos.in/) so you can see which emoji are available to you.
 
 ## Why can't I search for a specific word or phrase?
 
@@ -406,7 +419,7 @@ There are no hard-and-fast rules for everybody, and (as noted above) different i
 
 ## I like Mastodon but I prefer the way Twitter looks.
 
-You might get some mileage out of [Pinafore](https://pinafore.social/), an interface for Mastodon by [Nolan Lawson](https://toot.cafe/@nolan).
+You might get some mileage out of [Pinafore](https://pinafore.social/), an interface for Mastodon by [Nolan Lawson](https://toot.cafe/@nolan). However, Nolan has (as of January 2023) discontinued support for Pinafore; the website still works, but it will no longer be updated as Mastodon grows and changes, and it may break when Mastodon moves to version 5.x.
 
 [Halcyon](https://notabug.org/halcyon-suite/halcyon) is a web client for Mastodon that replicates the Twitter interface. Since Halcyon is itself open-source software, there are [multiple servers running it](https://notabug.org/halcyon-suite/halcyon#instances); you can choose the one you like. Use your existing Mastodon login when you use Halcyon; for example, if you have an account on elekk.xyz, you would use `your-account@elekk.xyz` and your Elekk password to log in.
 
