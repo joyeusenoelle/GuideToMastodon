@@ -39,7 +39,7 @@ When linking to this page, please use the link http://guidetomastodon.com, and p
 * [Why should I add a caption to my picture?](#why-should-i-add-a-caption-to-my-picture)
 * [How do I use my server's custom emoji?](#how-do-i-use-my-servers-custom-emoji)
 * [How come my friend on another instance can use this emoji, but I can't?](#how-come-my-friend-on-another-instance-can-use-this-emoji-but-i-cant)
-* [Why can't I search for a specific word or phrase?](#why-cant-i-search-for-a-specific-word-or-phrase)
+* [Can I search for a specific word or phrase?](#can-i-search-for-a-specific-word-or-phrase)
 * [Why can't I quote someone's toot, like a quote-tweet?](#why-cant-i-quote-someones-toot-like-a-quote-tweet)
 * [The Mastodon culture seems pretty weird?](#the-mastodon-culture-seems-pretty-weird)
 * [What does ![:red_candle:](red_candle_sm.png) mean?](#what-does--mean)
@@ -374,9 +374,15 @@ Mastodon users often call custom emoji "emojos". The reasons for this are lost t
 
 :bangbang: Each instance can define custom emoji for their users to use, and many have taken advantage of this. Your instance admin can copy emoji that they like from other instances. If you see an emoji that you like and it's not available on your instance, ask your admin to copy it over. [iliana etaoin](https://iliana.fyi) has made a [custom emoji finder](https://emojos.in/) so you can see which emoji are available to you.
 
-## Why can't I search for a specific word or phrase?
+## Can I search for a specific word or phrase?
 
-It's an anti-harassment feature. Harassers often search for particular words or phrases (like "TERF" or "homophobic" or "white supremacy") in order to attack and dogpile people they disagree with. By limiting search to usernames and hashtags, Mastodon allows users to decide how they want their toots to show up in others' searches. (While some Mastodon instances *do* allow full-text search, you can only search your own toots on those instances. This makes it easier to find something that you posted a while ago without exposing you to harassment.)
+Yes. Mastodon allows for searching posts, profiles, hashtags, and news commented by people on all Mastodon servers.
+
+Starting from v4.2.0, Mastodon makes it possible to search post contents. The availability of this feature depends on the server settings and individual preferences of each person whose posts you want to search for. By default, this setting disabled in your account settings. You can activate it by going to 'Profile,' 'Privacy and reach' and selecting the option 'Show public posts in search results.'
+
+Additionally, if you interact with a particular post (e.g., liking it or replying to it), that post will become searchable for you.
+
+For many groups of people, full-text search may be a significant harassment vector. Harassers often search for particular words or phrases (e.g., "TERF," "homophobia," or "white supremacy") to attack and harass others. That's why the post search feature is turned off by default. That way Mastodon allows people to make a conscious choice whether they want to be visible to others.
 
 ## Why can't I quote someone's toot, like a quote-tweet?
 
